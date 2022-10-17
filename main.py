@@ -27,9 +27,37 @@ client = discord.Client(intents=intent)
 
 # DATABASE??
 
+# text format for the !commands
+def formatCommands():
+  #We have all the commands on the readme file
+  #We will use the discord markdown to format the text
+
+  #We return a string with bold titles and italic description
+ 
+
+  retex_0   =  "**!help** - *Get an introduction to the bot*\n" 
+  retex_1   =   "**!commands** - *Get a list of commands*\n"
+  retex_2   =   "**!perk survivor** - *Get a random perk from the survivors with the information about it.*\n"
+  retex_3   =   "**!perk killer** - *Get a random perk from the killers with the information about it.*\n"
+  retex_4   =   "**!addon** - *Get a random add-on with the information about it.*\n"
+  retex_5   =   "**!offering** - *Get a random offering with the information about it.*\n"
+  retex_6   =   "**!survivor** - *Get a random survivor*\n"
+  retex_7   =   "**!killer** - *Get a random killer*\n"
+  retex_8   =   "**!survivor <name>** - *Get information about a specific survivor (specific perks) (pending)*\n"
+  retex_9   =   "**!killer <name>** - *Get information about the power of a specific killer (pending)*\n"
+  retex_10  =   "**!survivorlist**- *Get a list of all survivors*\n"
+  retex_11  =   "**!killerlist** - *Get a list of all killers*\n"
+  retex_12  =   "**!perkCombo** - *Get a random perk combo of 4 perks to use*\n"
+  retex_13  =   "**!preMatch survivor** - *Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)*\n"
+  retex_14  =   "**!preMatch killer** - *Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)*\n"
+  retex_15  =   "**!item** - *Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it. (pending)*\n"
+  retex_16  =   "**!item <color>** - *Get a random item (f.e medkit, toolbox, etc.) with the color you specified (pending)*\n"
+
+   # We concatenate all the strings
+  retex = retex_0 + retex_1 + retex_2 + retex_3 + retex_4 + retex_5 + retex_6 + retex_7 + retex_8 + retex_9 + retex_10 + retex_11 + retex_12 + retex_13 + retex_14 + retex_15 + retex_16
+  return retex
+
 # This is to check the API examples
-
-
 def get_one_random_perk():
     # get a random perk from the api
     response = requests.get("https://dead-by-api.herokuapp.com/api/perks/surv/random")
@@ -85,6 +113,14 @@ async def on_message(message):
   if message.content.startswith('!help'):
     await message.channel.send('Hello! I am the DBD Randomizer Bot. I can help you to decide your future matches in Dead by Daylight. Just type !commands to get started!')
 
+
+  # if the message is !commands
+  if message.content.startswith('!commands'):
+    # we call the function to format this message
+    commands = formatCommands()
+    # we send the message
+    await message.channel.send(commands)
+
   # borrador
   if message.content.startswith('!randomPerk'):
     # we take the image and the info from the function
@@ -95,6 +131,7 @@ async def on_message(message):
     perk_image_utf8 = io.BytesIO(perk_image)
 
     # we will use the discord.File() function to convert the image to a discord file
+    # And the image will show centered in discord (on the message)
     perk_image_discord_file = discord.File(perk_image_utf8, filename="perk_image.png")
 
     # we will send the message with the image

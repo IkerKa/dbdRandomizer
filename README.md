@@ -30,6 +30,8 @@ A randomizer for the game Dead By Daylight (DBD) that allows you to play with ra
 
 --coming soon--
 
+- `sugeredPerkCombos` - Get a random sugered perk combo of 4 perks to use
+
 ## Support
 If you have any questions or suggestions, feel free to join the [support server]()!
 
