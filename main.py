@@ -6,9 +6,15 @@ import sqlite3
 import requests
 import json
 import random
+# to the environment variables
+import dotenv
+from dotenv import load_dotenv
 # to convert the image to bytes
 import io
 
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 intent = discord.Intents.default()
 intent.members = True
@@ -22,6 +28,8 @@ client = discord.Client(intents=intent)
 # DATABASE??
 
 # This is to check the API examples
+
+
 def get_one_random_perk():
     # get a random perk from the api
     response = requests.get("https://dead-by-api.herokuapp.com/api/perks/surv/random")
@@ -77,7 +85,8 @@ async def on_message(message):
   if message.content.startswith('!help'):
     await message.channel.send('Hello! I am the DBD Randomizer Bot. I can help you to decide your future matches in Dead by Daylight. Just type !commands to get started!')
 
-  if message.content.startswith('!test'):
+  # borrador
+  if message.content.startswith('!randomPerk'):
     # we take the image and the info from the function
     perk_info, perk_image = get_one_random_perk()
 
@@ -100,7 +109,7 @@ async def on_message(message):
 # We have to put the token in an environment variable
 
 # We can also put the token directly in the code but it is not recommended for security reasons
-client.run('MTAzMTUxOTcwNzgyOTkwNzQ4Ng.GtoNWd.Tm675WzlMwvFxlx3r9_8urm7CzGT1corn61rZs')
+client.run(TOKEN)
 
 
 
