@@ -2,6 +2,7 @@ import os
 import discord
 #the import below is for the database
 import sqlite3
+import sys
 #the import below is for the api
 import requests
 import json
@@ -28,34 +29,69 @@ client = discord.Client(intents=intent)
 # DATABASE??
 
 # text format for the !commands
-def formatCommands():
+# parameters: boolean for the command
+# return: string with the text
+# if boolean is true, we show all the commands
+# if boolean is false, we show the command of the parameter
+def formatCommands(indv,command):
   #We have all the commands on the readme file
   #We will use the discord markdown to format the text
 
   #We return a string with bold titles and italic description
- 
-
-  retex_0   =  "**!help** - *Get an introduction to the bot*\n" 
-  retex_1   =   "**!commands** - *Get a list of commands*\n"
-  retex_2   =   "**!perk survivor** - *Get a random perk from the survivors with the information about it.*\n"
-  retex_3   =   "**!perk killer** - *Get a random perk from the killers with the information about it.*\n"
-  retex_4   =   "**!addon** - *Get a random add-on with the information about it.*\n"
-  retex_5   =   "**!offering** - *Get a random offering with the information about it.*\n"
-  retex_6   =   "**!survivor** - *Get a random survivor*\n"
-  retex_7   =   "**!killer** - *Get a random killer*\n"
-  retex_8   =   "**!survivor <name>** - *Get information about a specific survivor (specific perks) (pending)*\n"
-  retex_9   =   "**!killer <name>** - *Get information about the power of a specific killer (pending)*\n"
-  retex_10  =   "**!survivorlist**- *Get a list of all survivors*\n"
-  retex_11  =   "**!killerlist** - *Get a list of all killers*\n"
-  retex_12  =   "**!perkCombo** - *Get a random perk combo of 4 perks to use*\n"
-  retex_13  =   "**!preMatch survivor** - *Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)*\n"
-  retex_14  =   "**!preMatch killer** - *Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)*\n"
-  retex_15  =   "**!item** - *Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it. (pending)*\n"
-  retex_16  =   "**!item <color>** - *Get a random item (f.e medkit, toolbox, etc.) with the color you specified (pending)*\n"
+  retex_0   =  "**!dbd help** - *Get an introduction to the bot*\n" 
+  retex_1   =   "**!dbd commands** - *Get a list of commands*\n"
+  retex_2   =   "**!dbd perk survivor** - *Get a random perk from the survivors with the information about it.*\n"
+  retex_3   =   "**!dbd perk killer** - *Get a random perk from the killers with the information about it.*\n"
+  retex_4   =   "**!dbd addon** - *Get a random add-on with the information about it.*\n"
+  retex_5   =   "**!dbd offering** - *Get a random offering with the information about it.*\n"
+  retex_6   =   "**!dbd survivor** - *Get a random survivor*\n"
+  retex_7   =   "**!dbd killer** - *Get a random killer*\n"
+  retex_8   =   "**!dbd survivor <name>** - *Get information about a specific survivor (specific perks) (pending)*\n"
+  retex_9   =   "**!dbd killer <name>** - *Get information about the power of a specific killer (pending)*\n"
+  retex_10  =   "**!dbd survivorlist**- *Get a list of all survivors*\n"
+  retex_11  =   "**!dbd killerlist** - *Get a list of all killers*\n"
+  retex_12  =   "**!dbd perkCombo** - *Get a random perk combo of 4 perks to use*\n"
+  retex_13  =   "**!dbd preMatch survivor** - *Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)*\n"
+  retex_14  =   "**!dbd preMatch killer** - *Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)*\n"
+  retex_15  =   "**!dbd item** - *Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it. (pending)*\n"
+  retex_16  =   "**!dbd item <color>** - *Get a random item (f.e medkit, toolbox, etc.) with the color you specified (pending)*\n"
 
    # We concatenate all the strings
-  retex = retex_0 + retex_1 + retex_2 + retex_3 + retex_4 + retex_5 + retex_6 + retex_7 + retex_8 + retex_9 + retex_10 + retex_11 + retex_12 + retex_13 + retex_14 + retex_15 + retex_16
-  return retex
+  if indv == True:
+    retex = retex_0 + retex_1 + retex_2 + retex_3 + retex_4 + retex_5 + retex_6 + retex_7 + retex_8 + retex_9 + retex_10 + retex_11 + retex_12 + retex_13 + retex_14 + retex_15 + retex_16
+    return retex
+  else:
+    if command == "help":
+      return retex_0
+    elif command == "commands":
+      return retex_1
+    elif command == "perk survivor":
+      return retex_2
+    elif command == "perk killer":
+      return retex_3
+    elif command == "addon":
+      return retex_4
+    elif command == "offering":
+      return retex_5
+    elif command == "survivor":
+      return retex_6
+    elif command == "killer":
+      return retex_7
+    elif command == "survivorlist":
+      return retex_10
+    elif command == "killerlist":
+      return retex_11
+    elif command == "perkCombo":
+      return retex_12
+    elif command == "preMatch survivor":
+      return retex_13
+    elif command == "preMatch killer":
+      return retex_14
+    elif command == "item":
+      return retex_15
+    else:
+      return "Command not found"
+
 
 # This is to check the API examples
 def get_one_random_perk():
@@ -110,19 +146,31 @@ async def on_message(message):
     return
 
   # if the message is !help 
-  if message.content.startswith('!help'):
+  if message.content.startswith('!dbd help'):
     await message.channel.send('Hello! I am the DBD Randomizer Bot. I can help you to decide your future matches in Dead by Daylight. Just type !commands to get started!')
 
 
   # if the message is !commands
-  if message.content.startswith('!commands'):
+  if message.content.startswith('!dbd commands'):
     # we call the function to format this message
-    commands = formatCommands()
+    commands = formatCommands(True,"")
     # we send the message
     await message.channel.send(commands)
 
+
+  # if the message is !dbd help amd the command that the user wants to know more about
+  # to read the command we will use the split() function
+  if message.content.startswith('!dbd about'):
+    # we get the command
+    command = message.content.split(' ')[2]
+    # we get the description of the command
+    description = formatCommands(False,command)
+    # we send the message
+    await message.channel.send(description)
+   
+
   # borrador
-  if message.content.startswith('!randomPerk'):
+  if message.content.startswith('!dbd randomPerk'):
     # we take the image and the info from the function
     perk_info, perk_image = get_one_random_perk()
 
