@@ -52,7 +52,10 @@ def get_one_random_perk():
     # We will return perk_icon_bytes
 
     # We now concatenate the name, description and rarity of the perk
-    perk_info = "\nName: " + perk_name + "\nDescription: " + perk_description
+    # With the titles in bold and the description in italic
+    # We will use the discord markdown to do that
+
+    perk_info = f"**{perk_name}**\n*{perk_description}*"
 
     return perk_info, perk_icon_bytes
 
