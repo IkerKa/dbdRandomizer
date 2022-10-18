@@ -195,9 +195,3 @@ async def on_message(message):
 
 # We can also put the token directly in the code but it is not recommended for security reasons
 client.run(TOKEN)
-
-
-
-
-
-

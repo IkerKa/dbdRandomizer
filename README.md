@@ -54,12 +54,13 @@ If you have any questions or suggestions, feel free to join the [support server]
 
 ## Authors
 - [Iker Morán](//gitlink) - The main developer of the bot aka (nickname)
-### Contributors
+### Co-authors
 - [Juan Carrasquer](//gitlink) (nickname)
 - [Darío Marcos](//gitlink) (nickname)
 
 ## License
-
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+If you want to use this code, please give credits to the authors. Thanks! :) 
 
 
 
