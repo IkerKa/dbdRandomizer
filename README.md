@@ -42,9 +42,8 @@ ALL OF THEM STARTS WITH `!dbd <command>`
         -Example: `!dbd randomObjetive` : "do 4 beamer saves in a match" (easy to do in the tutorial of discord bot (inspirational messages))
 
 ## Entity Relational Diagram
-#### 1st version
-![ERD](Images/ER_1st_Version.png)
-
+#### Final Version
+![ERD](Images/ER_2nd_Version.png)
 ## Support
 If you have any questions or suggestions, feel free to join the [support server]()!
 
@@ -73,6 +72,7 @@ At this moment the bot will be for personal use.
 - 1.0.1 - Added `!dbd help` command
 - 1.0.1.2 - Added `!dbd about <command>` command (only commands with one parameter)
 - 1.0.2 - Added `!dbd commands` command
+- 1.0.3 - ER Diagram added
 
 
 ## To-do
