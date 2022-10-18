@@ -38,6 +38,12 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `itemlist` - Get a list of all items (f.e medkit, toolbox, etc.) (pending)
 - `authors` - Get a list of all authors of the bot with its favorite perk, survivor, killer, item and its github link
 - `sugeredPerkCombos` - Get a random sugered perk combo of 4 perks to use
+- `randomObjetive` - Get a random objetive to do in the match
+        -Example: `!dbd randomObjetive` : "do 4 beamer saves in a match" (easy to do in the tutorial of discord bot (inspirational messages))
+
+## Entity Relational Diagram
+#### 1st version
+![ERD](Images/ER_1st_Version.png)
 
 ## Support
 If you have any questions or suggestions, feel free to join the [support server]()!
@@ -46,9 +52,15 @@ If you have any questions or suggestions, feel free to join the [support server]
 - [DeadByDaylight](https://deadbydaylight.com/) - The game Dead By Daylight
 - [DeadByDaylight Wiki](https://deadbydaylight.gamepedia.com/Dead_by_Daylight_Wiki) - The wiki for the game Dead By Daylight
 - [DeadByDaylight API]() - The API for the game Dead By Daylight    
-- [Authors](IkerKa#4470, juan carrasquer#0306 and ZenithGD#3778) - The authors of this bot
+
+## Authors
+- [Iker Morán](//gitlink) - The main developer of the bot aka (nickname)
+### Contributors
+- [Juan Carrasquer](//gitlink) (nickname)
+- [Darío Marcos](//gitlink) (nickname)
 
 ## License
+
 
 
 
