@@ -12,6 +12,9 @@ import dotenv
 from dotenv import load_dotenv
 # to convert the image to bytes
 import io
+#modify images
+#from PIL import Image
+
 
 
 load_dotenv()
@@ -133,6 +136,80 @@ def get_one_random_perk():
 
 
 
+# Get Juan setup:
+# It includes his favurite survivor
+# His top 3 perks (from the survivors)
+# Favourite item
+# Favourite map
+
+def get_juan_setup():
+  # We will get the survivor
+  # We will get the perks
+  # We will get the item
+  # We will get the map
+
+  # All of them will be returned in different variables to format them in the embed
+
+  # Survivor: Leon S. Kennedy
+  # Perks: Flashbang, Dead Hard, Spine Chill
+  # Item: Medkit
+  # Map: Coldwind Farm
+
+  Survivor = "Leon S. Kennedy"
+  # the perks will be in italics
+  Perk1 = "*Flashbang*"
+  Perk2 = "*Dead Hard*"
+  Perk3 = "*Spine Chill*"
+  Item = "Medkit"
+  Map = "Coldwind Farm"
+
+  # We have the image of the survivor in the folder so we will use that one
+
+  Surv_image = "Juan/New_Store_Leon.png"
+
+  # We will return all the variables
+
+  return Survivor, Perk1,Perk2,Perk3 , Item, Map, Surv_image
+
+# Get Juan setup:
+# It includes his favurite survivor
+# His top 3 perks (from the survivors)
+# Favourite item
+# Favourite map
+
+def get_Iker_setup():
+  # Survivor: Jill Valentine / Nea Karlsson / Feng Min / Nancy Wheeler / Meg Thomas 
+  # Al azar entre los 5, el survivor seraaaaa..... JILL VALENTINE
+
+  # perks posibles para el top 3: Iron Will, Adrenaline, Botany Knowledge, DS, Borrowed Time, Detective's Hunch,
+  # Dance With Me, Windows of Oportunity, Diversion, Autodicact, Head On, Inner Strength, Any Means Necessary, Blood Pact, Soul Guard, Appraisal, 
+  # Blast Mine, Wire Trap, Spine Chill, Plunderer's Instinct, Dead Hard, Balanced Landing, Unbreakable, We'll Make It.
+
+  # We will take 3 random perks from the list above:
+  # PERK 3:  Inner Strength
+  # PERK 2:  Lithe / Blood Pact
+  # PERK 1:  Adrenaline
+
+
+  Survivor = "Jill Valentine"
+  # the perks will be in italics
+  Perk1 = "*Adrenaline*"
+  Perk2 = "*Inner Strength*"
+  Perk3 = "*Blood Pact* / *Lithe*"
+
+  Item = "Flashlight"
+
+  Map= "Haddonfield or Hawkins National Laboratory"
+
+  # We have the image of the survivor in the folder so we will use that one
+
+  Surv_image = "Iker/New_Store_Jill.png"
+
+  # We will return all the variables
+
+  return Survivor, Perk1,Perk2,Perk3 , Item, Map, Surv_image
+
+
 @client.event #async function
 async def on_ready(): #when the bot is ready
   print('We have logged in as {0.user}'.format(client))
@@ -167,7 +244,60 @@ async def on_message(message):
     description = formatCommands(False,command)
     # we send the message
     await message.channel.send(description)
-   
+
+
+  # if the message is !dbd Juan 
+  # we will put the favorite setup of Juan (such as top 3 perks, top survivor, favourite map, etc.)
+  if message.content.startswith('!dbd Juan'):
+    # We will call the function to get the setup
+    Survivor, Perk1,Perk2,Perk3 , Item, Map, Surv_image = get_juan_setup()
+
+    # We will create the embed
+    embed = discord.Embed(title="Juan's setup", description="Juan's Selection", color=0x00ff00)
+    embed.set_thumbnail(url="attachment://juanSurv.png")
+    embed.add_field(name="Survivor", value=Survivor, inline=False)
+    embed.add_field(name="Perk 1", value=Perk1, inline=False)
+    embed.add_field(name="Perk 2", value=Perk2, inline=False)
+    embed.add_field(name="Perk 3", value=Perk3, inline=False)
+    embed.add_field(name="Item", value=Item, inline=False)
+    embed.add_field(name="Map", value=Map, inline=False)
+
+    # The perk icon is in the folder so we will use that one
+    # We will use the discord.File() function to convert the image to a discord file
+
+    # We will send the embed
+    await message.channel.send(file=discord.File(Surv_image, filename="juanSurv.png"), embed=embed)
+
+    # if the message is !dbd Iker 
+    # we will put the favorite setup of Iker (such as top 3 perks, top survivor, favourite map, etc.)
+  if message.content.startswith('!dbd Iker'):
+     # We will call the function to get the setup
+    Survivor, Perk1,Perk2,Perk3 , Item, Map, Surv_image = get_Iker_setup()
+
+    # We will add the image of the survivor to the embed (we will increase the size of the image)
+    # We will incresa the size of the image by using the discord.File() function
+
+    # increase the size of the image with the function resize_image
+
+    # We will create the embed (purple)
+    embed = discord.Embed(title="Iker's setup", description="Iker's Selection", color=0x800080)
+    embed.set_thumbnail(url="attachment://ikerSurv.png")
+    embed.add_field(name="Survivor", value=Survivor, inline=False)
+    embed.add_field(name="Perk 1", value=Perk1, inline=False)
+    embed.add_field(name="Perk 2", value=Perk2, inline=False)
+    embed.add_field(name="Perk 3", value=Perk3, inline=False)
+    embed.add_field(name="Item", value=Item, inline=False)
+    embed.add_field(name="Map", value=Map, inline=False)
+
+    
+  
+
+
+    
+    # We will send the embed
+    await message.channel.send(file=discord.File(Surv_image, filename="ikerSurv.png"), embed=embed)
+
+
 
   # borrador
   if message.content.startswith('!dbd randomPerk'):
@@ -185,6 +315,8 @@ async def on_message(message):
     # we will send the message with the image
     await message.channel.send(perk_info, file=perk_image_discord_file)
     #await message.channel.send(perk_info, file=perk_image)
+
+  
   
   
   # Rest of the commands

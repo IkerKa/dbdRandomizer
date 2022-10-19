@@ -53,9 +53,9 @@ If you have any questions or suggestions, feel free to join the [support server]
 - [DeadByDaylight API]() - The API for the game Dead By Daylight    
 
 ## Authors
-- [Iker Morán](//gitlink) - The main developer of the bot aka (nickname)
+- [Iker Morán](//https:github.com/IkerKa) - The main developer of the bot aka (nickname)
 ### Co-authors
-- [Juan Carrasquer](//gitlink) (nickname)
+- [Juan Carrasquer](https://github.com/fortaleza2001) (nickname)
 - [Darío Marcos](//gitlink) (nickname)
 
 ## License
@@ -74,18 +74,19 @@ At this moment the bot will be for personal use.
 - 1.0.1.2 - Added `!dbd about <command>` command (only commands with one parameter)
 - 1.0.2 - Added `!dbd commands` command
 - 1.0.3 - ER Diagram added
+- 1.0.4 - Added Iker's and Juan's Selections
+- 1.0.5 - Added github link to the authors
 
 
 ## To-do
 
 - [ ] Add more commands
-- DO THE DATABASE
-- [ ] Add more information about the items
-- [ ] Add more information about the perks
-- [ ] Add more information about the add-ons
-- [ ] Add more information about the offerings
-- [ ] Add more information about the survivors
-- [ ] Add more information about the killers
+- [ ] Add more information about the commands
+- [ ] Add more information about the entities
+- [ ] Add more entities
+- [ ] Add more information about the bot
+
+-[] Resize Iker image (survivor)
 
 
 ## Contributing
