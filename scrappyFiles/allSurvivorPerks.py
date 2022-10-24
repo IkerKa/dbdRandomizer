@@ -1,11 +1,11 @@
-#This file is a test to see if I can get the data from the website and put it into a csv file
+#This file is a test to see if I can get the data from the website and put it into a json file
 #I am using the requests library to get the data from the website
 #I am using the BeautifulSoup library to parse the data
-#I am using the csv library to write the data to a csv file
+#I am using the json library to write the data to a json file
 
 import requests
 from bs4 import BeautifulSoup
-import csv
+import json
 
 #This is the url of the website that I am getting the data from
 url = 'https://deadbydaylight.fandom.com/wiki/Perks'
@@ -16,11 +16,11 @@ page = requests.get(url)
 #This is the soup object that I am using to parse the data
 soup = BeautifulSoup(page.content, 'html.parser')
 
-#This is the csv file that I am writing the data to
-csv_file = open('survPerks.csv', 'w')
+#This is the json file that I am writing the data to
+json_file = open('../resources/survPerks.json', 'w')
 
 #This is the csv writer that I am using to write the data to the csv file
-csv_writer = csv.writer(csv_file)
+json_object = {}
 
 #We will take the table that is the survivor perks table and its after a h3 tag
 #The table is the first table after the h3 tag 
@@ -31,7 +31,7 @@ csv_writer = csv.writer(csv_file)
 
 table = soup.find('table', class_='wikitable sortable')
 
-#print(table)
+json_object['Perks'] = []
 
 
 
@@ -40,9 +40,6 @@ table = soup.find('table', class_='wikitable sortable')
 #each perk will be a row in the csv file
 #colums:
 #perk name | perk icon (url) | perk description
-
-#Before I start the for loop I need to write the headers to the csv file seperately
-csv_writer.writerow(['Perk Name', 'Perk Icon', 'Perk Description', 'fromSurvivor','fromKiller'])
 
 #the last 2 columns are for if the perk is from the survivor or killer
 #As we take this perk, we already know it is from the survivor, so we will put a 1 in the survivor column
@@ -69,7 +66,6 @@ csv_writer.writerow(['Perk Name', 'Perk Icon', 'Perk Description', 'fromSurvivor
 #the table starts with a <thead> and after that is a <tbody> (thats where the perks are) and ends with a <tfoot>
 #the <thead> and <tfoot> are not needed so I am going to skip them
 
-i = 0
 
 #Loop
 for tr in table.find_all('tr')[1:]:
@@ -91,26 +87,20 @@ for tr in table.find_all('tr')[1:]:
     #this is the print statement to test the data
     #print(perkName, perkIcon, perkDesc)
 
-    #this is the csv writer to write the data to the csv file
+    #this is the JSON writer to write the data to the csv file
     #csv_writer.writerow([perkName, perkIcon, perkDesc])
     #To check if its working, ill put each data in different rows
-    csv_writer.writerow([perkName])
-    csv_writer.writerow([perkIcon])
-    csv_writer.writerow([perkDesc])
-    csv_writer.writerow(['1'])
-    csv_writer.writerow(['0'])
-    csv_writer.writerow([i])
-    i = i + 1
+    json_object['Perks'].append({
+        'perkName': perkName,
+        'perkIcon': perkIcon,
+        'perkDesc': perkDesc,
+        'fromSurvivor': 1,
+        'fromKiller': 0
+    })
+    
    
 
-    #empty line to seperate the perks
-    csv_writer.writerow([])
+#This is the close statement for the json file
+json.dump(json_object, json_file, indent = 4)
     
 
-
-
-
-
-
-#This is closing the csv file
-csv_file.close()

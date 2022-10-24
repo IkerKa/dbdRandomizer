@@ -5,15 +5,18 @@
 
 import requests
 from bs4 import BeautifulSoup
-import csv
+import json
 
 
 url = 'https://deadbydaylight.fandom.com/wiki/Perks'
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
 
-csv_file = open('killerPerks.csv', 'w')
-csv_writer = csv.writer(csv_file)
+#creates the json file
+json_file = open('../resources/genKillerPerks.json', 'w', encoding='utf-8')
+
+#creates the json object
+json_object = {}
 
 #The same process as the survivor perks, in the page we have 3 tables called wikitables, 
 #we are only interested in the last one, the killer perks table
@@ -21,8 +24,7 @@ csv_writer = csv.writer(csv_file)
 table = soup.find_all('table', class_='wikitable sortable')[1]
 #We put [1] because we have 2 wikitable sortable classes, the first one is the survivor perks table
 
-#Before I start the for loop I need to write the headers to the csv file seperately
-csv_writer.writerow(['Perk Name', 'Perk Icon', 'Perk Description', 'fromSurvivor','fromKiller'])
+json_object['Perks'] = []
 
 #The same process as the survivor perks, the last 2 columns are for if the perk is from the survivor or killer
 #As we take this perk, we already know it is from the killer, so we will put a 0 in the survivor column and
@@ -50,18 +52,19 @@ for tr in table.find_all('tr')[1:]:
         perkDesc = tr.find_all('td')[0].find_all('div')[2].text
 
     #At this time we will print them in separate lines to check if them are correct
-    csv_writer.writerow([perkName])
-    csv_writer.writerow([perkIcon])
-    csv_writer.writerow([perkDesc])
-    csv_writer.writerow(['0'])
-    csv_writer.writerow(['1'])
-    csv_writer.writerow([i])
+
+    json_object['Perks'].append({
+        'perkName' : perkName,
+        'perkIcon' : perkIcon,
+        'perkDesc' : perkDesc,
+        'fromSurvivor' : 0,
+        'fromKiller' : 1
+    })
+
     i += 1
 
-    csv_writer.writerow([])
-
-
-csv_file.close()
+# Write json_object into the json_file
+json.dump(json_object, json_file, indent=4)
 
 
 

@@ -1,0 +1,266 @@
+{
+    "Ace Visconti": {
+        "name": "Ace Visconti",
+        "perk_1s": "Open-Handed",
+        "perk_2s": "Up the Ante",
+        "perk_3s": "Ace in the Hole",
+        "desc": "I have seen a poor new soul in this nightmare. For most of the others trapped here, fear is our common denominator. This man does not follow suit. Instead, he stands defiantly, analyzing his surroundings with an eerie confidence. In the mere glimpses of him I could afford, I saw a crooked smile as he scavenged something on the ground. Just by watching him from afar, I felt him ignite a fleeting spark of hope in my heart just before he melted into the shadows. With the remaining conviction I have left, I do pray that good fortune stays on his side.\n\n\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/New_Store_Ace.png/revision/latest?cb=20220325045215"
+    },
+    "Ada Wong": {
+        "name": "Ada Wong",
+        "perk_1s": "Wiretap",
+        "perk_2s": "Reactive Healing",
+        "perk_3s": "Low Profile",
+        "desc": "Sometimes it\u2019s safer to keep people guessing, and no one knows this better than Ada Wong. Dexterous and enigmatic, Ada\u2019s survival skills make her a valuable ally, provided interests remain aligned.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/New_Store_Ada.png/revision/latest?cb=20220830161534"
+    },
+    "Adam Francis": {
+        "name": "Adam Francis",
+        "perk_1s": "Diversion",
+        "perk_2s": "Deliverance",
+        "perk_3s": "Autodidact",
+        "desc": "The clever and selfless Adam Francis is no stranger to heroism, boldly risking his own life to save others. A dependable leader in the face of danger, Adam\u2019s ability to strategize quickly has been known to pay off, even if it means putting himself in harm\u2019s way.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/05/New_Store_Adam.png/revision/latest?cb=20220325045225"
+    },
+    "Ash Williams": {
+        "name": "Ash Williams",
+        "perk_1s": "Flip-Flop",
+        "perk_2s": "Buckle Up",
+        "perk_3s": "Mettle of Man",
+        "desc": "Though he proudly identifies as a self-described \u201calone wolf,\u201d Ash\u2019s shockingly high pain tolerance and scathing wit have proven invaluable in the face of supernatural danger. Those wheels are always turning, even when the situation appears dire. Never underestimate his mettle.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/New_Store_Ash.png/revision/latest?cb=20220325045235"
+    },
+    "Cheryl Mason": {
+        "name": "Cheryl Mason",
+        "perk_1s": "Soul Guard",
+        "perk_2s": "Blood Pact",
+        "perk_3s": "Repressed Alliance",
+        "desc": "No stranger to indescribable terror, Cheryl Mason has grown emboldened by the looming presence of evil. Drawing strength from the horrors of her past, she has learned to manipulate powers from beyond to achieve her noble goal.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/New_Store_Cheryl.png/revision/latest?cb=20220325045254"
+    },
+    "Claudette Morel": {
+        "name": "Claudette Morel",
+        "perk_1s": "Empathy",
+        "perk_2s": "Botany Knowledge",
+        "perk_3s": "Self-Care",
+        "desc": "Claudette understands the value of altruism, using her aptitude for botany to ensure her teammates are prepared for the challenges ahead. An expert healer to herself and others, Claudette\u2019s supportive presence is always welcome.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3f/New_Store_Claudette.png/revision/latest?cb=20220325045338"
+    },
+    "David King": {
+        "name": "David King",
+        "perk_1s": "We're Gonna Live Forever",
+        "perk_2s": "Dead Hard",
+        "perk_3s": "No Mither",
+        "desc": "Another man. In this arena I guess I could start to label as \u201chome\u201d. A man with an athletic frame. He carries an impressive stature. He seems untouchable at first glance. But a second look tells me something else. He seems torn. Distraught and broken. Maybe not by body, but by mind. I have seen him outrun the creatures. But also on a hook, with his bowels fleeing his torso. Something unsettling about that sight.\n\n\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f5/New_Store_David.png/revision/latest?cb=20220325045347"
+    },
+    "David Tapp": {
+        "name": "David Tapp",
+        "perk_1s": "Tenacity",
+        "perk_2s": "Detective's Hunch",
+        "perk_3s": "Stake Out",
+        "desc": "I am not a stranger to law enforcement professionals. I have learned to\u2026spot them. To recognize their posture and sway. Now, one seems to inhabit this, my new home. He looks worn down, but just like me, he refuses to simply lay down and await the coming pain and death. The struggle is the only thing that keeps him sane \u2013 something to focus on. Just as you can recognize the hardship of a law enforcer, many times you can also spot a man that has experienced what others never come near. Beatings and violence, determination. Maybe this new man seeks justice? Maybe he still carries a badge? Whatever might he be looking for here, at this place that lacks justice or an end?\n\n\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/New_Store_Tapp.png/revision/latest?cb=20220325045550"
+    },
+    "Dwight Fairfield": {
+        "name": "Dwight Fairfield",
+        "perk_1s": "Bond",
+        "perk_2s": "Prove Thyself",
+        "perk_3s": "Leader",
+        "desc": "An unlikely leader forced to rise to the occasion, Dwight Fairfield\u2019s reluctant bravery inspires those around him. Understanding the value of teamwork, Dwight is adept at locating and bolstering the efficiency of his teammates.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/New_Store_Dwight.png/revision/latest?cb=20220325045357"
+    },
+    "Felix Richter": {
+        "name": "Felix Richter",
+        "perk_1s": "Visionary",
+        "perk_2s": "Desperate Measures",
+        "perk_3s": "Built to Last",
+        "desc": "Often called a visionary for his brilliant architectural work, Felix Richter is as determined as he is debonair. Capable of operating at heightened efficiency under immense pressure, his expertise has proven invaluable \u2013 especially when facing a deadline.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/88/New_Store_Felix.png/revision/latest?cb=20220621144237"
+    },
+    "Feng Min": {
+        "name": "Feng Min",
+        "perk_1s": "Technician",
+        "perk_2s": "Lithe",
+        "perk_3s": "Alert",
+        "desc": "A young woman surprised me the other day. She is another guest in this nightmare I can not seem to wake up from. She came running, passed by a wounded girl and didn\u2019t stop. Just a glance behind her, and she was off again. With a determined look on her face, like she had something important to do. A lone wolf maybe? I am not sure what I should call this new person.\n\n\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/New_Store_Feng.png/revision/latest?cb=20220325045426"
+    },
+    "Haddie Kaur": {
+        "name": "Haddie Kaur",
+        "perk_1s": "Inner Focus",
+        "perk_2s": "Residual Manifest",
+        "perk_3s": "Overzealous",
+        "desc": "Plagued by chilling visions of the inexplicable, Haddie Kaur is driven to brave the perils of the unknown. Possessing the ability to see realms beyond our own, she knows more about the encroaching darkness than most. Perhaps that\u2019s why she\u2019s not afraid to stand face-to-face with danger with flashlight in hand.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/New_Store_Haddie.png/revision/latest?cb=20220607191731"
+    },
+    "Jake Park": {
+        "name": "Jake Park",
+        "perk_1s": "Iron Will",
+        "perk_2s": "Calm Spirit",
+        "perk_3s": "Saboteur",
+        "desc": "A solitary specialist, Jake Park\u2019s time in the wilderness has sharpened his survival instincts. Stealthy and resourceful, the only sign of his presence are the Sabotaged Hooks he leaves behind.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/New_Store_Jake.png/revision/latest?cb=20220325045435"
+    },
+    "Jane Romero": {
+        "name": "Jane Romero",
+        "perk_1s": "Solidarity",
+        "perk_2s": "Poised",
+        "perk_3s": "Head On",
+        "desc": "Celebrity status never changed Jane Romero, who always preferred to tackle a challenge head on. Blessed with a problem-solver's intuition, her aptitude for working with others is a valued asset. Though words are always her first choice, she\u2019s certainly not afraid to get her hands dirty.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/New_Store_Jane.png/revision/latest?cb=20220325045446"
+    },
+    "Jeff Johansen": {
+        "name": "Jeff Johansen",
+        "perk_1s": "Breakdown",
+        "perk_2s": "Aftercare",
+        "perk_3s": "Distortion",
+        "desc": "With a reserved nature often mistaken for stoicism, Jeff Johansen found solace in artistic expression. A simple man with a strong appreciation for home-brewed beer and heavy metal, he\u2019s learned to live with the darkness of his past, holding steadfast in the face of adversity.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/New_Store_Jeff.png/revision/latest?cb=20220325045454"
+    },
+    "Jill Valentine": {
+        "name": "Jill Valentine",
+        "perk_1s": "Counterforce",
+        "perk_2s": "Resurgence",
+        "perk_3s": "Blast Mine",
+        "desc": "Bravery comes natural to Jill Valentine, whose heroism proved invaluable during her harrowing time in Raccoon City. Even with a lethal pursuer on her trail, Jill\u2019s survival instincts provide her and her teammates with a few crucial advantages. Don\u2019t expect her to go down without a fight.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fb/New_Store_Jill.png/revision/latest?cb=20220618144709"
+    },
+    "Jonah Vasquez": {
+        "name": "Jonah Vasquez",
+        "perk_1s": "Overcome",
+        "perk_2s": "Corrective Action",
+        "perk_3s": "Boon: Exponential",
+        "desc": "Jonah Vasquez can tell you first-hand that there\u2019s strength in numbers \u2013 literally. A seasoned codebreaker and master of mathematics, Jonah\u2019s logical mind makes for a key addition to any team, multiplying chances of successful teamwork by an exponential degree.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/New_Store_Jonah.png/revision/latest?cb=20220618144723"
+    },
+    "Kate Denson": {
+        "name": "Kate Denson",
+        "perk_1s": "Dance With Me",
+        "perk_2s": "Windows of Opportunity",
+        "perk_3s": "Boil Over",
+        "desc": "A ray of sunshine illuminated this cold and gray place - a ray in the form of a woman. I heard her before I saw her, a voice, more beautiful than I had encountered in some time, came drifting through the trees. While a lament might have been more suited to this sepulchral locale, she sang a song of joy, of hope and family. Her warm smile greeted any that joined her at the campfire and, just for moment, they were able to forget which realm they inhabited.\nAs quick as she was to make friends, I got the feeling that to cross her would be a mistake. To remain so positive and upbeat in such a place would require a will of iron. Perhaps less a ray of sunshine then, but a bolt of lightning? Brilliant light and great power that could split the world in two.''\n\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/New_Store_Kate.png/revision/latest?cb=20220325045505"
+    },
+    "Laurie Strode": {
+        "name": "Laurie Strode",
+        "perk_1s": "Sole Survivor",
+        "perk_2s": "Object of Obsession",
+        "perk_3s": "Decisive Strike",
+        "desc": "I stumbled upon another soul in this doomed corner of the earth.I do not know her name, but there is something about her.I have never crossed paths with her, but she seems as if she's been doing this for far too long.Weary of the environment, clad in a kind of controlled panic, constantly looking over her shoulder, on the lookout.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/New_Store_Laurie.png/revision/latest?cb=20220325045515"
+    },
+    "Leon Scott Kennedy": {
+        "name": "Leon Scott Kennedy",
+        "perk_1s": "Bite the Bullet",
+        "perk_2s": "Flashbang",
+        "perk_3s": "Rookie Spirit",
+        "desc": "Leon Kennedy might be a Rookie, but during that one fateful night, he faced an entire lifetime of horror and brutality. At once resilient and resourceful, Leon is adaptable above all, whether crafting makeshift weaponry or retracing his steps through labyrinthine hallways.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/New_Store_Leon.png/revision/latest?cb=20220618144716"
+    },
+    "Meg Thomas": {
+        "name": "Meg Thomas",
+        "perk_1s": "Quick & Quiet",
+        "perk_2s": "Sprint Burst",
+        "perk_3s": "Adrenaline",
+        "desc": "Driven by reckless courage, the athletic Meg Thomas has never been afraid to push her limits. Prone to stepping up in the clutch, Meg gets a thrill out of goading Killers into lengthy chases, buying essential time for her teammates.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c8/New_Store_Meg.png/revision/latest?cb=20220325045523"
+    },
+    "Mikaela Reid": {
+        "name": "Mikaela Reid",
+        "perk_1s": "Clairvoyance",
+        "perk_2s": "Boon: Circle of Healing",
+        "perk_3s": "Boon: Shadow Step",
+        "desc": "A passion for the mystic arts has proven invaluable for Mikaela Reid. A proud horror aficionado and admirer of the macabre, her supernatural touch has opened the door to new possibilities. Though some were initially wary, teammates quickly took to her alternative methods upon seeing the results.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/New_Store_Mikaela.png/revision/latest?cb=20220618144730"
+    },
+    "Nancy Wheeler": {
+        "name": "Nancy Wheeler",
+        "perk_1s": "Better Together",
+        "perk_2s": "Fixated",
+        "perk_3s": "Inner Strength",
+        "desc": "Studious and rebellious, Nancy Wheeler is a stubborn investigator with an instinct for a good story. When her closest friend, Barb went missing, she did everything she could to unravel the truth and secure justice. A brilliant journalist, she chases stories and follows leads despite the inequality and chauvinism she encounters at the workplace. Pursuing a lead one evening, she fearlessly approaches the Hawkins National Laboratory before suddenly losing consciousness. A moment later she awakens in a strange misty realm with the sound of a familiar roar echoing through the air.",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/New_Store_Nancy.png/revision/latest?cb=20220618144446"
+    },
+    "Nea Karlsson": {
+        "name": "Nea Karlsson",
+        "perk_1s": "Balanced Landing",
+        "perk_2s": "Urban Evasion",
+        "perk_3s": "Streetwise",
+        "desc": "At first sight I thought it was a cat that passed me by, just a few meters behind me. A shadow that moved without sound. But yelling is not wise in this place. I have spotted her more times, but just in the peripheral. I still don\u2019t know her name, but she evades the monsters with a certain grace. \n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/ba/New_Store_Nea.png/revision/latest?cb=20220325045534"
+    },
+    "Quentin Smith": {
+        "name": "Quentin Smith",
+        "perk_1s": "Wake Up!",
+        "perk_2s": "Pharmacy",
+        "perk_3s": "Vigil",
+        "desc": "\u201cI saw a young man the other day. He seemed both awake and asleep at the same time. A bit drowsy, but determined. Even though I lacked to see anyone or anything going after him, he would not stop. I have witnessed true fear many times at this place. But this man provides a whole new spectra of fear. What would make a man too afraid to even stop to take a breath? He seems determined to reach the gates. I too had that urge once. But I failed too many times to reach them, too many mistakes and deaths. But this young man is different. Maybe he will actually escape. For real. But he looks tired, so intensely tired.\u201d\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/New_Store_Quentin.png/revision/latest?cb=20220325045543"
+    },
+    "Rebecca Chambers": {
+        "name": "Rebecca Chambers",
+        "perk_1s": "Better than New",
+        "perk_2s": "Reassurance",
+        "perk_3s": "Hyperfocus",
+        "desc": "Never underestimate the value of an experienced field medic. Rebecca Chambers leads by example when almost all seems lost, sometimes facing grave danger to assist her allies. Her medical brilliance keeps teammates alive and inspired, even if it puts her own safety at risk.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/New_Store_Rebecca.png/revision/latest?cb=20220830161525"
+    },
+    "Steve Harrington": {
+        "name": "Steve Harrington",
+        "perk_1s": "Babysitter",
+        "perk_2s": "Camaraderie",
+        "perk_3s": "Second Wind",
+        "desc": "Popular and arrogant, yet compassionate, Steve Harrington is an unlikely mentor and leader. He often acts as a surrogate big brother to a younger boy named Dustin. He even helped him find his slimy inter-dimensional pet Demogorgon, D'Artagnan. His reputation as a protector grew and he soon became a sort of \"babysitter\" for a group of kids in Hawkins with a knack for messing around with strange and dangerous things. His courage is unmatched so that he was even able to fend off a Demogorgon when it threatened his friends. One evening he received a call for assistance from his friend Nancy Wheeler. He drove all the way to the Hawkins National Laboratory to see if she was okay. He searched the area but only found her notebook. Before he realised what was happening the ground opened up and a swirl of black mist filled his eyes. When he awakened he was in a strange place that seemed familiar but unfamiliar at the same time.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/New_Store_Steve.png/revision/latest?cb=20220618144437"
+    },
+    "Bill Overbeck": {
+        "name": "Bill Overbeck",
+        "perk_1s": "Left Behind",
+        "perk_2s": "Borrowed Time",
+        "perk_3s": "Unbreakable",
+        "desc": "Hardened by years of experience, Bill Overbeck knows that survival rarely comes without sacrifice. No matter the cost, he\u2019ll make sure his teammates live to fight another day. It wouldn\u2019t be the first time he was left for dead.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/New_Store_Bill.png/revision/latest?cb=20220325045245"
+    },
+    "Yoichi Asakawa": {
+        "name": "Yoichi Asakawa",
+        "perk_1s": "Parental Guidance",
+        "perk_2s": "Empathic Connection",
+        "perk_3s": "Boon: Dark Theory",
+        "desc": "A marine biologist scarred by the haunting memories of his past encounter with Sadako, Yoichi Asakawa has stared into the depths of evil. Blessed with paranormal psychic abilities of his own, his bravery and unwavering resolve makes him a valuable ally against even the darkest forces.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/New_Store_Yoichi.png/revision/latest?cb=20220618144736"
+    },
+    "Yui Kimura": {
+        "name": "Yui Kimura",
+        "perk_1s": "Lucky Break",
+        "perk_2s": "Any Means Necessary",
+        "perk_3s": "Breakout",
+        "desc": "Quick decisions are second nature to Yui Kimura, who lives the majority of her life at a breakneck pace. Whether riding an adrenaline high during a late-night street race or leading Killers on a long and winding chase, Yui finds a way to win by any means necessary.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/New_Store_Yui.png/revision/latest?cb=20220325045607"
+    },
+    "Yun-Jin Lee": {
+        "name": "Yun-Jin Lee",
+        "perk_1s": "Fast Track",
+        "perk_2s": "Smash Hit",
+        "perk_3s": "Self-Preservation",
+        "desc": "What some call selfish, Yun-Jin Lee calls practical. She didn\u2019t enter the music industry to make friends, though she can appreciate a little collaboration now and again. At the end of the day, she abides by an old classic: if you want something done right, do it yourself.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fd/New_Store_Yun-Jin.png/revision/latest?cb=20220325045618"
+    },
+    "Zarina Kassir": {
+        "name": "Zarina Kassir",
+        "perk_1s": "Off the Record",
+        "perk_2s": "Red Herring",
+        "perk_3s": "For the People",
+        "desc": "Zarina Kassir stands determined to uncover the truth, regardless of any peril that might arise. A street-smart and thorough documentarian, she\u2019s willing to put herself in harm\u2019s way to achieve her goals -- especially if it means helping those in need.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/61/New_Store_Zarina.png/revision/latest?cb=20220325045629"
+    },
+    "\u00c9lodie Rakoto": {
+        "name": "\u00c9lodie Rakoto",
+        "perk_1s": "Appraisal",
+        "perk_2s": "Deception",
+        "perk_3s": "Power Struggle",
+        "desc": "Occult investigator \u00c9lodie Rakoto has seen first-hand that things are not always as they seem. The comforting rational explanation isn\u2019t always correct, and there\u2019s certainly no reasoning with these merciless Killers. Luckily, she\u2019s got more than a few cunning tricks up her sleeve.\n",
+        "img": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/New_Store_Elodie.png/revision/latest?cb=20220325045411"
+    }
+}

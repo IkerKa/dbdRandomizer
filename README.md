@@ -69,13 +69,15 @@ This bot is not affiliated with Dead By Daylight or Behaviour Interactive in any
 At this moment the bot will be for personal use.
 
 ## Changelog
-- 1.0.0 - Initial release
-- 1.0.1 - Added `!dbd help` command
-- 1.0.1.2 - Added `!dbd about <command>` command (only commands with one parameter)
-- 1.0.2 - Added `!dbd commands` command
-- 1.0.3 - ER Diagram added
-- 1.0.4 - Added Iker's and Juan's Selections
-- 1.0.5 - Added github link to the authors
+- pre-0.0.0 - Initial release
+- pre-0.0.1 - Added `!dbd help` command
+- pre-0.0.1.2 - Added `!dbd about <command>` command (only commands with one parameter)
+- pre-0.0.2 - Added `!dbd commands` command
+- pre-0.0.3 - ER Diagram added
+- pre-0.0.4 - Added Iker's and Juan's Selections
+- pre-0.0.5 - Added github link to the authors
+- pre-0.1.0 - Scrapped all the perk data and added it to the database
+- pre-0.1.0.1 - Cleaning the workspace and commented the code from the scrapping
 
 
 ## To-do
@@ -95,6 +97,4 @@ This is actually a non-profit project and also a private project, so we don't ac
 ## Donate
 No! This is a non-profit project and also a private project, so we don't accept any donations.
 
-
-
-
+## Acknowledgments
