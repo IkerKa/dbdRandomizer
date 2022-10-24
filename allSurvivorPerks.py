@@ -26,15 +26,12 @@ csv_writer = csv.writer(csv_file)
 #The table is the first table after the h3 tag 
 #the id before the table is the id of the h3 tag (Survivor_Perks_(113))
 
-#This is the table that I am getting the data from
-table = soup.find('h3', id='Survivor_Perks_(113)').find_next('table')
+#The page has 3 wiki tables, we are only interested in the second one
+#The second table is the one that has the survivor perks
 
-print(table)
+table = soup.find('table', class_='wikitable sortable')
 
-
-
-#This is the table that I am getting the data from
-table = soup.find('table', class_='wikitable')
+#print(table)
 
 
 
@@ -59,27 +56,27 @@ csv_writer.writerow(['Perk Name', 'Perk Icon', 'Perk Description', 'fromSurvivor
 #the table starts with a <thead> and after that is a <tbody> (thats where the perks are) and ends with a <tfoot>
 #the <thead> and <tfoot> are not needed so I am going to skip them
 
-#to test it I am just going to get the first 3 perks
+#the <tbody> is where the perks are
+#each perk is a <tr> (table row)
+#each perk has 2 <th> and 1 <td>
+#the first <th> is the perk icon and the second <th> is the perk name
+#the <td> is the perk description
 
 #this is the for loop that is going through the table and getting the data
 
-#Skip the <thead> part:
-#the <thead> is the first <tr> in the <table>
-#so I am going to skip the first <tr> in the <table>
+#We need to be inside the tbody to get the perks
 
-#to skip the first <tr> I am going to use the next() function
-#the next() function will skip the first <tr> in the <table>
+#the table starts with a <thead> and after that is a <tbody> (thats where the perks are) and ends with a <tfoot>
+#the <thead> and <tfoot> are not needed so I am going to skip them
 
-
-
-#this is the for loop that is going through the table and getting the data
-for tr in table.find_all('tr'):
+#Loop
+for tr in table.find_all('tr')[1:]:
     #each tr has 2 <th> and 1 <td>
     #the first <th> is the perk icon
     #the second <th> is the perk name
     #the <td> is the perk description
 
-    #this is the perk icon is inside the first <th>/<a>/<img>
+     #this is the perk icon is inside the first <th>/<a>/<img>
     #The url is inside the <a> in the tag href
     perkIcon = tr.find_all('th')[0].find('a')['href']
 
@@ -100,6 +97,7 @@ for tr in table.find_all('tr'):
     csv_writer.writerow([perkDesc])
     csv_writer.writerow(['1'])
     csv_writer.writerow(['0'])
+   
 
     #empty line to seperate the perks
     csv_writer.writerow([])
