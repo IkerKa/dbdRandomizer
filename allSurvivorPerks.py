@@ -69,6 +69,8 @@ csv_writer.writerow(['Perk Name', 'Perk Icon', 'Perk Description', 'fromSurvivor
 #the table starts with a <thead> and after that is a <tbody> (thats where the perks are) and ends with a <tfoot>
 #the <thead> and <tfoot> are not needed so I am going to skip them
 
+i = 0
+
 #Loop
 for tr in table.find_all('tr')[1:]:
     #each tr has 2 <th> and 1 <td>
@@ -76,7 +78,7 @@ for tr in table.find_all('tr')[1:]:
     #the second <th> is the perk name
     #the <td> is the perk description
 
-     #this is the perk icon is inside the first <th>/<a>/<img>
+    #this is the perk icon is inside the first <th>/<a>/<img>
     #The url is inside the <a> in the tag href
     perkIcon = tr.find_all('th')[0].find('a')['href']
 
@@ -97,6 +99,8 @@ for tr in table.find_all('tr')[1:]:
     csv_writer.writerow([perkDesc])
     csv_writer.writerow(['1'])
     csv_writer.writerow(['0'])
+    csv_writer.writerow([i])
+    i = i + 1
    
 
     #empty line to seperate the perks
