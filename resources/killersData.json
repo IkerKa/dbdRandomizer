@@ -1,0 +1,236 @@
+{
+    "Killers": [
+        {
+            "name": "Adiris (The  Plague)",
+            "perk_1k": "Corrupt Intervention",
+            "perk_2k": "Infectious Fright",
+            "perk_3k": "Dark Devotion",
+            "mainHability": "Traditional healing methods are ineffective against The Plague\u2019s vile Purge, which can infect generators and Survivors. Pools of Devotion are the only respite from the spreading pestilence. The more Survivors heal, the stronger The Plague\u2019s power becomes, transforming her Purge into a sickening projectile of pain.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/New_Store_Plague.png/revision/latest?cb=20220325045854"
+        },
+        {
+            "name": "Albert Wesker (The  Mastermind)",
+            "perk_1k": "Superior Anatomy",
+            "perk_2k": "Awakened Awareness",
+            "perk_3k": "Terminus",
+            "mainHability": "A visionary as brilliant as he is ruthless, Albert Wesker\u2019s strategic mind is unrivalled. While some plans require intellect, others call for brute force. Rush forward to seize Survivors in your grasp and give them the gift of Uroboros \u2013 a necessary step on the path to evolution.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/05/New_Store_Mastermind.png/revision/latest?cb=20220830161543"
+        },
+        {
+            "name": "Amanda Young (The  Pig)",
+            "perk_1k": "Hangman's Trick",
+            "perk_2k": "Surveillance",
+            "perk_3k": "Make Your Choice",
+            "mainHability": "\u201cAt first I actually believed that it was a pig that slept in front of me on the ground. An animal that somehow had eluded the banalities of my old life and managed to end up at this forsaken and forgotten place. But then it rose, from crouch to standing, with its lifeless eyes nailed to my person. I ran, as I have so brutally learnt to do. My curiosity halted my escape after a few feet and I hid in a cabinet. The Pig moved like a predator \u2013 and I saw: a human body wearing a pig's head as ornament. It walked by the cabinet and its snout was just a few inches away from me. I held my breath, aching for freedom. A sudden sound caught the pig's attention and it walked away. But not without giving me a last, final glance, as if it wanted to inform me that I was given a second chance. I will not get a third.\u201d\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/New_Store_Pig.png/revision/latest?cb=20220325045841"
+        },
+        {
+            "name": "Anna (The  Huntress)",
+            "perk_1k": "Beast of Prey",
+            "perk_2k": "Territorial Imperative",
+            "perk_3k": "Hex: Huntress Lullaby",
+            "mainHability": "A figure clad in the head of a hare. A most disturbing sight. This new foe holds something human within her. Some shards of ordinary life. She seems to be a hunter. I have met many different beings in this place, but this is the first one with a natural skill of hunting. In any other place one could deem it a talent. But her knack for tracking, capturing and killing is something else here. There is something else in her too, she seems to seek something.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/New_Store_Huntress.png/revision/latest?cb=20220325045741"
+        },
+        {
+            "name": "Bubba Sawyer (The  Cannibal)",
+            "perk_1k": "Knock Out",
+            "perk_2k": "Barbecue & Chilli",
+            "perk_3k": "Franklin's Demise",
+            "mainHability": "\"Whether Killers perform their heinous acts by the compulsions of their diseased minds, or if they are forced into them by external pressures, has long been a matter of debate. But for one Killer, nature and nurture are inextricably linked. Leatherface kills not from a desire to exert his will over others, to satisfy carnal urges, or even to quiet the voices in his head. He kills because he is scared. Scared that others will hurt him; scared that his family will be displeased with him, scared that their shared willingness to eat human flesh will be discovered.\"\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/New_Store_Cannibal.png/revision/latest?cb=20220618153640"
+        },
+        {
+            "name": "Caleb Quinn (The  Deathslinger)",
+            "perk_1k": "Gearhead",
+            "perk_2k": "Dead Man's Switch",
+            "perk_3k": "Hex: Retribution",
+            "mainHability": "Upon catching prey unaware, the Deathslinger uses his handmade gun \u2013 The Redeemer \u2013 to skewer fleeing Survivors with a long-distance harpoon. Accurate aim, patient tracking, and sharp predictions are crucial to landing successful shots, but the reward of a Survivor\u2019s scream as they\u2019re reeled in will never sound so sweet.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/New_Store_Deathslinger.png/revision/latest?cb=20220618153651"
+        },
+        {
+            "name": "Carmina Mora (The  Artist)",
+            "perk_1k": "Grim Embrace",
+            "perk_2k": "Scourge Hook: Pain Resonance",
+            "perk_3k": "Hex: Pentimento",
+            "mainHability": "No matter the distance, The Artist and her murder of Dire Crows pose a constant threat to Survivors. Position up to three Crows and unleash them on a lethal trajectory, swarming and injuring anyone caught in their path. Use her Power to shut down key areas, predict and punish Survivor pathing, and gain valuable map-wide information.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/New_Store_Artist.png/revision/latest?cb=20220618153628"
+        },
+        {
+            "name": "Charlotte & Victor Deshayes (The  Twins)",
+            "perk_1k": "Hoarder",
+            "perk_2k": "Oppression",
+            "perk_3k": "Coup de Gr\u00e2ce",
+            "mainHability": "Charlotte Deshayes can unleash her conjoined twin brother Victor, falling dormant until he\u2019s finished hunting. Victor moves at high speeds and strikes with a pounce attack that debilitates and injures. Down Survivors with Victor and hook them with Charlotte, an oppressive tandem that can quickly disrupt even the best-laid plans.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/New_Store_Twins.png/revision/latest?cb=20220618153714"
+        },
+        {
+            "name": "Danny Johnson alias Jed Olsen (The  Ghost Face)",
+            "perk_1k": "I'm All Ears",
+            "perk_2k": "Thrilling Tremors",
+            "perk_3k": "Furtive Chase",
+            "mainHability": "A stealth-focused Killer capable of approaching unseen, The Ghost Face is adept at stalking his prey. Keep tabs on each individual Survivor, patiently marking them for death \u2013 provided you can remain hidden. Lie in wait until the perfect time to strike, and down Survivors before they know what hit them.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/New_Store_Ghostface.png/revision/latest?cb=20220325045719"
+        },
+        {
+            "name": "Elliot Spencer alias Pinhead (The  Cenobite)",
+            "perk_1k": "Deadlock",
+            "perk_2k": "Hex: Plaything",
+            "perk_3k": "Scourge Hook: Gift of Pain",
+            "mainHability": "The Cenobite, also known as Pinhead, specializes in inflicting map-wide suffering. Survivors must find the Lament Configuration lest a Chain Hunt begin, debilitating their movement with a relentless barrage of otherworldly shackles. The Cenobite can also summon a chain to bind Survivors, allowing him to gain ground and inflict punishment.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/New_Store_Cenobite.png/revision/latest?cb=20220618153646"
+        },
+        {
+            "name": "Evan MacMillan (The  Trapper)",
+            "perk_1k": "Unnerving Presence",
+            "perk_2k": "Brutal Strength",
+            "perk_3k": "Agitation",
+            "mainHability": "Armed with a bag of Bear Traps, The Trapper specialises in catching unsuspecting Survivors.By placing traps in high-traffic areas and thick patches of grass, he creates a deadly area that forces Survivors to move with caution.When dealing with The Trapper, a simple misstep can prove fatal.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/New_Store_Trapper.png/revision/latest?cb=20220325045941"
+        },
+        {
+            "name": "Frank, Julie, Susie, Joey (The  Legion)",
+            "perk_1k": "Discordance",
+            "perk_2k": "Mad Grit",
+            "perk_3k": "Iron Maiden",
+            "mainHability": "The Legion are a close-knit group of murderous Killers, linked by the desire to dole out pain in equal measure. Keep the injuries coming with Feral Frenzy, a high-intensity sprint that can set off a devastating chain reaction. Survivors will be constantly tending to their wounds, leaving them vulnerable to be picked off one by one.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/New_Store_Legion.png/revision/latest?cb=20220325045750"
+        },
+        {
+            "name": "Freddy Krueger (The  Nightmare)",
+            "perk_1k": "Fire Up",
+            "perk_2k": "Remember Me",
+            "perk_3k": "Blood Warden",
+            "mainHability": "\u201cThis place plays tricks on your mind\u2026constantly I question whether I dream or if I am awake. This most recent horrid ghoul seems to bridge that gap \u2013 between the states of being awake or asleep. I saw him hunting another poor soul, someone who was not as lucky as me. A man with a hat and a claw clad hand, a scarred man of sorts. He spotted me and what actually happened next is still a mystery to me. Dreams took over, and I was sure to die. But I woke up. Not like in the manner where I awake at the campfire, but instead I just woke up\u2026inside this wretched forest, with memories of nightmares within. I am now afraid to sleep, but also to stay awake.\u201d\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/New_Store_Nightmare.png/revision/latest?cb=20220618153703"
+        },
+        {
+            "name": "Herman Carter (The  Doctor)",
+            "perk_1k": "Overwhelming Presence",
+            "perk_2k": "Monitor & Abuse",
+            "perk_3k": "Overcharge",
+            "mainHability": "I have difficulty keeping my sanity. Each day, this altering world provides me with new trials. A man wearing the robes of a doctor crossed my path. From afar, I witness him walking around, searching.. But he was not...normal. Eyes and mouth pried open, in a painful and disturbing way. Where do these fiends stem from? I do not trust him, he looks like he wants to bring pain, not healing? I will stay away, it is the wisest thing to do.\n\n\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/New_Store_Doctor.png/revision/latest?cb=20220325045656"
+        },
+        {
+            "name": "Ji-Woon Hak (The  Trickster)",
+            "perk_1k": "Starstruck",
+            "perk_2k": "Hex: Crowd Control",
+            "perk_3k": "No Way Out",
+            "mainHability": "Armed with an arsenal of throwing knives, The Trickster overwhelms fleeing Survivors with a relentless barrage of blades. Seemingly safe actions like vaulting windows and dropping Pallets turn into target practice for this twisted K-Pop Idol, whose stylish showmanship is rivalled only by his gleeful bloodlust.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/New_Store_Trickster.png/revision/latest?cb=20220618153708"
+        },
+        {
+            "name": "Kazan Yamaoka (The  Oni)",
+            "perk_1k": "Zanshin Tactics",
+            "perk_2k": "Blood Echo",
+            "perk_3k": "Nemesis",
+            "mainHability": "Redefine wrath with The Oni, a truly formidable force. Injured Survivors leave a trail of Blood Orbs, fuelling The Oni\u2019s rage and sending him into a state of fury. Upon unleashing a bloodcurdling roar, The Oni gains the ability to charge with vengeful purpose, instantly cutting down anyone in his way.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/New_Store_Oni.png/revision/latest?cb=20220325045815"
+        },
+        {
+            "name": "Kenneth Chase alias Jeffrey Hawk (The  Clown)",
+            "perk_1k": "Bamboozle",
+            "perk_2k": "Coulrophobia",
+            "perk_3k": "Pop Goes the Weasel",
+            "mainHability": "''As I journeyed through the foggy veils that demarcate the realms of this place, I saw that, for the first time, I was not alone. Something traversed these forgotten byways, its bright colors still clearly visible, even through the muting effect of the mist that roiled between us.\nAs we emerged into a new, yet somehow familiar, place, I saw it clearly for the first time: a carney's caravan, pulled by something that appeared to be a horse but was, to my eyes, older and more terrible.\nI watched from the trees as a crack appeared at the doorway and a warm, golden light spilled forth into this desolate place. The effect was, I suspect, deliberately inviting, but the figure that emerged was anything but: its costume a hodgepodge of ringmaster, clown and other fairground attire. Its face was a nightmare in greasepaint, a caricature of a smile slashed across its flabby lips. At its waist were a collection of what looked for all the world like fingers. But what creature would be so monstrous as to collect such trophies?\nThe Clown surveyed its new surrounding and its gaze lit on me. A rictus split its face in two and it nodded at me before returning to the caravan. I suspect that it prefers its victims to be less aware than I, and I thanked the stars for that.''\n\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/New_Store_Clown.png/revision/latest?cb=20220325045646"
+        },
+        {
+            "name": "Lisa Sherwood (The  Hag)",
+            "perk_1k": "Hex: The Third Seal",
+            "perk_2k": "Hex: Ruin",
+            "perk_3k": "Hex: Devour Hope",
+            "mainHability": "A new terror stalks the darkness; her appearance strikes me as more intense than the others after but a glimpse of her haggard silhouette. Twisted and torn in unspeakable ways, with greyish dead skin stretched out over her emaciated body. Her arm is a horrid overgrown deformity capable of slashing through both flesh and bone alike. Her very presence speaks of endless torture similar to mine. I wonder - did she refuse the entity's calling until broken or did she wish for this?\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a5/New_Store_Hag.png/revision/latest?cb=20220618153657"
+        },
+        {
+            "name": "Max Thompson Jr. (The  Hillbilly)",
+            "perk_1k": "Enduring",
+            "perk_2k": "Lightborn",
+            "perk_3k": "Tinkerer",
+            "mainHability": "The sound of a revving motor, followed by a bloodthirsty scream of rage. The Hillbilly isn\u2019t exactly subtle, but he makes up for it in brutal efficiency. Capable of traversing great distances at a rapid pace, those in his path will be rudely introduced to one-hundred gnashing chainsaw blades.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/New_Store_Hillbilly.png/revision/latest?cb=20220325045730"
+        },
+        {
+            "name": "Michael Myers (The  Shape)",
+            "perk_1k": "Save the Best for Last",
+            "perk_2k": "Play with Your Food",
+            "perk_3k": "Dying Light",
+            "mainHability": "Something, or rather someone, is here now. I've never seen this... Shape before. A man hiding behind a mask. He comes with a determination. But more worrying, he comes with an apparent grasp of the hunt. He does not strike me as someone who even went unwillingly to this place. Is there more to this being than I can fathom? \n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/New_Store_Shape.png/revision/latest?cb=20220325045914"
+        },
+        {
+            "name": "Nemesis T-Type (The  Nemesis)",
+            "perk_1k": "Lethal Pursuer",
+            "perk_2k": "Hysteria",
+            "perk_3k": "Eruption",
+            "mainHability": "An unstoppable force relentless in his pursuit, nothing can stop The Nemesis from achieving his goal. His sweeping Tentacle infects Survivors with the T-Virus, further enhancing his destructive power in the process. Easily smash through pallets and breakable walls while two A.I-controlled Zombies patrol the map, applying additional pressure.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/New_Store_Nemesis.png/revision/latest?cb=20220618155504"
+        },
+        {
+            "name": "Philip Ojomo (The  Wraith)",
+            "perk_1k": "Predator",
+            "perk_2k": "Bloodhound",
+            "perk_3k": "Shadowborn",
+            "mainHability": "Using his Wailing Bell to render himself invisible, The Wraith tracks his prey and strikes with little warning. Upon hearing the Bell\u2019s fateful chime, Survivors must think fast or suffer the consequences. A hit-and-run specialist, The Wraith is adept at keeping everybody injured.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/11/New_Store_Wraith.png/revision/latest?cb=20220325045951"
+        },
+        {
+            "name": "Pyramid Head (The  Executioner)",
+            "perk_1k": "Forced Penance",
+            "perk_2k": "Trail of Torment",
+            "perk_3k": "Deathbound",
+            "mainHability": "Merciless and unforgiving, The Executioner brings his own form of twisted justice to The Fog, tormenting Survivors with hazards around the map. Hooks are an effective tool, but nothing punishes quite like a Cage of Torment. All hope will swiftly fade the moment Pyramid Head raises his mighty blade to deliver the Final Judgment.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/New_Store_Executioner.png/revision/latest?cb=20220325045708"
+        },
+        {
+            "name": "Rin Yamaoka (The  Spirit)",
+            "perk_1k": "Spirit Fury",
+            "perk_2k": "Hex: Haunted Ground",
+            "perk_3k": "Rancor",
+            "mainHability": "She inherited incredible fury from her ancestors. The wrath that flows through her veins is her legacy. The terrible pain she suffered set it off. Swift and lethal, The Spirit exacts her revenge endlessly.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/44/New_Store_Spirit.png/revision/latest?cb=20220325045927"
+        },
+        {
+            "name": "Sadako Yamamura (The  Onry\u014d)",
+            "perk_1k": "Scourge Hook: Floods of Rage",
+            "perk_2k": "Call of Brine",
+            "perk_3k": "Merciless Storm",
+            "mainHability": "Capable of condemning Survivors to death through a powerful cursed videotape, Sadako\u2019s wrath is inevitable. Her presence conjures several televisions, through which she can teleport and emerge with malevolent purpose. The fleeting glimpse of her approach ensures that a chilling fate is not far behind.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/08/New_Store_Onryo.png/revision/latest?cb=20220618155147"
+        },
+        {
+            "name": "Sally Smithson (The  Nurse)",
+            "perk_1k": "Stridor",
+            "perk_2k": "Thanatophobia",
+            "perk_3k": "A Nurse's Calling",
+            "mainHability": "A new varmint has entered the arena. I spotted her as she, somehow, moved through a wall. Clad in bandages that tell an untold tale of something horrid. This...nurse as it seems, brings me new angst during my lonely nights, as my mind runs amok.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/00/New_Store_Nurse.png/revision/latest?cb=20220325045802"
+        },
+        {
+            "name": "Talbot Grimes (The  Blight)",
+            "perk_1k": "Dragon's Grip",
+            "perk_2k": "Hex: Blood Favour",
+            "perk_3k": "Hex: Undying",
+            "mainHability": "Capable of gaining ground on Survivors in mere moments, The Blight\u2019s lethal efficiency must never be underestimated. With the ability to bounce off surfaces and realign his trajectory, his relentless presence forces Survivors into snap decisions. The learning curve may feel steep, but mastering The Blight is a worthwhile pursuit.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/New_Store_Blight.png/revision/latest?cb=20220618153633"
+        },
+        {
+            "name": "The Demogorgon (The  Demogorgon)",
+            "perk_1k": "Surge",
+            "perk_2k": "Cruel Limits",
+            "perk_3k": "Mindbreaker",
+            "mainHability": "An unknown and otherworldly power surged through its body.Suddenly the ground ripped open, swallowing The Demogorgon whole.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/New_Store_Demogorgon.png/revision/latest?cb=20220817104354"
+        },
+        {
+            "name": "The Dredge (The  Dredge)",
+            "perk_1k": "Dissolution",
+            "perk_2k": "Darkness Revealed",
+            "perk_3k": "Septic Touch",
+            "mainHability": "A twisted abomination too disturbing to bear, The Dredge\u2019s malevolence is palpable. All light slowly drains in its presence, surrounding Survivors in darkness. Using lockers as map-wide gateways, it can emerge at any moment, seemingly everywhere at once.\n",
+            "image_k": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/New_Store_Dredge.png/revision/latest?cb=20220607191722"
+        }
+    ]
+}

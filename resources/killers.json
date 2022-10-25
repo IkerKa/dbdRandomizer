@@ -1,0 +1,150 @@
+{
+    "A": [
+        {
+            "name": "Adiris",
+            "url": "/wiki/Adiris"
+        },
+        {
+            "name": "Albert Wesker",
+            "url": "/wiki/Albert_Wesker"
+        },
+        {
+            "name": "Amanda Young",
+            "url": "/wiki/Amanda_Young"
+        },
+        {
+            "name": "Anna",
+            "url": "/wiki/Anna"
+        }
+    ],
+    "B": [
+        {
+            "name": "Bubba Sawyer",
+            "url": "/wiki/Bubba_Sawyer"
+        }
+    ],
+    "C": [
+        {
+            "name": "Caleb Quinn",
+            "url": "/wiki/Caleb_Quinn"
+        },
+        {
+            "name": "Carmina Mora",
+            "url": "/wiki/Carmina_Mora"
+        },
+        {
+            "name": "Charlotte & Victor Deshayes",
+            "url": "/wiki/Charlotte_%26_Victor_Deshayes"
+        }
+    ],
+    "D": [
+        {
+            "name": "Danny Johnson alias Jed Olsen",
+            "url": "/wiki/Danny_Johnson_alias_Jed_Olsen"
+        }
+    ],
+    "E": [
+        {
+            "name": "Elliot Spencer",
+            "url": "/wiki/Elliot_Spencer"
+        },
+        {
+            "name": "Evan MacMillan",
+            "url": "/wiki/Evan_MacMillan"
+        }
+    ],
+    "F": [
+        {
+            "name": "Frank, Julie, Susie, Joey",
+            "url": "/wiki/Frank,_Julie,_Susie,_Joey"
+        },
+        {
+            "name": "Freddy Krueger",
+            "url": "/wiki/Freddy_Krueger"
+        }
+    ],
+    "H": [
+        {
+            "name": "Herman Carter",
+            "url": "/wiki/Herman_Carter"
+        }
+    ],
+    "J": [
+        {
+            "name": "Ji-Woon Hak",
+            "url": "/wiki/Ji-Woon_Hak"
+        }
+    ],
+    "K": [
+        {
+            "name": "Kazan Yamaoka",
+            "url": "/wiki/Kazan_Yamaoka"
+        },
+        {
+            "name": "Kenneth Chase alias Jeffrey Hawk",
+            "url": "/wiki/Kenneth_Chase_alias_Jeffrey_Hawk"
+        }
+    ],
+    "L": [
+        {
+            "name": "Lisa Sherwood",
+            "url": "/wiki/Lisa_Sherwood"
+        }
+    ],
+    "M": [
+        {
+            "name": "Max Thompson Jr.",
+            "url": "/wiki/Max_Thompson_Jr."
+        },
+        {
+            "name": "Michael Myers",
+            "url": "/wiki/Michael_Myers"
+        }
+    ],
+    "N": [
+        {
+            "name": "Nemesis T-Type",
+            "url": "/wiki/Nemesis_T-Type"
+        }
+    ],
+    "P": [
+        {
+            "name": "Philip Ojomo",
+            "url": "/wiki/Philip_Ojomo"
+        },
+        {
+            "name": "Pyramid Head",
+            "url": "/wiki/Pyramid_Head"
+        }
+    ],
+    "R": [
+        {
+            "name": "Rin Yamaoka",
+            "url": "/wiki/Rin_Yamaoka"
+        }
+    ],
+    "S": [
+        {
+            "name": "Sadako Yamamura",
+            "url": "/wiki/Sadako_Yamamura"
+        },
+        {
+            "name": "Sally Smithson",
+            "url": "/wiki/Sally_Smithson"
+        }
+    ],
+    "T": [
+        {
+            "name": "Talbot Grimes",
+            "url": "/wiki/Talbot_Grimes"
+        },
+        {
+            "name": "The Demogorgon",
+            "url": "/wiki/The_Demogorgon"
+        },
+        {
+            "name": "The Dredge",
+            "url": "/wiki/The_Dredge"
+        }
+    ]
+}

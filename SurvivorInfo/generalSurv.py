@@ -43,6 +43,8 @@ json_object = {}
 
 #This is the for loop that is going through the table and getting the data
 
+json_object['Survivors'] = []
+
 
 for url in urls:
 
@@ -93,7 +95,7 @@ for url in urls:
         
 
         #Now we are going to add the data to the json object
-        json_object[survName] = {
+        json_object['Survivors'].append({
             'name': survName,
             
             
@@ -103,7 +105,7 @@ for url in urls:
 
             'desc': survDesc,
             'img': survImg
-        }
+        })
     except Exception as e:
         print(f"exception caught at {url}") 
 
