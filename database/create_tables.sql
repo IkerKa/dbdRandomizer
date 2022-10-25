@@ -15,8 +15,10 @@ CREATE TABLE Perks
     perkName VARCHAR(50) NOT NULL,
     icon TEXT NOT NULL,
     perkDescription TEXT NOT NULL,
-    fromKiller BOOLEAN NOT NULL,
-    fromSurvivor BOOLEAN NOT NULL,
+    --fromKiller and fromSurvivor will be integers
+    fromSurvivor INT NOT NULL,
+    fromKiller INT NOT NULL,
+
 
     PRIMARY KEY(perkName)
 );

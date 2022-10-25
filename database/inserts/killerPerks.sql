@@ -1,6 +1,3 @@
-INSERT INTO Perks VALUES('A Nurse''s Calling','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_aNursesCalling.png/revision/latest?cb=20160820090103','Unlocks potential in your Aura-reading ability.
-The Auras of Survivors, who are healing or being healed, are revealed to you when they are within a range of 20/24/28 metres.
-"Still attached to the fragments of her past life, she is drawn to those in need of help."',0,1);
 INSERT INTO Perks VALUES('Agitation','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/IconPerks_agitation.png/revision/latest?cb=20160605204807','You get excited in anticipation of hooking your prey.
 While carrying a Survivoryou benefit from the following effects:
 Increases your Carrying Movement speed by 6/12/18 %.
