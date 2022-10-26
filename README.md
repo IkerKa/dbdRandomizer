@@ -86,6 +86,7 @@ At this moment the bot will be for personal use.
 - pre-0.0.5 - Added github link to the authors
 - pre-0.1.0 - Scrapped all the perk data and added it to the database
 - pre-0.1.0.1 - Cleaning the workspace and commented the code from the scrapping
+- pre-0.1.0.2 - Scrappled Items, Addons, Survivors, Killers.
 
 
 ## To-do
