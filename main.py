@@ -29,7 +29,11 @@ intent.message_content = True
 client = discord.Client(intents=intent)
 
 
-# DATABASE??
+
+
+
+
+
 
 # text format for the !commands
 # parameters: boolean for the command
@@ -316,7 +320,6 @@ async def on_message(message):
     await message.channel.send(perk_info, file=perk_image_discord_file)
     #await message.channel.send(perk_info, file=perk_image)
 
-  
   
   
   # Rest of the commands
