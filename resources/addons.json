@@ -1,0 +1,178 @@
+{
+    "addons": [
+        {
+            "name": "Prayer Rope",
+            "item": "Keys",
+            "description": "Tightly knitted rope used in praying rituals.\nAdds 10 seconds of use to the Key.\n\"Pray all you want, your words are getting lost somewhere up there, in The Fog.\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_prayerRope.png/revision/latest?cb=20200719165227"
+        },
+        {
+            "name": "Scratched Pearl",
+            "item": "Keys",
+            "description": "A porous and scratched white pearl.A minuscule jump ring allows the pearl to be attached to the Key.\nIncreases the Key's Aura-reading range by +12 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ce/FulliconAddon_scratchedPearl.png/revision/latest?cb=20200719165232"
+        },
+        {
+            "name": "Prayer Beads",
+            "item": "Keys",
+            "description": "A chain of matte beads of various sizes used in praying ritual.\nAdds 15 seconds of use to the Key.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_prayerBeads.png/revision/latest?cb=20200719165236"
+        },
+        {
+            "name": "Eroded Token",
+            "item": "Keys",
+            "description": "A heavily worn out token made of brass.If an inscription or drawing was once engraved in it, it has today completely disappeared.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Auras of other Survivors within 24 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconAddon_erodedToken.png/revision/latest?cb=20200719165241"
+        },
+        {
+            "name": "Gold Token",
+            "item": "Keys",
+            "description": "A gold token with a dull appearance.Both faces are smooth and void of any inscriptions.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Auras of other Survivors within 48 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/FulliconAddon_goldToken.png/revision/latest?cb=20200719165246"
+        },
+        {
+            "name": "Weaved Ring",
+            "item": "Keys",
+            "description": "A mundane key ring in appearance with an unusual bluish dark sheen.The ring binds the Key to the user, preventing its loss even in the darkest of times.\nIn case of death, lose this Add-on instead of the Key itself.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/FulliconAddon_weavedRing.png/revision/latest?cb=20200719165250"
+        },
+        {
+            "name": "Milky Glass",
+            "item": "Keys",
+            "description": "This opaque piece of glass emits a dull vibrating noise.When the Key is used to unlock the Hatch, the glass token protects the Key from breaking, channelling The Black Fog's energy into the glass instead.\nOpening the Hatch with a Key loses this Add-on instead of the Key itself.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/FulliconAddon_milkyGlass.png/revision/latest?cb=20200719165255"
+        },
+        {
+            "name": "Blood Amber",
+            "item": "Keys",
+            "description": "A blood-red amber striped with black veins.The amber is warm to the touch.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Aura of the Killer within 32 metres.\nIncreases the Key's Depletion rate by +100\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconAddon_bloodAmber.png/revision/latest?cb=20200719165259"
+        },
+        {
+            "name": "Unique Wedding Ring",
+            "item": "Keys",
+            "description": "An engraved wedding ring that emerged from The Fog and resonates with an indescribable and incomprehensible energy.\nReveals the Aura of the Obsession at all times, without the need to channel the Key's energy.\nLowers the odds of becoming the Killer's initial Obsession by -100\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_uniqueWeddingRing.png/revision/latest?cb=20200719165304"
+        },
+        {
+            "name": "Map Addendum",
+            "item": "Maps",
+            "description": "A fragmented piece of a thick fibrous material.A partial and faded map is drawn on it which by itself is useless.\nAdds 5 seconds of use to the Map.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/FulliconAddon_mapAddendum.png/revision/latest?cb=20200719165432"
+        },
+        {
+            "name": "Yellow Wire",
+            "item": "Maps",
+            "description": "A small electrical wire.Both ends are heavily damaged like it has been forcefully torn out of its intended location.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track the Exit Gate Switches.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconAddon_yellowWire.png/revision/latest?cb=20200719165437"
+        },
+        {
+            "name": "Unusual Stamp",
+            "item": "Maps",
+            "description": "A wooden stamp with a cross-hatched rubber pad used to mark documents.It is unclear as to how or by whom this stamp was originally used.\nIncreases the Map's Tracking range by +8 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/FulliconAddon_unusualStamp.png/revision/latest?cb=20200719165442"
+        },
+        {
+            "name": "Retardant Jelly",
+            "item": "Maps",
+            "description": "A slimy, translucent substance with a ghastly lavender shade.This jelly from unknown origin is highly resistant to heat.\nDecreases the Map's Depletion rate by -20\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/FulliconAddon_retardantJelly.png/revision/latest?cb=20200719165446"
+        },
+        {
+            "name": "Red Twine",
+            "item": "Maps",
+            "description": "A bristly and rough piece of twine of a deep red colour.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track Killer Belongings.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_redTwine.png/revision/latest?cb=20200719165451"
+        },
+        {
+            "name": "Glass Bead",
+            "item": "Maps",
+            "description": "A strange bead circled with gold that can be used to magnify the map and mark a specific position.The bead emits an energy which can be felt and seen by Survivors.\nPress the Secondary Action button while using the Map to use the Glass Bead:\n\nPlace a Pillar of Light at your current location that can be seen by all Survivors.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/FulliconAddon_glassBead.png/revision/latest?cb=20200719165526"
+        },
+        {
+            "name": "Odd Stamp",
+            "item": "Maps",
+            "description": "A stamp carved out of sturdy blonde wood.The text found at the base is incomprehensible: \"kw'zvre'od\".\nIncreases the Map's Tracking range by +12 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/FulliconAddon_oddStamp.png/revision/latest?cb=20200719165507"
+        },
+        {
+            "name": "Black Silk Cord",
+            "item": "Maps",
+            "description": "A smooth black cord with a soft appearance.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track the Hatch.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconAddon_blackSilkCord.png/revision/latest?cb=20200719165511"
+        },
+        {
+            "name": "Crystal Bead",
+            "item": "Maps",
+            "description": "An intricate set of lenses wrapped up in an astonishingly complex apparatus.The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\nReveals the Auras generated by the Map to all Survivors.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/FulliconAddon_crystalBead.png/revision/latest?cb=20200719165516"
+        },
+        {
+            "name": "Scraps",
+            "item": "Toolboxes",
+            "description": "Springs, screws and gears.Mostly unusable junk.\nIncreases the Capacity of the Toolbox by +8 charges.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconAddon_scraps.png/revision/latest?cb=20200716210624"
+        },
+        {
+            "name": "Instructions",
+            "item": "Toolboxes",
+            "description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\nSuppresses all normal Skill Checks that are usually triggered while repairing a Generator.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/FulliconAddon_instructions.png/revision/latest?cb=20200716210635"
+        },
+        {
+            "name": "Clean Rag",
+            "item": "Toolboxes",
+            "description": "A mundane rag.Suspiciously clean.\nIncreases the Repair speed of the Toolbox by +20\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/FulliconAddon_cleanRag.png/revision/latest?cb=20200716210639"
+        },
+        {
+            "name": "Wire Spool",
+            "item": "Toolboxes",
+            "description": "A portable but heavy spool of copper wire.\nIncreases the Capacity of the Toolbox by +12 charges.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/FulliconAddon_wireSpool.png/revision/latest?cb=20200716210645"
+        },
+        {
+            "name": "Spring Clamp",
+            "item": "Toolboxes",
+            "description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nReduces the range at which your Generator-Repair noises can be heard by -8 metres.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/FulliconAddon_springClamp.png/revision/latest?cb=20200716210653"
+        },
+        {
+            "name": "Socket Swivels",
+            "item": "Toolboxes",
+            "description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nIncreases the Repair speed of the Toolbox by +30\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/FulliconAddon_socketSwivels.png/revision/latest?cb=20200716210658"
+        },
+        {
+            "name": "Protective Gloves",
+            "item": "Toolboxes",
+            "description": "Thick gloves, which reduce manual dexterity but protect hands from injury.\nSuppresses the Loud Noise Notification to the Killer that is usually triggered after sabotaging a Hook .",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/FulliconAddon_protectiveGloves.png/revision/latest?cb=20200716210702"
+        },
+        {
+            "name": "Cutting Wire",
+            "item": "Toolboxes",
+            "description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nIncreases the Sabotage speed of the Toolbox by +15\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_cuttingWire.png/revision/latest?cb=20200716210706"
+        },
+        {
+            "name": "Hacksaw",
+            "item": "Toolboxes",
+            "description": "A small hand saw mounted with a metal cutting blade.\nIncreases the Sabotage speed of the Toolbox by +20\u00a0%.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_hacksaw.png/revision/latest?cb=20200716210711"
+        },
+        {
+            "name": "Grip Wrench",
+            "item": "Toolboxes",
+            "description": "An adjustable wrench with a tough grip.Essential in any Toolbox.\nIncreases the Auto-Repair timer for sabotaged Hooks by +15 seconds.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/FulliconAddon_gripWrench.png/revision/latest?cb=20200716210717"
+        },
+        {
+            "name": "Brand New Part",
+            "item": "Toolboxes",
+            "description": "This intricate mechanical part feels oddly out of place.It is clean and shiny as if straight out of the factory.\nReplaces the \"Toolbox Repair\" prompt with \"Install Brand New Part\" instead:\nInstalling the Brand New Part takes 5 seconds to complete and adds 15\u00a0% to the Generator Progression.\nTriggers 2 difficult Skill Checks during the Installation process.\nSuccedding each Skill Check adds an additional 5\u00a0% bonus Progression, up to a maximum of 10\u00a0% bonus Progression,and a combined total of up to 25\u00a0% Generator Progression.",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_brandNewPart.png/revision/latest?cb=20200716210722"
+        }
+    ]
+}

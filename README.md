@@ -15,6 +15,13 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 
 - `help` - Get an introduction to the bot
 - `commands` - Get a list of commands
+- `randomPerk` - Get a random perk
+- `randomPerks` - Get a list of random perks
+- `randomAddOn` - Get a random add-on
+- `randomAddOns` - Get a list of random add-ons
+- `randomOffering` - Get a random offering
+- `randomSurvivor` - Get a random survivor
+- `randomKiller` - Get a random killer
 - `perk survivor` - Get a random perk from the survivors with the information about it.
 - `perk killer` - Get a random perk from the killers with the information about it.
 - `addon` - Get a random add-on with the information about it.
@@ -25,7 +32,8 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `killer <name>` - Get information about a specific killer (pending)
 - `survivorlist` - Get a list of all survivors
 - `killerlist` - Get a list of all killers
-- `perkCombos` - Get a random perk combo of 4 perks to use
+- `perkCombos survivor` - Get a random perk combo of 4 perks to use on a survivor
+- `perkCombos killer` - Get a random perk combo of 4 perks to use on a killer
 - `preMatch survivor` - Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)
 - `preMatch killer` - Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)
 - `item` - Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it. (pending)
