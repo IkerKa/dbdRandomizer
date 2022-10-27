@@ -1,16 +1,29 @@
-# dbdRandomizer
-A randomizer for the game Dead By Daylight (DBD) that allows you to play with random perks, add-ons, offerings, and more!
+<h1 align="center">
+  <br>
+  <a><img src="https://static.wikia.nocookie.net/shipping/images/2/24/Dead_by_Daylight_-_Logo.png/revision/latest?cb=20210916200805&path-prefix=es" alt="Proyecto 1" width="200"></a>
+    <br>
+    🤖Dead by Daylight Randomizer🤖
+    <br>
+    by NopeIsDope
+</h1>
 
-## How to use
+A randomizer for the game Dead By Daylight (DBD) that allows you to play with random perks, add-ons, offerings, and more!
+The name of the proyect its provisional, it can change in the future.
+
+<h2 align="center">This bot is currently in development and is not yet ready for use!!!.</h2>
+
+## **Table of Contents📋**
+
+## **How to use📒**
 1. When the bot is added to your server, type `!dbd` to get a list of commands.
 2. Type `!dbd help` to get a list of commands.
 3. Type `!dbd help <command>` to get more information about a specific command.
 4. Type `!dbd <command>` to use a command.
 
-## Commands
+## **Commands⌨️**
 ALL OF THEM STARTS WITH `!dbd <command>`
 
-### General
+### **General**
 - `dbd about <command>` - Get information about a command. (Commands with a second argument aren't available at the moment.) 
 
 - `help` - Get an introduction to the bot
@@ -49,62 +62,108 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `randomObjetive` - Get a random objetive to do in the match
         -Example: `!dbd randomObjetive` : "do 4 beamer saves in a match" (easy to do in the tutorial of discord bot (inspirational messages))
 
-## Entity Relational Diagram
-#### Final Version
-![ERD](Images/ER_2nd_Version.png)
-## Support
-If you have any questions or suggestions, feel free to join the [support server]()!
+## **Entity Relationalship Diagram (ERD)📊**
+#### *Final Version*
+![ERD](Images/dbdRandomizerER.jpg)
 
-## Credits
+## **Support📞**
+<details>
+  <summary>Click to expand!</summary>
+  
+  If you need help with the bot, you can contact me on Discord: `NopeIsDope#0001`
+
+  You can also join the support server: [Click here](https://discord.gg/4Z7Z9Z9)
+
+  I'm also open to suggestions, so if you have any, you can contact me on Discord or join the support server and tell me there.
+
+  You can contact with the other authors of the bot on Discord (click on the authors command to get their Discord tag).
+
+</details>
+
+
+## **Credits📝**
 - [DeadByDaylight](https://deadbydaylight.com/) - The game Dead By Daylight
 - [DeadByDaylight Wiki](https://deadbydaylight.gamepedia.com/Dead_by_Daylight_Wiki) - The wiki for the game Dead By Daylight
 - [DeadByDaylight API]() - The API for the game Dead By Daylight    
 
-## Authors
-- [Iker Morán](//https:github.com/IkerKa) - The main developer of the bot aka (nickname)
-### Co-authors
-- [Juan Carrasquer](https://github.com/fortaleza2001) (nickname)
-- [Darío Marcos](//gitlink) (nickname)
+## **Authors👨‍💻**
+- [Iker Morán](https://github.com/IkerKa) - The main author of the bot
+### **Contributors**
+- [Juan Carrasquer](https://github.com/fortaleza2001) - (pending)
+- [Darío Marcos](//gitlink) - (pending)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## **License📜**
+This project is under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 If you want to use this code, please give credits to the authors. Thanks! :) 
 
 
-
-## Disclaimer
+## **Disclaimer⚠️**
 This bot is not affiliated with Dead By Daylight or Behaviour Interactive in any way. All trademarks are the property of their respective owners.
 At this moment the bot will be for personal use.
 
-## Changelog
-- pre-0.0.0 - Initial release
-- pre-0.0.1 - Added `!dbd help` command
-- pre-0.0.1.2 - Added `!dbd about <command>` command (only commands with one parameter)
-- pre-0.0.2 - Added `!dbd commands` command
-- pre-0.0.3 - ER Diagram added
-- pre-0.0.4 - Added Iker's and Juan's Selections
-- pre-0.0.5 - Added github link to the authors
-- pre-0.1.0 - Scrapped all the perk data and added it to the database
-- pre-0.1.0.1 - Cleaning the workspace and commented the code from the scrapping
-- pre-0.1.0.2 - Scrappled Items, Addons, Survivors, Killers.
-- pre-0.1.0.2 - Scrappledd the offerings and modified the DB (enttities)
+## **Changelog📝**
+<details>
+  <summary>Click to expand!</summary>
+  
+### **vPre-0.0.0**
+Brainstorming and planning the project.
 
+### **vPre-0.0.1**
+Created the repository and the README.md file.
 
-## To-do
+### **vPre-0.0.2**
+Created the ERD and added it to the README.md file.
+SQL database created.
 
-- [ ] Add more commands
-- [ ] Add more information about the commands
-- [ ] Add more information about the entities
-- [ ] Add more entities
-- [ ] Add more information about the bot
+### **vPre-0.0.1.2**
+Added the license to the README.md file.
+Programmed the commands `!dbd about <command>` and `!dbd help <command>`.
+At the moment commands with a second argument aren't available.
 
--[] Resize Iker image (survivor)
+### **vPre-0.0.2**
+Programmed the commands `!dbd help` and `!dbd commands`.
+Added new commands ideas to the README.md file.
 
+### **vPre-0.0.3**
+Added Iker and Juan selected setup command
 
-## Contributing
-This is actually a non-profit project and also a private project, so we don't accept any contributions.
+### **vPre-0.0.4**
+First commit to the repository.
+Added the bot to the support server.
+Added the github link to the README.md file.
 
-## Donate
-No! This is a non-profit project and also a private project, so we don't accept any donations.
+### **vPre-0.0.5**
+Brainstorming to take the data from the wiki.
 
-## Acknowledgments
+### **vPre-0.0.6**
+Start scraping the wiki.
+
+### **vPre-0.1.0**
+Scraped all perks data from the wiki.
+
+### **vPre-0.1.0.1**
+Scraped all add-ons data from the wiki.
+Scraped all offerings data from the wiki.
+Scraped all the items data from the wiki.
+Scraped all the people data from the wiki.
+
+### **vPre-0.1.1**
+All data scrapped from the wiki.
+
+### **vPre-0.2.0**
+Sql files created.
+Formatted the files and making the workspace structured.
+
+### **vPre-0.2.1**
+Checking the sql inserts (1st check: SQL number of entries is correct)
+
+### **vPre-0.2.1.1**
+Checking the sql inserts (order of insertion as the creation of the tables in progress..)
+
+## **Contributing🤝**
+This is actually a non-profit project and also a private project, so currently I'm not accepting contributions 😢.
+
+## **Donate🤑**
+**No!** This is a non-profit project and also a private project, so we don't accept any donations.
+
+## **Acknowledgments🎁**

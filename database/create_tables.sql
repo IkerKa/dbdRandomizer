@@ -92,20 +92,6 @@ CREATE TABLE Item_Addons
     FOREIGN KEY (itemName) REFERENCES Items(itemName)
 );
 
-
---tabla de item_survivor
-CREATE TABLE Item_Survivor
-(
-    itemName VARCHAR(50) NOT NULL,
-    survName VARCHAR(50) NOT NULL,
-
-    PRIMARY KEY (itemName, survName),
-
-    FOREIGN KEY (itemName) REFERENCES Items(itemName),
-    FOREIGN KEY (survName) REFERENCES Survivors(survName)
-);
-
-
 --Tabla de Offerings
 
 CREATE TABLE Offerings
@@ -122,34 +108,6 @@ CREATE TABLE Offerings
     PRIMARY KEY (offerName)
 );
 
---Tabla de Offerings_survivors
-CREATE TABLE Offerings_survivors
-(
-    offerName VARCHAR(50) NOT NULL,
-    survName VARCHAR(50) not NULL,
-
-    PRIMARY KEY(offerName,survName),
-    
-    FOREIGN KEY (offerName) REFERENCES Offerings(offerName),
-    FOREIGN KEY (survName) REFERENCES Survivors(survName) 
-
-);
-
-
---Tabla de Offerings_killers
-CREATE TABLE Offerings_killers
-(
-    offerName VARCHAR(50) NOT NULL,
-    killerName VARCHAR(50) not NULL,
-
-    PRIMARY KEY(offerName,killerName),
-
-    FOREIGN KEY (offerName) REFERENCES Offerings(offerName),
-    FOREIGN KEY (killerName) REFERENCES Killers(killerName)
-
-);
-
-
 --Tabla de Power_Addons
 CREATE TABLE Power_Addons
 (
@@ -163,30 +121,4 @@ CREATE TABLE Power_Addons
     
     --killerName será una clave ajena de la tabla Killers (porque son los killers a los que pertenezcan los addons)
     FOREIGN KEY (killerName) REFERENCES Killers(killerName)
-);
-
-CREATE TABLE Survivor_Perks (
-    perkName VARCHAR(50) NOT NULL,
-    survName VARCHAR(50) NOT NULL,
-
-    PRIMARY KEY (survName, perkName),     --entidad debil
-    
-    --killerName será una clave ajena de la tabla Killers (porque son los killers a los que pertenezcan las perks)
-    FOREIGN KEY (survName) REFERENCES Survivors(survName),
-    FOREIGN KEY (perkName) REFERENCES Perks(perkName)
-);
-
-
-
---Tabla de Killer-Perks
-CREATE TABLE Killer_Perks
-(
-    perkName VARCHAR(50) NOT NULL,
-    killerName VARCHAR(50) NOT NULL,
-
-    PRIMARY KEY (killerName, perkName),     --entidad debil
-    
-    --killerName será una clave ajena de la tabla Killers (porque son los killers a los que pertenezcan las perks)
-    FOREIGN KEY (killerName) REFERENCES Killers(killerName),
-    FOREIGN KEY (perkName) REFERENCES Perks(perkName)
 );
