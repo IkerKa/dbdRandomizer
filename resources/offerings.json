@@ -1,0 +1,599 @@
+{
+    "offerings": [
+        {
+            "name": "Escape! Cake",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in all Categories.\n\"This picture of a cake sure is real.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e4/FulliconFavors_escapeCake.png/revision/latest?cb=20200821193445",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Hollow Shell",
+            "description": "Grants 25\u00a0% bonus Bloodpoints in all Categories.\n\"An unidentifiable cocoon which was breached by whatever was inside.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_hollowShell.png/revision/latest?cb=20200821204345",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Sealed Envelope",
+            "description": "Grants 25\u00a0% bonus Bloodpoints in all Categories.\n\"An unaddressed and unopened envelope yellowed by its time.Its message will never be known.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/FulliconFavors_sealedEnvelope.png/revision/latest?cb=20200821205013",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Survivor Pudding",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in all Categories.\n\"A heavily salted pudding...\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/FulliconFavors_survivorPudding.png/revision/latest?cb=20200821193400",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Bloody Party Streamers",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in all Categories to all Players.\n\"A reminder of a bloody good time when people came together, but left screaming.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_bloodyPartyStreamers.png/revision/latest?cb=20200821193301",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Bound Envelope",
+            "description": "Grants 25\u00a0% bonus Bloodpoints in all Categories to all Survivors.\n\"An opened envelope re-sealed and bound with four coloured ribbons.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconFavors_boundEnvelope.png/revision/latest?cb=20200821202759",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Frightful Flan",
+            "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nIt may be a masquerade ball, but there is no masking the foul odour of this quivering yellow mass.Consuming it, however, fills you with vigour.\n\nGrants 106\u00a0% bonus Bloodpoints in all Categories for all Players.\nSecret Effects:\n\nReveals the Aura of the Crown Pillar in purple within 8 metres.\nHear an auditory cue whenever the Crown Pillar moves location.\n\"Happy Anniversary!We made you this cake/pie/pudding/unspeakable horror.\" \u2014 The Dead by Daylight Team",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/FulliconFavors_frightfulFlan.png/revision/latest?cb=20220608162357",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Ghastly Gateau",
+            "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA spectacularly grim cake to mark our four years together.\nOne percent tastier than a Gruesome Gateau.\n\nGrants 104\u00a0% bonus Bloodpoints in all Categories for all Players.\n\"Happy Anniversary!Here is to many more!\" \u2014 The Dead by Daylight Team",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/FulliconFavors_ghastlyGateau.png/revision/latest?cb=20200821192210",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Gruesome Gateau",
+            "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA terrific stomach-churning cake to mark our three years together.\n\nGrants 103\u00a0% bonus Bloodpoints in all Categories for all Players.\n\"Happy Anniversary!Here is to our three years together!\" \u2014 The Dead by Daylight Team",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/FulliconFavors_gruesomeGateau.png/revision/latest?cb=20200821192513",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Sacrificial Cake",
+            "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA revolting cake that marks our five years together.The slightest taste fills you with an incomprehensible energy, reaching out to something beyond.\n\nGrants 105\u00a0% bonus Bloodpoints in all Categories for all Players.\nSecret Effects:\n\nReveals the Aura of the Crown Pillar in purple within 8 metres.\nHear an auditory cue whenever the Crown Pillar moves location.\n\"Happy Anniversary!We are dying to celebrate many more with you!\" \u2014 The Dead by Daylight Team",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconFavors_sacrificialCake.png/revision/latest?cb=20210630130658",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Primrose Blossom Sachet",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Altruism Category.\n\"A palm-sized hand-sewn sachet containing four gold petals.The primrose opens at the very last moment before the sun gives place to the night.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/FulliconFavors_primroseBlossomSachet.png/revision/latest?cb=20200821204651",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Fresh Primrose Blossom",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Altruism Category.\n\"Golden flowers harvested at their peak.The primrose opens at the very last moment before the sun gives place to the night.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/FulliconFavors_freshPrimroseBlossom.png/revision/latest?cb=20200821204047",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Fragrant Primrose Blossom",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Altruism Category.\n\"Golden flowers harvested at their peak.Releases a strong earthy and comforting aroma.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/FulliconFavors_fragrantPrimroseBlossom.png/revision/latest?cb=20200821204018",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Tanager Wreath",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Brutality Category.\n\"Crafted out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_tanagerWreath.png/revision/latest?cb=20200821205220",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Devout Tanager Wreath",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Brutality Category.\n\"Devoutly crafted out of sticks and guts, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconFavors_devoutTanagerWreath.png/revision/latest?cb=20200821203846",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Ardent Tanager Wreath",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Brutality Category.\n\"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on The Entity's blessing fore more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_ardentTanagerWreath.png/revision/latest?cb=20200821203016",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Raven Wreath",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Deviousness Category.\n\"Crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/FulliconFavors_ravenWreath.png/revision/latest?cb=20200821204940",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Devout Raven Wreath",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Deviousness Category.\n\"Devoutly crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1b/FulliconFavors_devoutRavenWreath.png/revision/latest?cb=20200821203825",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Ardent Raven Wreath",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Deviousness Category.\n\"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconFavors_ardentRavenWreath.png/revision/latest?cb=20200821202626",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Spotted Owl Wreath",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Hunter Category.\n\"Crafted out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/FulliconFavors_spottedOwlWreath.png/revision/latest?cb=20200821205128",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Devout Spotted Owl Wreath",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Hunter Category.\n\"Devoutly crafted out of sharp metals, rope and features, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_devoutSpottedOwlWreath.png/revision/latest?cb=20200821203839",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Ardent Spotted Owl Wreath",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Hunter Category.\n\"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/FulliconFavors_ardentSpottedOwlWreath.png/revision/latest?cb=20200821202642",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Bog Laurel Sachet",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Objectives Category.\n\"A palm-sized hand sewn sachet filled with dry leaves.Releases a faint tea-like aroma.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_bogLaurelSachet.png/revision/latest?cb=20200821202754",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Fresh Bog Laurel",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Objectives Category.\n\"A beautiful purple flower that grows in the midst of the tainted swamp.Releases a mild tea-like aroma.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/FulliconFavors_freshBogLaurel.png/revision/latest?cb=20200821204035",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Fragrant Bog Laurel",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Objectives Category.\n\"A beautiful purple flower that grows in the midst of the tainted swamp.Releases a strong tea-like aroma.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconFavors_fragrantBogLaurel.png/revision/latest?cb=20200821204000",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Crispleaf Amaranth Sachet",
+            "description": "Grants 50\u00a0% bonus Bloodpoints in the Survival Category.\n\"A palm-sized hand-sewn sachet stuffed with bead-like grain.Amaranth is said to be everlasting.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconFavors_crispleafAmaranthSachet.png/revision/latest?cb=20200821203529",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Fresh Crispleaf Amaranth",
+            "description": "Grants 75\u00a0% bonus Bloodpoints in the Survival Category.\n\"The pale green leaves are highlighted with peculiar crimson veins.Amaranth is said to be everlasting.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b5/FulliconFavors_freshCrispleafAmaranth.png/revision/latest?cb=20200821204041",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Fragrant Crispleaf Amaranth",
+            "description": "Grants 100\u00a0% bonus Bloodpoints in the Survival Category.\n\"The pale green leaves are highlighted with peculiar crimson veins.Amaranth is said to be everlasting.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconFavors_fragrantCrispleafAmaranth.png/revision/latest?cb=20200821204012",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Arcane Dousing Rod",
+            "description": "Taps into the latent energy of The Entity's Realm to find even more concentrated pockets of power.\nPersonal Offering.\nProvides a +100\u00a0% Bloodpoints bonus to hooking Survivors onto Esoteric Hooks, repairing Esoteric Generators, and transferring Void Energy into Unstable Rifts.\nProvides a directional cue when an Unstable Rift spawns within 24 metres.\nOnly playable during the Haunted by Daylight Event.",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/FulliconFavors_arcaneDousingRod.png/revision/latest?cb=20221013214317",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Cursed Seed",
+            "description": "NO LONGER AVAILABLE.\nCalls upon The Entity to generate 1 additional Tangled Hook and 1 additional Tangled Generator.\n\nAs a Killer, hook a Survivor on a Tangled Hook for the first time to earn bonus Bloodpoints.\nAs a Survivor, find and repair a Tangled Generator to earn bonus Bloodpoints.\nStacks.\nUsing Cursed Seed increases the amount of Bloodpoints earned for these interactions.\nNOTE: During the Event, 1 Tangled Hook and 1 Tangled Generator will spawn on the Map by default.\nOnly playable during the The Midnight Grove Event.\n\"The seed crackles as if what is within is attempting to burst free.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconFavors_cursedSeed.png/revision/latest?cb=20211021154318",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Pustula Petals",
+            "description": "NO LONGER AVAILABLE.\nCalls upon The Entity to generate 1 Blighted Hook and 1 Blighted Generator.\n\nAs a Killer, hook a Survivor on a Blighted Hook for the first time to earn bonus Bloodpoints.\nAs a Survivor, find and repair a Blighted Generator to earn bonus Bloodpoints.\nStacks.\nUsing Pustula Petals increases the amount of Bloodpoints earned for these interactions.\nNOTE: During the Event, 1 Blighted Hook and 1 Blighted Generator will spawn on the Map by default.\nOnly playable during the The Eternal Blight Event.\n\"The Pustulas fill the air with a rancid odour that some may find enticing.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconFavors_pustulaPetals.png/revision/latest?cb=20200821192702",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Red Envelope",
+            "description": "NO LONGER AVAILABLE.\nA gesture of generosity to bring good fortune to the unfortunate.\n\nCalls upon The Entity to generate 1 Red Envelope per Player.\nThe Aura of your Red Envelope is revealed to you at the start of the Trial.\nInteracting with your Red Envelope reveals its Aura to all other Players in the Trial until it is claimed.\nOpening another Player's Red Envelope awards you with a random amount of Bloodpoints.\nWhen another Player opens your Red Envelope during the Trial, you are awarded Bloodpoints and a Cosmetic from the Lurking Stripes Collection.\nOnly playable during the Lurking Stripes Event.",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/FulliconFavors_redEnvelope.png/revision/latest?cb=20200821193026",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "BBQ Invitation",
+            "description": "NO LONGER AVAILABLE.\nCalls upon The Entity to generate 1 Grill Hook and 1 Frozen Cocktail Machine.\n\nAs a Killer, hook a Survivor on a Grill Hook for the first time to earn bonus Bloodpoints and a Survivor Chop.\nAs a Survivor, find and repair a Frozen Cocktail Machine to earn bonus Bloodpoints and a Frosty Margarita.\nStacks.\nNOTE: During the Event, 1 Grill Hook and 1 Frozen Cocktail Machine will spawn on the Map by default.\nOnly playable during the Scorching Summer BBQ Event.\n\"Kick back and relax in the moonlight with an ice cold drink and some barbecued meat.The Entity has invited you to enjoy yourself this fine evening.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/FulliconFavors_bbqInvitation.png/revision/latest?cb=20200821192907",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Chalk Pouch",
+            "description": "Increases your Luck by +1\u00a0%.\n\"A small cotton pouch filled with white chalky powder of unknown origin.Some believe it brings good fortune.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/FulliconFavors_chalkPouch.png/revision/latest?cb=20200821203243",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Cream Chalk Pouch",
+            "description": "Increases your Luck by +2\u00a0%.\n\"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin.Releases a faint herbal aroma. Some believe it brings good fortune.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/FulliconFavors_creamChalkPouch.png/revision/latest?cb=20200924092038",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Ivory Chalk Pouch",
+            "description": "Increases your Luck by +3\u00a0%.\n\"A small leather pouch displaying a straight white line hand-sewn on one of its sides.The bag is filled with an ivory chalky powder that shines under the moonlight.Some believe it brings good fortune.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconFavors_ivoryChalkPouch.png/revision/latest?cb=20200821204352",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Salt Pouch",
+            "description": "Increases the Luck of all Survivors by +1\u00a0%.\n\"A small cotton pouch filled with black salt crystals.Some believe it brings good fortune. Don't spill it.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/FulliconFavors_saltPouch.png/revision/latest?cb=20200821205139",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Black Salt Statuette",
+            "description": "Increases the Luck of all Survivors by +2\u00a0%.\n\"A friable miniature statuette made of black salt representing a woman in a kneeling position offering a gift.Some believe it brings good fortune.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconFavors_blackSaltStatuette.png/revision/latest?cb=20200821202707",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Vigo's Jar of Salty Lips",
+            "description": "Increases the Luck of all Survivors by +3\u00a0%.\n\"A tightly sealed glass jar containing torn human lips floating in a murky brine.Some believe it brings good fortune.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_vigosJarOfSaltyLips.png/revision/latest?cb=20200821205235",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Bloodied Blueprint",
+            "description": "Reveals the Aura of the Basement Hooks to you for 20 seconds at the start of the Trial.\nIncreases the Odds of spawning the Basement in the Killer Shack (if available) by +100\u00a0%.\n\"Spatters of dried blood partially conceal the design.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9c/FulliconFavors_bloodiedBlueprint.png/revision/latest?cb=20200821191616",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Torn Blueprint",
+            "description": "Reveals the Aura of the Basement Hooks to you for 20 seconds at the start of the Trial.\nIncreases the Odds of spawning the Basement in the Main Landmark Building (if available) by 100\u00a0%.\n\"Though brittle and torn, the design is mostly legible.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/df/FulliconFavors_tornBlueprint.png/revision/latest?cb=20200821191549",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Scratched Coin",
+            "description": "Calls upon The Entity to reduce the number of Chests by -1 Chest.\n\"A defaced coin of unknown origin.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_scratchedCoin.png/revision/latest?cb=20200821205008",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Tarnished Coin",
+            "description": "Calms The Entity to increase the number of Chests by +1 Chest.\n\"A round piece of metal which has lost all sheen.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_tarnishedCoin.png/revision/latest?cb=20200821205230",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Cut Coin",
+            "description": "Calls upon The Entity to reduce the number of Chests by -2 Chests.\n\"Two halves of a thick metallic coin.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/FulliconFavors_cutCoin.png/revision/latest?cb=20200821203538",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Shiny Coin",
+            "description": "Calms The Entity to increase the number of Chests by +2 Chests.\n\"A clean and polished piece of gold.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconFavors_shinyCoin.png/revision/latest?cb=20200821205021",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Clear Reagent",
+            "description": "Reduces the Thickness of the Dark Mist by -50\u00a0%.\n\"The Mist rolls in, traps all in its deep madness.There is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" \u2014 Unknown, Notebook",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/FulliconFavors_clearReagent.png/revision/latest?cb=20200821203259",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Faint Reagent",
+            "description": "Increases the Thickness of the Dark Mist by +25\u00a0%.\n\"Paralysed, I stand in the cold as death lingers.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/FulliconFavors_faintReagent.png/revision/latest?cb=20200821203904",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Hazy Reagent",
+            "description": "Increases the Thickness of the Dark Mist by +50\u00a0%.\n\"The Mist is alluring, hypnotising.I love it and fear it at the same time.\" \u2014 Donna's Sketchbook",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_hazyReagent.png/revision/latest?cb=20200821204307",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Murky Reagent",
+            "description": "Increases the Thickness of the Dark Mist by +75\u00a0%.\n\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" \u2014 Unknown, Notebook",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/FulliconFavors_murkyReagent.png/revision/latest?cb=20200821204537",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Annotated Blueprint",
+            "description": "Increases the Odds of spawning the Hatch near the Killer Shack (if available) by 100\u00a0%.\n\"Essential information is scribbled along the side, but by whom?\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/FulliconFavors_annotatedBlueprint.png/revision/latest?cb=20200821191521",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Vigo's Blueprint",
+            "description": "Increases the Odds of spawning the Hatch in the Main Landmark Building (if available) by 100\u00a0%.\n\"A clever design that has the letter 'V' etched on the bottom.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/FulliconFavors_vigosBlueprint.png/revision/latest?cb=20200821191643",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Mouldy Oak",
+            "description": "Calls upon The Entity to decrease the minimum Spawn distance between Hooks by -1.5 metres.\n\"A damp and decaying piece of oak replete with mould.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_moldyOak.png/revision/latest?cb=20200821204530",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Rotten Oak",
+            "description": "Calls upon The Entity to decrease the minimum Spawn distance between Hooks by -2.5 metres.\n\"A decomposing piece of oak in which strange markings have been etched.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconFavors_rottenOak.png/revision/latest?cb=20200821204947",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Putrid Oak",
+            "description": "Calls upon The Entity to decrease the minimum Spawn distance between Hooks by -3.5 metres.\n\"A ruined piece of oak oozing with a black putrescent liquid.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconFavors_putridOak.png/revision/latest?cb=20200821204659",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Petrified Oak",
+            "description": "Calms The Entity to increase the minimum Spawn distance between Hooks by +1 metre.\n\"A deteriorating piece of petrified wood.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconFavors_petrifiedOak.png/revision/latest?cb=20200821204635",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Cypress Memento Mori",
+            "description": "THIS OFFERING IS SECRET.\nGrants the ability to kill the last remaining Survivor in the Trial in the Dying State.\n\"You worked well, the last one is yours.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_cypressMementoMori.png/revision/latest?cb=20200821203544",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Ivory Memento Mori",
+            "description": "THIS OFFERING IS SECRET.\nGrants the ability to kill one Survivor in the Dying State, who has progressed two Hook Stages.\n\"Grant me the favour of killing one.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconFavors_ivoryMementoMori.png/revision/latest?cb=20200821204401",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Ebony Memento Mori",
+            "description": "THIS OFFERING IS SECRET.\nGrants the ability to kill all Survivors in the Dying State, who have progressed two Hook Stages.\n\"I could swear It spoke to the beast.It came to a halt, as if calmly listening to the leaves rustling, and then... grinned.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_ebonyMementoMori.png/revision/latest?cb=20200821203851",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Azarov's Key",
+            "description": "Increases the Odds of being sent to the Autohaven Wreckers Realm by 9,999\u00a0%.\n\"A broken key pertaining to a vehicle of unknown brand.A key-chain attached to it identifies the owner as a certain 'A. Azarov'\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconFavors_azarovsKey.png/revision/latest?cb=20200821202700",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Grandma's Cookbook",
+            "description": "Increases the Odds of being sent to the Backwater Swamp Realm by 9,999\u00a0%.\n\"A leather-bound book containing horrible human meat recipes such as the granny-slapping good chilli.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_granmasCookbook.png/revision/latest?cb=20200821194539",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Heart Locket",
+            "description": "Increases the Odds of being sent to the Coldwind Farm Realm by 9,999\u00a0%.\n\"A silver heart locket necklace.The simple interior is engraved with the following: 'E+M'.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconFavors_heartLocket.png/revision/latest?cb=20200821204312",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Charred Wedding Photograph",
+            "description": "Increases the Odds of being sent to the Crotus Prenn Asylum Realm by 9,999\u00a0%.\n\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_charredWeddingPhotograph.png/revision/latest?cb=20200821203249",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Crow's Eye",
+            "description": "Increases the Odds of being sent to the Forsaken Boneyard Realm by 9,999\u00a0%.\n\"The dark, beady eye shifts back and forth as if searching for a bloody strip of carrion.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/FulliconFavors_crowsEye.png/revision/latest?cb=20211109194752",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Jigsaw Piece",
+            "description": "Increases the Odds of being sent to the Gideon Meat Plant Realm by 9,999\u00a0%.\n\"Congratulations.You are still alive.Most people are so ungrateful to be alive.But not you.Not anymore.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/FulliconFavors_jigsawPiece.png/revision/latest?cb=20200821193208",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Dusty Noose",
+            "description": "Increases the Odds of being sent to the Grave of Glenvale Realm by 9,999\u00a0%.\n\"Ask anyone trying to survive on this damn dust-choked land and they will tell you what a noose really is \u2014 a damn mercy.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/FulliconFavors_dustyNoose.png/revision/latest?cb=20200821192318",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Strode Realty Key",
+            "description": "Increases the Odds of being sent to the Haddonfield Realm by 9,999\u00a0%.\n\"A house key, mundane in appearance.A cardboard key-tag attached to it reads 'Strode Real Estate', followed by a handwritten address:'45 Lampkin Lane'.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconFavors_strodeRealtyKey.png/revision/latest?cb=20200821205205",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Shattered Glasses",
+            "description": "Increases the Odds of being sent to the L\u00e9ry's Memorial Institute Realm by 9,999\u00a0%.\n\"Bent reading glasses.Speckles of dried blood can be seen on the shattered lenses.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b6/FulliconFavors_shatteredGlasses.png/revision/latest?cb=20200821194350",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "MacMillan's Phalanx Bone",
+            "description": "Increases the Odds of being sent to the The MacMillan Estate Realm by 9,999\u00a0%.\n\"MacMillan's skeletal remains were found in the basement of the mine's storehouse.His leg bones shattered into pieces and a mining hammer lying in his lap.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/44/FulliconFavors_macMillansPhalanxBone.png/revision/latest?cb=20200821204428",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Damaged Photo",
+            "description": "Increases the Odds of being sent to the Ormond Realm by 9,999\u00a0%.\n28 August 1996\"A dormant darkness lies beneath his childlike smile, about to be awakened.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconFavors_damagedPhoto.png/revision/latest?cb=20200821192616",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "RPD Badge",
+            "description": "Increases the Odds of being sent to the Raccoon City Realm by 9,999\u00a0%.\n\"If we stay here that monster will find us.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/FulliconFavors_rpdBadge.png/revision/latest?cb=20210525215945",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "RPD Badge",
+            "description": "Increases the Odds of being sent to the Raccoon City Realm by 9,999\u00a0%.\n\"If we stay here that monster will find us.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/FulliconFavors_rpdBadge.png/revision/latest?cb=20210525215945",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Painted River Rock",
+            "description": "THIS OFFERING HAS BEEN RETIRED.\nIncreases the Odds of being sent to the Red Forest Realm by 200\u00a0%.\n\"A slick and soft rock, polished by a stream.Decorated with red, black and white paint to depict a serious looking bear.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconFavors_paintedRiverRock.png/revision/latest?cb=20200821193922",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Children's Book",
+            "description": "THIS OFFERING HAS BEEN RETIRED.\nIncreases the Odds of being sent to the Red Forest Realm by 500\u00a0%.\n\"An ancient and decrepit story book which pages have been lost to the elements.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconFavors_childrensBook.png/revision/latest?cb=20200821193839",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "The Last Mask",
+            "description": "Increases the Odds of being sent to the Red Forest Realm by 9,999\u00a0%.\n\"A beautifully crafted tiger mask that would fit snug on a child's face.A faded note in the Cyrillic alphabet can be found scripted on the back.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/FulliconFavors_theLastMask.png/revision/latest?cb=20200821194030",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Mary's Letter",
+            "description": "Increases the Odds of being sent to the Silent Hill Realm by 9,999\u00a0%.\n\"In my restless dreams, I see that town.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6f/FulliconFavors_marysLetter.png/revision/latest?cb=20200821192026",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "The Pied Piper",
+            "description": "Increases the Odds of being sent to the Springwood Realm by 9,999\u00a0%.\n\"Betrayed by the town, he exacts his revenge by taking all their children.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/FulliconFavors_thePiedPiper.png/revision/latest?cb=20200821193638",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Ichorous Loam",
+            "description": "Increases the Odds of being sent to the Withered Isle Realm by 9,999\u00a0%.\n\"Expel malthought from your mind, from your heart, from your mouth, to prevent the darkness from corrupting your truth.For to let darkness find seed in your soul is to invite The Druanee.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/be/FulliconFavors_ichorousLoam.png/revision/latest?cb=20220520115834",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Yamaoka Family Crest",
+            "description": "Increases the Odds of being sent to the Yamaoka Estate Realm by 9,999\u00a0%.\n\"You never leave a broken home.You only run away until the memories stop haunting you.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_yamaokaFamilyCrest.png/revision/latest?cb=20200821192825",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Shroud of Union",
+            "description": "THIS OFFERING IS SECRET.\nCalms the Entity to spawn all Survivors in pairs.\n\"A knotted piece of fabric.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/FulliconFavors_shroudOfUnion.png/revision/latest?cb=20200821205110",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Shroud of Separation",
+            "description": "THIS OFFERING IS SECRET.\nCalls upon The Entity to spawn all Survivors apart from one another.\n\"A thin black shroud which is falling apart.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_shroudOfSeparation.png/revision/latest?cb=20200821205057",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "Vigo's Shroud",
+            "description": "THIS OFFERING IS SECRET.\nCalms the Entity to spawn you as far away from The Killer as possible.\n\"I found marvels through the years in The Fog, but only now do I understand how to bend The Fog's irrefragable rules.\" \u2014 Vigo's Journal",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/FulliconFavors_vigosShroud.png/revision/latest?cb=20210326172000",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Shroud of Binding",
+            "description": "THIS OFFERING IS SECRET.\nCalms the Entity to spawn all Survivors together.\n\"A square and washed out piece of fabric with small knots on each end.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_shroudOfBinding.png/revision/latest?cb=20200821205049",
+            "fromS": 1,
+            "fromK": 0
+        },
+        {
+            "name": "Sacrificial Ward",
+            "description": "Calls upon The Entity to reject all Offerings that alter the Odds of being sent to a specific Realm.\nSacrificial Ward is only cancelled if 4 identical Realm Selection Offerings are played.\n\"With blind eyes, we surrender our will and appeal to you for guidance.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconFavors_sacrificialWard.png/revision/latest?cb=20200821191706",
+            "fromS": 1,
+            "fromK": 1
+        },
+        {
+            "name": "Black Ward",
+            "description": "Grants protection against the loss of your Add-ons at the end of the Trial.\n\"Hear my voice, spare my ways, protect me from the void.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b8/FulliconFavors_blackWard.png/revision/latest?cb=20200821202731",
+            "fromS": 0,
+            "fromK": 1
+        },
+        {
+            "name": "White Ward",
+            "description": "Grants protection against the loss of your Item and its Add-ons.\n\"Keep me from evil, defend me, and pass away.\"",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconFavors_whiteWard.png/revision/latest?cb=20200821205307",
+            "fromS": 1,
+            "fromK": 0
+        }
+    ]
+}
