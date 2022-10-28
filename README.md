@@ -4,26 +4,74 @@
     <br>
     🤖Dead by Daylight Randomizer🤖
     <br>
-    by NopeIsDope
+    A fanBot of Dead by Daylight by NopeIsDope ( Iker )
 </h1>
 
+<h4 align="center" >
 A randomizer for the game Dead By Daylight (DBD) that allows you to play with random perks, add-ons, offerings, and more!
 The name of the proyect its provisional, it can change in the future.
+</h4>
 
 <h2 align="center">This bot is currently in development and is not yet ready for use!!!.</h2>
 
 ## **Table of Contents📋**
+<!--ts-->
+   * [Table of Contents📋](#table-of-contents)
+   * [About📖](#about)
+   * [Getting Started🚀](#getting-started)
+      * [Prerequisites📋](#prerequisites)
+      * [Installing🔧](#installing)
+   * [Commands⚙️](#Commands)
+   * [Deployment📦](#deployment)
+   * [Built With🛠️](#built-with)
+   * [Contributing🖇️](#contributing)
+   * [Versioning📌](#versioning)
+   * [Authors✒️](#authors)
+   * [License📄](#license)
+   * [Acknowledgments🎁](#acknowledgments)
 
-## **How to use📒**
+
+## **About📖**
+
+
+## **Getting Started🚀**
+
 1. When the bot is added to your server, type `!dbd` to get a list of commands.
 2. Type `!dbd help` to get a list of commands.
 3. Type `!dbd help <command>` to get more information about a specific command.
 4. Type `!dbd <command>` to use a command.
 
+### **Prerequisites📋**
+To run the bot in its final version you will need to have installed Discord. You can download it from the following link: https://discord.com/download
+
+But, if you want to check the bot in its development phase (its in Github free to admire 🫣) you will need to have installed:
+* [Node.js](https://nodejs.org/es/download/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Python](https://www.python.org/downloads/)
+  * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+  * [Requests](https://pypi.org/project/requests/)
+  * [Pandas](https://pypi.org/project/pandas/)
+  * [Numpy](https://pypi.org/project/numpy/)
+  * [Discord.py](https://pypi.org/project/discord.py/)
+  * [json](https://pypi.org/project/json/)
+*[Docker-Compose](https://docs.docker.com/compose/install/)
+
+Reminder: Its under license, so you can't use it for commercial purposes. And its a personal project, so it can be changed or deleted at any time. If you suggest something, I will be happy to listen to you but its the author's decision to accept or not the suggestion.
+
+### **Installing🔧**
+To install the bot you will need to download the files from the repository. You can do it by downloading the zip file or by cloning the repository with the following command:
+```
+git clone
+```
+
+Reminder: As said before, you can download to see and test by yourself the bot, but you can't redistribute it or use it for commercial purposes.
+
 ## **Commands⌨️**
 ALL OF THEM STARTS WITH `!dbd <command>`
 
 ### **General**
+
+- `help` - Get a list of commands or more information about a specific command.
 - `dbd about <command>` - Get information about a command. (Commands with a second argument aren't available at the moment.) 
 
 - `help` - Get an introduction to the bot
@@ -160,8 +208,45 @@ Checking the sql inserts (1st check: SQL number of entries is correct)
 ### **vPre-0.2.1.1**
 Checking the sql inserts (order of insertion as the creation of the tables in progress..)
 
+
+</details>
+
+## **To-Do List📝**
+<details>
+  <summary>Click to expand!</summary>
+
+- [x] Create the repository and the README.md file.
+- [x] Create the ERD and add it to the README.md file.
+- [x] SQL database created.
+- [x] Add the license to the README.md file.
+- [x] Programmed the commands `!dbd about <command>` and `!dbd help <command>`.
+- [x] At the moment commands with a second argument aren't available.
+- [x] Programmed the commands `!dbd help` and `!dbd commands`.
+- [x] Added new commands ideas to the README.md file.
+- [x] Added Iker and Juan selected setup command
+- [x] First commit to the repository.
+- [x] Added the bot to the support server.
+- [x] Added the github link to the README.md file.
+- [x] Brainstorming to take the data from the wiki.
+- [x] Start scraping the wiki.
+- [x] Scraped all perks data from the wiki.
+- [x] Scraped all add-ons data from the wiki.
+- [x] Scraped all offerings data from the wiki.
+- [x] Scraped all the items data from the wiki.
+- [x] Scraped all the people data from the wiki.
+- [x] All data scrapped from the wiki.
+- [x] Sql files created.
+- [x] Formatted the files and making the workspace structured.
+- [x] Checking the sql inserts (1st check: SQL number of entries is correct)
+- [x] Checking the sql inserts (order of insertion as the creation of the tables in progress..)
+- [ ] Checking the sql inserts (2nd check: SQL number of entries is correct)
+- [...] 
+
+</details>
+
 ## **Contributing🤝**
 This is actually a non-profit project and also a private project, so currently I'm not accepting contributions 😢.
+
 
 ## **Donate🤑**
 **No!** This is a non-profit project and also a private project, so we don't accept any donations.
