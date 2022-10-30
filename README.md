@@ -36,7 +36,7 @@ The name of the proyect its provisional, it can change in the future.
 
 ## **Getting Started🚀**
 
-1. When the bot is added to your server, type `!dbd` to get a list of commands.
+1. When the bot is added to your server, type `!dbd` to get a list of commands of all the features of the bot.
 2. Type `!dbd help` to get a list of commands.
 3. Type `!dbd help <command>` to get more information about a specific command.
 4. Type `!dbd <command>` to use a command.
