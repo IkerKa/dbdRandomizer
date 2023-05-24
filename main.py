@@ -169,7 +169,7 @@ def get_juan_setup():
 
   # We have the image of the survivor in the folder so we will use that one
 
-  Surv_image = "Juan/New_Store_Leon.png"
+  Surv_image = "devsSelection/Juan/New_Store_Leon.png"
 
   # We will return all the variables
 
@@ -198,8 +198,8 @@ def get_Iker_setup():
   Survivor = "Jill Valentine"
   # the perks will be in italics
   Perk1 = "*Adrenaline*"
-  Perk2 = "*Inner Strength*"
-  Perk3 = "*Blood Pact* / *Lithe*"
+  Perk2 = "*Dance With Me*"
+  Perk3 = "*Lithe*"
 
   Item = "Flashlight"
 
@@ -207,7 +207,7 @@ def get_Iker_setup():
 
   # We have the image of the survivor in the folder so we will use that one
 
-  Surv_image = "Iker/New_Store_Jill.png"
+  Surv_image = "devsSelection/Iker/New_Store_Jill.png"
 
   # We will return all the variables
 
@@ -304,6 +304,7 @@ async def on_message(message):
 
 
   # borrador
+  # --NO LONGER AVAILABLE--
   if message.content.startswith('!dbd randomPerk'):
     # we take the image and the info from the function
     perk_info, perk_image = get_one_random_perk()
