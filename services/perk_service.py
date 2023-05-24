@@ -38,9 +38,42 @@ class PerkService():
             # If there is no result, raise an exception
             if result is None:
                 raise Exception("WHOOOOPSIES :o, there is no perk with those flags")
+
+            # Get perk owner: access to the survivor or killer table and check the name
+
+            # First check, if the perk is from a survivor
+            cursor.execute(
+                """
+                SELECT *
+                FROM Survivors
+                WHERE perk_1s = %s OR perk_2s = %s OR perk_3s = %s;
+                """,
+
+                (result[0], result[0], result[0])
+            )
+
+            owner_survivor = cursor.fetchone()
+
+            # Second check, if the perk is from a killer
+            cursor.execute(
+                """
+                SELECT *
+                FROM Killers
+                WHERE perk_1k = %s OR perk_2k = %s OR perk_3k = %s;
+                """,
+
+                (result[0], result[0], result[0])
+            )
+
+            owner_killer = cursor.fetchone()
             
+            # Union the results and take the first one of the tuple (deberia haber uno)
+            if owner_killer is None:
+                owner = owner_survivor
+            else:
+                owner = owner_killer
             # Return the result
-            return result
+            return result, owner
 
     def random_perks(self, number : int) -> list:
         """
