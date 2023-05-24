@@ -77,7 +77,6 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `help` - Get an introduction to the bot
 - `commands` - Get a list of commands
 - `randomPerk` - Get a random perk
-- `randomPerks` - Get a list of random perks
 - `randomAddOn` - Get a random add-on
 - `randomAddOns` - Get a list of random add-ons
 - `randomOffering` - Get a random offering
@@ -106,7 +105,7 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 
 - `itemlist` - Get a list of all items (f.e medkit, toolbox, etc.) (pending)
 - `authors` - Get a list of all authors of the bot with its favorite perk, survivor, killer, item and its github link
-- `sugeredPerkCombos` - Get a random sugered perk combo of 4 perks to use
+- `sugestedPerkCombos` - Get a random sugested perk combo of 4 perks to use
 - `randomObjetive` - Get a random objetive to do in the match
         -Example: `!dbd randomObjetive` : "do 4 beamer saves in a match" (easy to do in the tutorial of discord bot (inspirational messages))
 

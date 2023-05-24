@@ -14,7 +14,8 @@ from dotenv import load_dotenv
 import io
 #modify images
 #from PIL import Image
-
+import services
+import traceback
 
 
 load_dotenv()
@@ -100,45 +101,18 @@ def formatCommands(indv,command):
       return "Command not found"
 
 
-# This is to check the API examples
-def get_one_random_perk():
-    # get a random perk from the api
-    response = requests.get("https://dead-by-api.herokuapp.com/api/perks/surv/random")
-    # get the json data
-    json_data = json.loads(response.text)
-
-    #print(json_data)
-   
-    # we get the name of the perk
-    # {'status': 'success', 'results': 1, 'data': [{'_id': '62d5cf44754ff04cb8ebb4e7', 'id': 18, 'name': 'This Is Not Happening'
-    perk_name = json_data['data'][0]['name']
-    # we get the description of the perk
-    perk_description = json_data['data'][0]['description']
-    # we get the icon of the perk
-    perk_icon = json_data['data'][0]['icon']
-
-    # We will show the icon of the perk on discord
-    # we need to get the image from the url
-    # we will use the requests library to get the image
-    # we will use the content attribute to get the image
-    # we will use the bytes() function to convert the image to bytes
-    # we will use the discord.File() function to convert the image to a discord file
+# ---> comando: !dbd randomPerk 
+def getRandPerk():
     
-    # First we got the icon in not bytes so we need to convert it to bytes
-    
-    perk_icon_bytes = bytes(requests.get(perk_icon).content)
+  # Instance the perk class
+  perkService = services.PerkService()
 
-    # We will return perk_icon_bytes
+  # access the method to get a random perk
+  # Params: True True bc we want to get a random perk from the survivors and killers
+  perk = perkService.random_perk(1,1);
 
-    # We now concatenate the name, description and rarity of the perk
-    # With the titles in bold and the description in italic
-    # We will use the discord markdown to do that
-
-    perk_info = f"**{perk_name}**\n*{perk_description}*"
-
-    return perk_info, perk_icon_bytes
-
-
+  print(perk)
+  return perk, None
 
 # Get Juan setup:
 # It includes his favurite survivor
@@ -304,23 +278,26 @@ async def on_message(message):
 
 
   # borrador
-  # --NO LONGER AVAILABLE--
+  # --NO LONGER AVAILABLE (api no longer available)--
   if message.content.startswith('!dbd randomPerk'):
     # we take the image and the info from the function
-    perk_info, perk_image = get_one_random_perk()
 
-    # we have the image in bytes, we need to have it in utf-8
-    # we will use the io.BytesIO() function to convert the image to utf-8
-    perk_image_utf8 = io.BytesIO(perk_image)
+    try:
+      perk_info, perk_image = getRandPerk()
 
-    # we will use the discord.File() function to convert the image to a discord file
-    # And the image will show centered in discord (on the message)
-    perk_image_discord_file = discord.File(perk_image_utf8, filename="perk_image.png")
+      # we have the image in bytes, we need to have it in utf-8
+      # we will use the io.BytesIO() function to convert the image to utf-8
+      perk_image_utf8 = io.BytesIO(perk_image)
 
-    # we will send the message with the image
-    await message.channel.send(perk_info, file=perk_image_discord_file)
-    #await message.channel.send(perk_info, file=perk_image)
+      # we will use the discord.File() function to convert the image to a discord file
+      # And the image will show centered in discord (on the message)
+      perk_image_discord_file = discord.File(perk_image_utf8, filename="perk_image.png")
 
+      # we will send the message with the image
+      await message.channel.send(perk_info, file=perk_image_discord_file)
+      #await message.channel.send(perk_info, file=perk_image)
+    except Exception as e:
+      await message.channel.send(f'```{traceback.format_exception(e)}```') 
   
   
   # Rest of the commands

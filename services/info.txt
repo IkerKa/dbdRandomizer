@@ -1,0 +1,2 @@
+Se creara un <nombre>_service.py para cada petición/comando del BOT, para que solo se 
+consuma el servicio para el comando en concreto y no more
