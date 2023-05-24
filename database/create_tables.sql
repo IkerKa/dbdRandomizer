@@ -66,6 +66,11 @@ CREATE TABLE Killers
     
 );
 
+--modificar mainHability para que sea TEXT
+--alter table Killers modify mainHability TEXT;
+--en postgresql
+--alter table Killers alter column mainHability type TEXT;
+
 --Tabla de Items
 CREATE TABLE Items
 (
@@ -107,6 +112,18 @@ CREATE TABLE Offerings
 
     PRIMARY KEY (offerName)
 );
+
+--alter table Offerings alter column descripcion type TEXT;
+
+--POSTGRESQL, cambiar boolean a entero
+--alter table Offerings alter column fromSurvivor type INT;
+--alter table Offerings alter column fromKiller type INT;
+
+--SQL Error [42804]: ERROR: column "fromkiller" cannot be cast automatically to type integer
+  --Hint: You might need to specify "USING fromkiller::integer".
+
+--   alter table Offerings alter column fromKiller type INT USING fromKiller::integer;
+--   alter table Offerings alter column fromSurvivor type INT USING fromSurvivor::integer;
 
 --Tabla de Power_Addons
 CREATE TABLE Power_Addons

@@ -1165,3 +1165,15 @@ The Auras of trapped Generators are revealed to all Survivors in yellow.
 When the Killer comes within 14 metres of a trapped Generator, their Aura is revealed to all Survivors.
 Damaging the Generator destroys the Wiretap.
 ',1,0);
+
+
+
+INSERT INTO Perk VALUES('Better Together','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_betterTogether.png/revision/latest?cb=20190903175013' ,'You seek justice and uncover the truth no matter what obstacle stands in your way.
+While repairing a GeneratorIconHelpLoading generators, its AuraIconHelp auras is revealed in yellow to all other Survivors located within 32 metres.
+If the KillerIconHelpLoading killer downs a Survivor while you are repairing a Generator, you see the Auras of all other Survivors for 8/9/10 seconds.
+"Let`s burn that lab to the ground." — Nancy Wheeler',1,0);
+
+
+INSERT INTO Perk VALUES('A Nurse''s Calling','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_aNursesCalling.png/revision/latest?cb=20160820090103' ,'Unlocks potential in one''s Aura-reading ability. The Auras of Survivors who are healing or being healed are revealed to you when they are within 20/26/32 metres of range..',0,1)
+
+--NO ESTAN EN LA BBDD
