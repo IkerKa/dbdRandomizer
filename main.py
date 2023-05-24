@@ -107,8 +107,8 @@ def getRandPerk():
     # access the method to get a random perk
     # Params: True True bc we want to get a random perk from the survivors and killers
     perk, owner = perkService.random_perk(1, 1)
-    print(perk)
-    print(owner)
+    # print(perk)
+    # print(owner)
 
     perk_name = perk[0]
     perk_description = perk[1]
