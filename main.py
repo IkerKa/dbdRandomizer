@@ -35,7 +35,7 @@ client = discord.Client(intents=intent)
 # parameters: boolean for the command
 # return: string with the text
 # if boolean is true, we show all the commands
-# if boolean is false, we show the command of the parameter
+# if boolean is false, we show the command of the parameter --> NEEDS TO BE FIXED THIS FUNCTION
 def formatCommands(indv, command):
     # We have all the commands on the readme file
     # We will use the discord markdown to format the text
@@ -118,13 +118,28 @@ def getRandPerk():
     # We return the name, description and image of the perk
     return perk_name, perk_description, perk_image, owner
 
+
+def getPerkInfo(perkName):
+    perkService = services.PerkService()
+
+    # Future update: Can be easily put the same function as the random perk with a flag and dont repeat code :)
+    perk, owner = perkService.perk_info(perkName)
+
+    if perk == None:
+        return None, None, None, None
+
+    perk_name = perk[0]
+    perk_description = perk[1]
+    perk_image = perk[2]
+
+    return perk_name, perk_description, perk_image, owner
+
+
 # Get Juan setup:
 # It includes his favurite survivor
 # His top 3 perks (from the survivors)
 # Favourite item
 # Favourite map
-
-
 def get_juan_setup():
     # We will get the survivor
     # We will get the perks
@@ -295,8 +310,13 @@ async def on_message(message):
                 color=0x00ff00,
                 timestamp=datetime.datetime.now(datetime.timezone.utc))
 
-            embed.set_footer(
-                text=f"Owner: {owner[0]}",
+            # embed.set_footer(
+            #     text=f"Owner: {owner[0]}",
+            #     icon_url=owner[-1],
+            # )
+            # Try author instead of footer
+            embed.set_author(
+                name=f"Owner: {owner[0]}",
                 icon_url=owner[-1],
             )
 
@@ -308,7 +328,96 @@ async def on_message(message):
         except Exception as e:
             await message.channel.send(f'```{traceback.format_exception(e)}```')
 
-    # Rest of the commands
+    # if the message is !dbd perk <perk name>
+    if message.content.startswith('!dbd perk'):
+        #  Take perks name (it can be with spaces)
+
+        try:
+
+            perkN = message.content[10:]
+
+            # We will call the function to get the perk
+            perk_name, perk_image, perk_description, owner = getPerkInfo(
+                perkN)
+
+            if perk_name == None:
+                # Send an image with the perk not found
+                # url: https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641
+                await message.channel.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641")
+                # Message saying that the perk was not found, centerered and in bold
+                await message.channel.send(f"**{perkN}** was not found (case sensitive)")
+
+                # Show the list of perks
+                await message.channel.send("Here is a list of perks you can check:")
+                await message.channel.send("https://deadbydaylight.fandom.com/wiki/Perks")
+                await message.channel.send("Or you can use the command **!dbd randomPerk** to get a random perk")
+
+                return
+
+            if owner == None:
+                owner = ("No pertenece a nadie (:",
+                        "https://i.imgur.com/Od372kM_d.webp?maxwidth=760&fidelity=grand")
+
+            # We will create the embed
+            # timestamp utc + 2
+            embed = discord.Embed(
+                title=perk_name,
+                description=perk_description,
+                color=0x00fff0,
+                timestamp=datetime.datetime.now(datetime.timezone.utc))
+
+            # embed.set_footer(
+            #     text=f"Owner: {owner[0]}",
+            #     icon_url=owner[-1],
+            # )
+            # Try author instead of footer
+            embed.set_author(
+                name=f"Owner: {owner[0]}",
+                icon_url=owner[-1],
+            )
+
+            embed.set_thumbnail(url=perk_image)
+
+            # We will send the embed
+            await message.channel.send(embed=embed)
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+    # if the message is !dbd simplePerk
+    if message.content.startswith('!dbd simplePerk'):
+        # Just inline the image of the perk and the name of the perk in the same line
+        try:
+            perk_name, perk_image, _, _ = getRandPerk()
+
+            # Show an embed with the name of the perk and the image
+            embed = discord.Embed(
+                color=0xff0000,
+                timestamp=datetime.datetime.now(datetime.timezone.utc))
+
+            # Title of the embed bold and centered
+            embed.add_field(name="Perk:",
+                            value=f"**{perk_name}**",
+                            inline=False)
+            
+            embed.set_image(url=perk_image)
+
+            # We will send the embed
+            await message.channel.send(embed=embed)
+
+
+
+
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+
+    
+
+
+
+
+
+    
 
 
 # Run the bot

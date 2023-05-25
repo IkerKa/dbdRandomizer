@@ -75,11 +75,63 @@ class PerkService():
             # Return the result
             return result, owner
 
-    def random_perks(self, number : int) -> list:
-        """
+    def perk_info(self, perk_name : str) -> tuple:
+        # The same as random_perk, but with a perk name, so first, we need to get the perk and check if it exists
+        with conn.cursor() as cursor:
 
-        """
-        pass
+            cursor.execute(
+                """
+                SELECT *
+                FROM Perks
+                WHERE perkName = %s
+                """,
+                (perk_name,)
+            )
+
+            # Get the result
+            result = cursor.fetchone()
+
+            # Check if it has returned something
+            if result is None:
+                return None, None
+            
+            # After that, get the owner
+            cursor.execute(
+                """
+                SELECT *
+                FROM Survivors
+                WHERE perk_1s = %s OR perk_2s = %s OR perk_3s = %s;
+                """,
+
+                (result[0], result[0], result[0])
+            )
+
+            owner_survivor = cursor.fetchone()
+
+            # Second check, if the perk is from a killer
+            cursor.execute(
+                """
+                SELECT *
+                FROM Killers
+                WHERE perk_1k = %s OR perk_2k = %s OR perk_3k = %s;
+                """,
+
+                (result[0], result[0], result[0])
+            )
+
+            owner_killer = cursor.fetchone()
+            
+            # Union the results and take the first one of the tuple (deberia haber uno)
+            if owner_killer is None:
+                owner = owner_survivor
+            else:
+                owner = owner_killer
+            # Return the result
+            return result, owner
+        
+
+            
+
     
     def random_combo(self):
         pass
