@@ -83,9 +83,8 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `addon <addonName>` - Get information about a specific add-on                           *(completed)*
 - `survivor` - Get a random survivor                                                      *(completed)*
 - `survivor <name>` - Get information about a specific survivor                           *(completed)*
-- `randomOffering` - Get a random offering
-- `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer
-- `offering` - Get a random offering with the information about it.
+- `offering <name>?` - Get information about a specific offering                          *(completed)*
+- `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer                   *(completed)*
 - `killer` - Get a random killer
 - `survivor <name>` - Get information about a specific survivor (pending)
 - `killer <name>` - Get information about a specific killer (pending)
@@ -113,6 +112,9 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `map <name>` - Get information about a specific map
 - `maplist` - Get a list of all maps
 - `shrine` - Get the current shrine of secrets
+
+--Future updates--
+- `bingo` - Get a list of objectives. Two players can enter a room, first to complete a line wins.
 
 ## **Entity Relationalship Diagram (ERD)📊**
 #### *Final Version*

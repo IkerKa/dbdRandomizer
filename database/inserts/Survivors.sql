@@ -73,3 +73,28 @@ INSERT INTO Survivors VALUES('Zarina Kassir','Off the Record','Red Herring','For
 INSERT INTO Survivors VALUES('Élodie Rakoto','Appraisal','Deception','Power Struggle','Occult investigator Élodie Rakoto has seen first-hand that things are not always as they seem. The comforting rational explanation isn’t always correct, and there’s certainly no reasoning with these merciless Killers. Luckily, she’s got more than a few cunning tricks up her sleeve.
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/New_Store_Elodie.png/revision/latest?cb=20220325045411');
 
+--NO ESTAN EN LA BASE DE DATOS
+
+INSERT INTO Survivors VALUES('Gabriel Soma','Troubleshooter','Made for This','Scavenger',
+'Gabriel Soma is a resourceful engineer, ready to make the most out of any situation.His personal Perks, TroubleshooterIconPerks troubleshooter, Made for ThisIconPerks madeForThis, and ScavengerIconPerks scavenger, help him see things during a Chase, gain Endurance after healing Survivors, and recharge his Toolbox.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/S37_storeBackground.png/revision/latest?cb=20230523203736');
+
+
+INSERT INTO Survivors VALUES('Renato Lyra','Blood Rush','Teamwork: Collective Stealth','Background Player',
+'Renato Lyra always keeps his eyes on the prize, and he expects the same from his teammates.His personal Perks, Blood RushIconPerks bloodRush, Teamwork: Collective StealthIconPerks teamworkCollectiveStealth, and Background PlayerIconPerks backgroundPlayer, allow him to move faster when near a chase, recover from Exhaustion instantly, and hide his and an allie''s Scratch Marks after healing.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/Store_Renato.png/revision/latest?cb=20230308040632');
+
+INSERT INTO Survivors VALUES('Thalita Lyra','Friendly Competition','Teamwork: Power of Two','Cut Loose',
+'Thalita Lyra has mastered the art of competitive flair, fighting kites with skill and flourish.
+Her personal Perks, Friendly CompetitionIconPerks friendlyCompetition, Teamwork: Power of TwoIconPerks teamworkPowerOfTwo, and Cut LooseIconPerks cutLoose, allow her to perform a series of stealthy fast vaults, inspire faster repairs from teammates, and help allies move faster after they are healed by you.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/Store_Thalita.png/revision/latest?cb=20230308040648');
+
+
+INSERT INTO Survivors VALUES('Vittorio Toscano','Potential Energy','Fogwise','Quick Gambit',
+'Vittorio Toscano has endlessly wandered through The Fog, attempting to learn its secrets, for ages.
+His personal Perks, Potential EnergyIconPerks potentialEnergy, FogwiseIconPerks fogwise, and Quick GambitIconPerks quickGambit, allow him to store Generator progress to use later, reveal the Killer''s location after a Great Skill Check, and give others a speed boost while repairing.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f2/Store_Vittorio.png/revision/latest?cb=20221122173820');
+
+
+
+

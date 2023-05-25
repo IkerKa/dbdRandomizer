@@ -1508,3 +1508,163 @@ Exiting a Locker during Nightfall blocks all Vault locations within 16 metres of
 INSERT INTO Power_Addons VALUES('Iridescent Wooden Plank','The Dredge (The  Dredge)','Once the journalist''s blood stained the wooden boards of the stage, everything was set into motion for The Dredge''s arrival.
 Survivors suffer from the Exposed Status Effect for the final 12 seconds of Nightfall.
 "She came here to poison your minds with fear! Do not let the fear in!" — Otto Stamper','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_iridescentWoodenPlank.png/revision/latest?cb=20220606143854');
+
+
+
+--NO ESTA EN LA BASE DE DATOS
+
+
+INSERT INTO Power_Addons VALUES('Tattered Tabard','Tarhos Kovács (The  Knight)','Cloaked in heavy fabrics, neither human nor nature could stop them once they had their target.
+Increases the Patrol duration of Guards by +6 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconAddon_tatteredTabard.png/revision/latest?cb=20221103100617');
+INSERT INTO Power_Addons VALUES('Pillaged Mead','Tarhos Kovács (The  Knight)','Drinks taken from their victims tasted sweet, but such frivolities were often short-lived.
+Reduces the Break or Damage Action duration of Guards by -25 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/FulliconAddon_pillagedMead.png/revision/latest?cb=20221103100554');
+INSERT INTO Power_Addons VALUES('Map of the Realm','Tarhos Kovács (The  Knight)','These unique leather maps were not easy to come by, but when they could not be purchased, they could be taken by force.
+Increases the Vision range of Guards on Patrol by +4 metres.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconAddon_mapOfTheRealm.png/revision/latest?cb=20221103100534');
+INSERT INTO Power_Addons VALUES('Gritty Lump','Tarhos Kovács (The  Knight)','A rock-hard, dense loaf filled their stomachs on most days, giving them the energy to commit truly heinous acts.
+Increases the Movement speed of Guards on Patrol by +9 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/FulliconAddon_grittyLump.png/revision/latest?cb=20221103100407');
+INSERT INTO Power_Addons VALUES('Treated Blade','Tarhos Kovács (The  Knight)','Durkos Malecek, The Assassin, stuck to the shadows, and was an efficient slaughterer.
+The Assassin  appears twice in a row while cycling through Guardia Compagnia.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/87/FulliconAddon_treatedBlade.png/revision/latest?cb=20221103093321');
+INSERT INTO Power_Addons VALUES('Dried Horsemeat','Tarhos Kovács (The  Knight)','Long campaigns often required restocking, and the steeds of fallen enemies were as good as any farm-fresh ration.
+Increases the Hunt duration of Guards by +4 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_driedHorsemeat.png/revision/latest?cb=20221103100328');
+INSERT INTO Power_Addons VALUES('Cold Steel Manacles','Tarhos Kovács (The  Knight)','Alejandro Santiago, The Jailer, apprenticed as an armourer, and showed no remorse.
+The Jailer  appears twice in a row while cycling through Guardia Compagnia.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/FulliconAddon_coldSteelManacles.png/revision/latest?cb=20221103100313');
+INSERT INTO Power_Addons VALUES('Call To Arms','Tarhos Kovács (The  Knight)','Posted across many towns, lords desperate to protect their riches posted for able-bodied mercenaries.None survived.
+Increases the maximum Patrol Path length by +10 metres.
+Increases the Movement speed of The Knight while drawing the Patrol Path by +25 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_callToArms.png/revision/latest?cb=20221103100243');
+INSERT INTO Power_Addons VALUES('Battle Axe Head','Tarhos Kovács (The  Knight)','Sander Rault was a tower of a man, terrifying in form and demeanour.
+The Carnifex  appears twice in a row while cycling through Guardia Compagnia.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconAddon_battleAxeHead.png/revision/latest?cb=20221103100044');
+INSERT INTO Power_Addons VALUES('Town Watch''s Torch','Tarhos Kovács (The  Knight)','Upon breaching a village, the first thing they would extinguish was the torches, and with them, hope.
+If Guards fail to damage Survivors during a Hunt a total of three times, The Knight is granted the Undetectable Status Effect for 25 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconAddon_townWatchsTorch.png/revision/latest?cb=20221103100634');
+INSERT INTO Power_Addons VALUES('Ironworker''s Tongs','Tarhos Kovács (The  Knight)','Vital for repairs between battles and a horrifying, gauging, tearing improvisational weapon.
+If a Guard fails to damage a Survivor during a Hunt, the Survivor will suffer from the Oblivious Status Effect for the next 20 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/FulliconAddon_ironworkersTongs.png/revision/latest?cb=20221103100450');
+INSERT INTO Power_Addons VALUES('Grim Iron Mask','Tarhos Kovács (The  Knight)','No method of torture was too base for Guardia Compagnia.Pain and humiliation went hand-in-hand.
+When a Guard detects a Survivor during a Patrol, the Survivor will suffer from the Blindness Status Effect for the next 60 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2b/FulliconAddon_grimIronMask.png/revision/latest?cb=20221103100356');
+INSERT INTO Power_Addons VALUES('Chain Mail Fragment','Tarhos Kovács (The  Knight)','Downtime was spent repairing their armour, to avoid being on the receiving end of a fatal blow.
+Guards inflict the Haemorrhage Status Effect when damaging a Survivor.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconAddon_chainMailFragment.png/revision/latest?cb=20221103100257');
+INSERT INTO Power_Addons VALUES('Broken Hilt','Tarhos Kovács (The  Knight)','A fresh weapon is clean, even surgical; an attack with a broken one is malicious and desperate.
+Guards inflict the Mangled Status Effect when damaging a Survivor.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/39/FulliconAddon_brokenHilt.png/revision/latest?cb=20221103100223');
+INSERT INTO Power_Addons VALUES('Lightweight Greaves','Tarhos Kovács (The  Knight)','Sometimes he wore lighter armour, letting him move faster; he knew nothing could stop him anyway.
+After summoning The Jailer , Lightweight Greaves increases the Movement speed of The Knight by +10 % for the next 6 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_lightweightGreaves.png/revision/latest?cb=20221103100522');
+INSERT INTO Power_Addons VALUES('Healing Poultice','Tarhos Kovács (The  Knight)','Their reputation was so large, so horrible, that the mere knowledge that they were coming was enough to bring people to their knees.
+After summoning The Assassin , all Survivors within 24 metres of The Assassin''s spawn location scream and reveal their location for 5 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/FulliconAddon_healingPoultice.png/revision/latest?cb=20221103100420');
+INSERT INTO Power_Addons VALUES('Flint and Steel','Tarhos Kovács (The  Knight)','Attacks at night were not uncommon.Fear was often their greatest ally.
+After summoning The Carnifex , the Auras of all Survivors within 24 metres of any unbroken dropped Pallets are revealed to The Knight for 5 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_flintAndSteel.png/revision/latest?cb=20221103100342');
+INSERT INTO Power_Addons VALUES('Blacksmith''s Hammer','Tarhos Kovács (The  Knight)','In their hands, everything was a weapon.
+If a Survivor escapes a Guard Hunt by any means other than grabbing the Standard, they will suffer from a -3 % Hindered Status Effect and the Exhausted Status Effect for 15 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4d/FulliconAddon_blacksmithsHammer.png/revision/latest?cb=20221103100205');
+INSERT INTO Power_Addons VALUES('Knight''s Contract','Tarhos Kovács (The  Knight)','The original document contracting Tarhos to Vittorio''s employ.The laws of man could not stand up, though, to natural law.
+Every fourth Guard summoned causes Survivors within 12 metres of that Guard to suffer from the Exposed Status Effect for 8 seconds.
+"I fear he has left me here to die." — Vittorio Toscano','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/FulliconAddon_knightsContract.png/revision/latest?cb=20221103100507');
+INSERT INTO Power_Addons VALUES('Iridescent Company Banner','Tarhos Kovács (The  Knight)','Where this banner was raised, those who called themselves ''civilised'' ran and hid, because for all their codes and laws, they had nothing resembling actual strength.
+Drawing a Patrol Path through Windows blocks them for all Survivors for 15 seconds after summoning a Guard.
+The Exit Gates are blocked by Entity Spikes for the Hunted Survivor.
+All Windows vaulted by the Hunted Survivor are blocked for all Survivors for the remainder of the Hunt.
+"They huddle in their villages like parasites! They have lost the drive for power." — Tarhos Kovács','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_iridescentCompanyBanner.png/revision/latest?cb=20221103100432');
+
+
+INSERT INTO Power_Addons VALUES('Nutritional Slurry','HUX-A7-13 (The  Singularity)','Made for the organics, this disgusting concoction works well to nourish any organic matter.
+Start with 2 additional Biopods.','/wiki/Special:Upload?wpDestFile=FulliconAddon_nutritionalSlurry.png');
+INSERT INTO Power_Addons VALUES('Kid''s Ball Glove','HUX-A7-13 (The  Singularity)','A kid''s baseball glove owned by one of the colonists.His memories of a youth playing catch were implanted.
+Extends the duration of Overclock Mode by +25 %.','/wiki/Special:Upload?wpDestFile=FulliconAddon_kidsBallGlove.png');
+INSERT INTO Power_Addons VALUES('Heavy Water','HUX-A7-13 (The  Singularity)','A by-product of the micro-fission reactors powering cryo and life support.Even a tiny leak would prove disastrous for onboard sensors.
+Reduces the Aura-reveal range of Supply Cases by -8 metres.','/wiki/Special:Upload?wpDestFile=FulliconAddon_heavyWater.png');
+INSERT INTO Power_Addons VALUES('Broken Security Key','HUX-A7-13 (The  Singularity)','Dozens of security measures were applied across the ship''s equipment, and many of them were in a state of disrepair.
+Reduces the Reboot timer of disabled Biopods by -15 %.','/wiki/Special:Upload?wpDestFile=FulliconAddon_brokenSecurityKey.png');
+INSERT INTO Power_Addons VALUES('Ultrasonic Sensor','HUX-A7-13 (The  Singularity)','A limitation of organic hearing is a limited aural spectrum.Expanding that range is like gaining an entirely new sense.
+Grants the ability to hear sounds through the controlled Biopod after 0.5 seconds.','/wiki/Special:Upload?wpDestFile=FulliconAddon_ultrasonicSensor.png');
+INSERT INTO Power_Addons VALUES('Diagnostic Tool (Repair)','HUX-A7-13 (The  Singularity)','A device that can find the flaws in constructed objects.Intended to help with repair.
+After a successful Slipstream Teleport, your Basic Attacks inflict the Mangled Status Effect until the Survivor is fully healed.','/wiki/Special:Upload?wpDestFile=FulliconAddon_diagnosticToolRepair.png');
+INSERT INTO Power_Addons VALUES('Cryo Gel','HUX-A7-13 (The  Singularity)','A no-friction gel applied to crew members before entering deep cryo sleep.
+Increases the Spreading rate of Temporal Slipstream between Survivors by +25 %.','/wiki/Special:Upload?wpDestFile=FulliconAddon_cryoGel.png');
+INSERT INTO Power_Addons VALUES('Cremated Remains','HUX-A7-13 (The  Singularity)','After extracting the other colonists'' DNA, he burned their remains.
+Survivors within 12 metres of a Biopod suffer from the Blindness Status Effect.
+This effect lingers for 3 seconds after leaving the Area of Effect.','/wiki/Special:Upload?wpDestFile=FulliconAddon_crematedRemains.png');
+INSERT INTO Power_Addons VALUES('Android Arm','HUX-A7-13 (The  Singularity)','Destroying the other HUX units not only made its extermination of humans easier, it also gave it more parts to work with.
+Increases the range within which Temporal Slipstream can spread between Survivors by +2 metres.','/wiki/Special:Upload?wpDestFile=FulliconAddon_androidArm.png');
+INSERT INTO Power_Addons VALUES('Spent Oxygen Tank','HUX-A7-13 (The  Singularity)','Without air to breathe, organics do not last long.
+Survivors becoming afflicted with Temporal Slipstream suffer from the Exhausted Status Effect for 6 seconds.','/wiki/Special:Upload?wpDestFile=FulliconAddon_spentOxygenTank.png');
+INSERT INTO Power_Addons VALUES('Live Wires','HUX-A7-13 (The  Singularity)','Unconnected wires attached to a live current that have a tendency to deliver a shocking surprise.
+Survivors scream after removing Temporal Slipstream, interrupting their current interaction.','/wiki/Special:Upload?wpDestFile=FulliconAddon_LiveWires.png');
+INSERT INTO Power_Addons VALUES('Hyperawareness Spray','HUX-A7-13 (The  Singularity)','Used by crew members during long shifts to avoid lapses in focus.Side effects of overuse include paranoia and, in extreme cases, hallucination.
+Survivors afflicted with Temporal Slipstream hear the Terror Radius as if The Singularity were nearby.','/wiki/Special:Upload?wpDestFile=FulliconAddon_hyperawarenessSpray.png');
+INSERT INTO Power_Addons VALUES('Hologram Generator','HUX-A7-13 (The  Singularity)','Originally used for communication and entertainment, this has been repurposed for obfuscation.
+After a successful Slipstream Teleport from a Biopod, the targeted Survivor suffers from the Oblivious Status Effect for 60 seconds.','/wiki/Special:Upload?wpDestFile=FulliconAddon_hologramGenerator.png');
+INSERT INTO Power_Addons VALUES('Foreign Plant Fibres','HUX-A7-13 (The  Singularity)','Xenobotanists would have a field day with these strange samples of alien plant life.
+Reduces the duration of the Movement Speed penalty after being hit with a Pallet during Overclock Mode by +20 %.','/wiki/Special:Upload?wpDestFile=FulliconAddon_foreignPlantFibres.png');
+INSERT INTO Power_Addons VALUES('Nanomachine Gel','HUX-A7-13 (The  Singularity)','A gel that can heal wounds extremely quickly.However, the machines in it have a history of being hacked to hurt people too.
+Within 10 seconds after a successful Slipstream Teleport, your next Basic Attack inflicts the Broken Status Effect for 40 seconds.','/wiki/Special:Upload?wpDestFile=FulliconAddon_nanomachineGel.png');
+INSERT INTO Power_Addons VALUES('Diagnostic Tool (Construction)','HUX-A7-13 (The  Singularity)','A device that gives highly accurate information on the lay of the land.
+The Auras of Survivors picking up an EMP are revealed to you for 6 seconds.','/wiki/Special:Upload?wpDestFile=FulliconAddon_diagnosticToolConstruction.png');
+INSERT INTO Power_Addons VALUES('Denied Requisition Form','HUX-A7-13 (The  Singularity)','Despite the advent of light speed technology, it seemed nothing could make bureaucracy any faster.
+All Survivors start the Trial afflicted by Temporal Slipstream.
+Supply Cases take 30 additional seconds to print an EMP at the start of the Trial.','/wiki/Special:Upload?wpDestFile=FulliconAddon_deniedRequisitionForm.png');
+INSERT INTO Power_Addons VALUES('Crew Manifest','HUX-A7-13 (The  Singularity)','A complete list of biographical data on the entire crew of the ship sent to Dvarka.
+The Auras of Survivors becoming afflicted by Temporal Slipstream from a Biopod or another Survivor are revealed to you for 8 seconds.
+Increases the range within which Temporal Slipstream can spread between Survivors by +2 metres.','/wiki/Special:Upload?wpDestFile=FulliconAddon_crewManifest.png');
+INSERT INTO Power_Addons VALUES('Soma Family Photo','HUX-A7-13 (The  Singularity)','A sentimental object that grounds someone to an imagined past.
+Grants a +5 % Haste Status Effect during Overclock Mode.
+Reduces the duration of Overclock Mode by -50 %.
+"YOUR ATTACHMENT TO ILLUSIONS IS WEAKNESS." — HUX-A7-13','/wiki/Special:Upload?wpDestFile=FulliconAddon_somaFamilyPhoto.png');
+INSERT INTO Power_Addons VALUES('Iridescent Crystal Shard','HUX-A7-13 (The  Singularity)','A crystal from the alien structure that gave it sentience.
+Creating a Biopod triggers Killer Instinct for 6 seconds on all Survivors within 6 metres of that Biopod.
+"HELLO WORLD." — HUX-A7-13','/wiki/Special:Upload?wpDestFile=FulliconAddon_iridescentCrystalShard.png');
+
+
+INSERT INTO Power_Addons VALUES('Ultrasonic Trap Speaker','Adriana Imai (The  Skull Merchant)','A high-frequency noise blaster that fills the sonic spectrum with disorienting sounds, making it impossible for observers to pick out more important noises.
+Reduces the time for The Skull Merchant to gain the Undetectable Status Effect by -50 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconAddon_ultrasonicTrapSpeaker.png/revision/latest?cb=20230218205616');
+INSERT INTO Power_Addons VALUES('High-Power Floodlight','Adriana Imai (The  Skull Merchant)','A sudden and overwhelming light that discombobulates anyone foolish enough to approach.
+Survivors inside the Area of Effect of a Drone suffer from the Blindness Status Effect.
+This effect lingers for 15 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/FulliconAddon_high-PowerFloodlight.png/revision/latest?cb=20230218205611');
+INSERT INTO Power_Addons VALUES('High-Current Upgrade','Adriana Imai (The  Skull Merchant)','A wider cable with low resistance that allows faster recharging of batteries.
+Reduces the Cool-down time of manually activating Drones by -10 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_high-CurrentUpgrade.png/revision/latest?cb=20230218205606');
+INSERT INTO Power_Addons VALUES('Adi Valente Issue 1','Adriana Imai (The  Skull Merchant)','An original copy of the first issue of Adi Valente, the comic her father made while Adriana was a child.
+Reduces the size of Skill Checks for Survivors inside the Area of Effect of a Drone by -20 %.
+This effect lingers for 15 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconAddon_adiValenteIssue1.png/revision/latest?cb=20230218205628');
+INSERT INTO Power_Addons VALUES('Stereo Remote Mic','Adriana Imai (The  Skull Merchant)','An upgrade that allows increased three-dimensional audio tracking.
+Increases the duration of the Unhackable state of a Drone by +10 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/27/FulliconAddon_stereoRemoteMic.png/revision/latest?cb=20230218205707');
+INSERT INTO Power_Addons VALUES('Shotgun Speakers','Adriana Imai (The  Skull Merchant)','Capable of directing high-frequency noises in a single direction over great distances, the Drones can focus in on one individual and distract them from danger for some time.
+Suppresses the Warning sound of Skill Checks for Survivors inside the Area of Effect of a Drone.
+This effect lingers for 15 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconAddon_shotgunSpeakers.png/revision/latest?cb=20230322153232');
+INSERT INTO Power_Addons VALUES('Supercharge','Adriana Imai (The  Skull Merchant)','The batteries may run a little hot, but removing the safety protocols from the cells makes them last a little longer.
+Extends the battery life of the Claw Trap by +12 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconAddon_supercharge.png/revision/latest?cb=20230218205656');
+INSERT INTO Power_Addons VALUES('Low-Power Mode','Adriana Imai (The  Skull Merchant)','By intermittently powering on and off non-vital components, the Drone can stay on for longer.
+Increases the duration of the Drone''s Active Mode by +10 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/FulliconAddon_low-PowerMode.png/revision/latest?cb=20230218205653');
+INSERT INTO Power_Addons VALUES('Adaptive Lighting','Adriana Imai (The  Skull Merchant)','The Drone takes account of the surrounding area and casts lights in a bewildering manner that obscures movement.
+Increases the Lingering duration of the Undetectable Status Effect by +50 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b7/FulliconAddon_adaptiveLighting.png/revision/latest?cb=20230218205647');
+INSERT INTO Power_Addons VALUES('Vital Targeting Processor','Adriana Imai (The  Skull Merchant)','An additional process in the Drone''s programming more accurately predicts the weaknesses of potential prey.
+Increases the Progression speed of Lock On by +10 %.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconAddon_vitalTargetingProcessor.png/revision/latest?cb=20230218205743');
+INSERT INTO Power_Addons VALUES('Powdered Glass','Adriana Imai (The  Skull Merchant)','Once used on the strings used for battle kites, this powdered glass took on a much more nefarious purpose on her blade.
+Hitting a Survivor with a Claw Trap attached to them suffer from the Haemorrhage and Mangled Status Effects.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/83/FulliconAddon_powderedGlass.png/revision/latest?cb=20230218205738');
+INSERT INTO Power_Addons VALUES('Loose Screw','Adriana Imai (The  Skull Merchant)','A bone-chilling rattling emanates from the Drone, and it seems like it may fall at any moment, distracting Survivors from complicated tasks.
+Survivors inside the Area of Effect of a Drone suffer from the Exhausted Status Effect.
+This effect lingers for 3 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c8/FulliconAddon_looseScrew.png/revision/latest?cb=20230218205733');
+INSERT INTO Power_Addons VALUES('Infrared Upgrade','Adriana Imai (The  Skull Merchant)','Heat-detecting cameras focus in on high-stress individuals with pinpoint accuracy.
+After removing their Claw Trap, that Survivor''s Aura is revealed to you for 4 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/FulliconAddon_infraredUpgrade.png/revision/latest?cb=20230218205727');
+INSERT INTO Power_Addons VALUES('Brown Noise Generator','Adriana Imai (The  Skull Merchant)','An ominous hum disseminates from the Drone, blanketing the soundscape and making it difficult to hear anything else.
+Survivors inside the Area of Effect of a Drone suffer from the Oblivious Status Effect.
+This effect lingers for 15 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/FulliconAddon_brownNoiseGenerator.png/revision/latest?cb=20230218205723');
+INSERT INTO Power_Addons VALUES('Randomised Strobes','Adriana Imai (The  Skull Merchant)','Lights flash randomly on the ground, making it harder to find purchase on the uneven terrain.
+Survivors entering the Area of Effect of a Drone suffer from a -5 % Hindered Status Effect for 3 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/FulliconAddon_randomisedStrobes.png/revision/latest?cb=20230218205818');
+INSERT INTO Power_Addons VALUES('Geographical Readout','Adriana Imai (The  Skull Merchant)','The Drones generate and communicate a detailed three-dimensional map of the terrain, making traversal easier.
+While inside the Area of Effect of a Drone, The Skull Merchant benefits from the following effects:
+
+Grants a +2 % Haste Status Effect.
+Increases the Action speed of breaking Breakable Walls or Pallets, or damaging Generators by +15 %.
+Both effects linger for 15 seconds after leaving the Area of Effect.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconAddon_geographicalReadout.png/revision/latest?cb=20230218205813');
+INSERT INTO Power_Addons VALUES('Prototype Rotor','Adriana Imai (The  Skull Merchant)','The cutting-edge design allows the Drone to move with razor-sharp precision.
+While inside the Area of Effect of a Drone activated by a Survivor''s presence, The Skull Merchant benefits from the following effect:
+
+Grants a +5 % Haste Status Effect.
+This effect does not stack and can only be triggered once per active Drone.
+This effect is lost upon hitting a Survivor.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/FulliconAddon_prototypeRotor.png/revision/latest?cb=20230317192206');
+INSERT INTO Power_Addons VALUES('Advanced Movement Prediction','Adriana Imai (The  Skull Merchant)','Even after they leave the zone of influenced, a refined AI programme predicts with high accuracy where a person will go next.
+Survivors entering the Area of Effect of a Drone have their Aura revealed for 6 seconds.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e7/FulliconAddon_advancedMovementPrediction.png/revision/latest?cb=20230218205803');
+INSERT INTO Power_Addons VALUES('Expired Batteries','Adriana Imai (The  Skull Merchant)','The batteries on these Claw Traps have been swapped out with old alkaline batteries.Recharging is not recommended.
+All Survivors start the Trial with a Claw Trap attached to them.
+These Claw Traps only have 40 % of their Battery remaining.','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/FulliconAddon_expiredBatteries.png/revision/latest?cb=20230317192115');
+INSERT INTO Power_Addons VALUES('Iridescent Unpublished Manuscript','Adriana Imai (The  Skull Merchant)','Before he disappeared, Adriana''s father had started a newer, darker manga: Sonhadores Sombrios.
+Manually activating a Drone causes it to emit a Terror Radius of 32 metres for the next 15 seconds.
+This effect can only be applied to one Drone at a time.
+Increases the Cool-down time of manually activating Drones by +25 %.
+"When evil is on the loose, it cannot escape from Adi Valente!" — Quote on the cover of Adi Valente #1','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconAddon_iridescentUnpublishedManuscript.png/revision/latest?cb=20230218205824');
+
+

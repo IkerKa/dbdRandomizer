@@ -65,12 +65,20 @@ INSERT INTO Killers VALUES('The Dredge (The  Dredge)','Dissolution','Darkness Re
 
 --NO ESTAN EN BASE DE DATOS 
 
-INSERT INTO Killers VALUES('HUX-A7-13 (The Singularity)','Genetic Limits','Forced Hesitation','Machine Learning','A dark crystalline structure in an ancient ruin gifted — or perhaps cursed — HUX with sentience. It built a new body, and with it, a terrifying way to bend the rules of physics to its benefit.'
-,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/K32_charSelect_portrait.png/revision/latest?cb=20230525133300');
+INSERT INTO Killers VALUES('Adriana Imai (The  Skull Merchant)','THWACK!','Leverage','Game Afoot','Inspired by the dark manga created by her father, The Skull Merchant relentlessly hunts her prey using the latest in surveillance technology.
+','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/Store_Skull_Merchant.png/revision/latest?cb=20230308040704');
 
-INSERT INTO Killers VALUES('Adriana Imai (The Skull Merchant)','THWACK!','Leverage','Game Afoot','Inspired by the dark manga created by her father, The Skull Merchant relentlessly hunts her prey using the latest in surveillance technology.'
-,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/Store_Skull_Merchant.png/revision/latest/scale-to-width-down/1000?cb=20230308040704');
+INSERT INTO Killers VALUES('HUX-A7-13 (The  Singularity)','Genetic Limits','Forced Hesitation','Machine Learning','A dark crystalline structure in an ancient ruin gifted — or perhaps cursed — HUX with sentience. It built a new body, and with it, a terrifying way to bend the rules of physics to its benefit.
+','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/K32_storeBackground.png/revision/latest?cb=20230523190649');
 
-INSERT INTO killers VALUES('Tarhos Kovács (The Knight)','')
+INSERT INTO Killers VALUES(('Tarhos Kovács (The  Knight)','Nowhere to Hide','Hex: Face the Darkness','Hubris','The Knight alone is a terrifying monster on the battlefield, but with his loyal Guards, he is nearly unstoppable.Together, the Guardia Compagnia fights for their own freedom, killing anyone who gets in their way.
+','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/Store_Knight.png/revision/latest?cb=20221122173834');
+
+
+
+
+
+
+
 
 

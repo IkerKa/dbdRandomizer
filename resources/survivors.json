@@ -51,6 +51,12 @@
             "url": "/wiki/Feng_Min"
         }
     ],
+    "G": [
+        {
+            "name": "Gabriel Soma",
+            "url": "/wiki/Gabriel_Soma"
+        }
+    ],
     "H": [
         {
             "name": "Haddie Kaur",
@@ -125,12 +131,28 @@
         {
             "name": "Rebecca Chambers",
             "url": "/wiki/Rebecca_Chambers"
+        },
+        {
+            "name": "Renato Lyra",
+            "url": "/wiki/Renato_Lyra"
         }
     ],
     "S": [
         {
             "name": "Steve Harrington",
             "url": "/wiki/Steve_Harrington"
+        }
+    ],
+    "T": [
+        {
+            "name": "Thalita Lyra",
+            "url": "/wiki/Thalita_Lyra"
+        }
+    ],
+    "V": [
+        {
+            "name": "Vittorio Toscano",
+            "url": "/wiki/Vittorio_Toscano"
         }
     ],
     "W": [
