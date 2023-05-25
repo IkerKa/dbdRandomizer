@@ -119,6 +119,7 @@ def getRandPerk():
     return perk_name, perk_description, perk_image, owner
 
 
+# ---> comando: !dbd perk <perkName>
 def getPerkInfo(perkName):
     perkService = services.PerkService()
 
@@ -134,6 +135,36 @@ def getPerkInfo(perkName):
 
     return perk_name, perk_description, perk_image, owner
 
+
+# ---> comando: !dbd randomAddon
+def getRandAddon():
+    addonService = services.AddOnService()
+
+    addon, itemImage = addonService.random_addOn()
+
+    addon_name = addon[0]
+    addon_belongsTo = addon[1]
+    addon_description = addon[2]
+    addon_image = addon[3]
+
+    return addon_name, addon_belongsTo, addon_description, addon_image, itemImage
+    
+
+# ---> comando: !dbd addon <addonName>
+def getAddonInfo(addonName):
+    addonService = services.AddOnService()
+
+    addon, items, generalName = addonService.get_addOn(addonName)
+
+    if addon == None:
+        return None, None, None, None, None, None
+
+    addon_name = addon[0]
+    addon_belongsTo = addon[1]
+    addon_description = addon[2]
+    addon_image = addon[3]
+
+    return addon_name, addon_belongsTo, addon_description, addon_image, items, generalName
 
 # Get Juan setup:
 # It includes his favurite survivor
@@ -409,6 +440,104 @@ async def on_message(message):
 
         except Exception as e:
             await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+
+    # if the message is !dbd randomAddon
+    if message.content.startswith('!dbd randomAddon'):
+        try:
+            # We will call the function to get the addon
+            addon_name, addon_belongTo, addon_description, addon_image, itemImage = getRandAddon()
+
+            # [Warning] It should be always an item 
+            embed = discord.Embed(
+                title=addon_name,
+                description=addon_description,
+                color=0x00ff00,
+                timestamp=datetime.datetime.now(datetime.timezone.utc))
+
+            # embed.set_footer(
+            #     text=f"Owner: {owner[0]}",
+            #     icon_url=owner[-1],
+            # )
+            # Try author instead of footer
+            embed.set_author(
+                name=f"From: {addon_belongTo}",
+                icon_url=itemImage,
+            )
+
+            embed.set_thumbnail(url=addon_image)
+
+            # We will send the embed
+            await message.channel.send(embed=embed)
+
+
+
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+    # Info about a specific addon
+    if message.content.startswith('!dbd addon'):
+
+        try:
+            # We get the name of the addon
+            addonN = message.content[11:]
+
+            # We will call the function to get the addon
+            addon_name, addon_belongTo, addon_description, addon_image, items, generalName = getAddonInfo(addonN)
+
+            # Check if the addon was found
+            if addon_name == None:
+                # Send an imagen with the addon not found
+                await message.channel.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/Unknown_QuestionMark.png/revision/latest?cb=20210929093312")
+                # Message saying that the addon was not found, centerered and in bold
+                await message.channel.send(f"**{addonN}**, you sure you wrote it correctly? (case sensitive)")
+
+                # Show the list of addons
+                await message.channel.send("Here is a list of addons you can check:")
+                await message.channel.send("https://deadbydaylight.fandom.com/wiki/Add-ons")
+                await message.channel.send("Or you can use the command **!dbd randomAddon** to get a random addon")
+
+                return
+            
+            # [Warning] It should be always an item
+            embed = discord.Embed(
+                title=addon_name,
+                description=addon_description,
+                color=0x0000ff,
+                timestamp=datetime.datetime.now(datetime.timezone.utc))
+            
+            # embed.set_footer(
+            #     text=f"Owner: {owner[0]}",
+            #     icon_url=owner[-1],
+
+            # )
+
+            # Try author instead of footer
+            embed.set_author(
+                name=f"From: {generalName}"
+            )
+
+            embed.set_thumbnail(url=addon_image)
+
+            # Add a field with the item list
+            # Parse the items list
+            # Format the tuple to a string
+            items = [f"**{item[0]}**" for item in items]
+            # Join with a comma
+            items = ", ".join(items)
+            embed.add_field(name="Items that can use this addon:",
+                            value=items,
+                            inline=False)
+            
+            # We will send the embed
+            await message.channel.send(embed=embed)
+
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+            
+
+
 
 
     

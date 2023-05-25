@@ -1,6 +1,5 @@
 INSERT INTO Survivors VALUES('Ace Visconti','Open-Handed','Up the Ante','Ace in the Hole','I have seen a poor new soul in this nightmare. For most of the others trapped here, fear is our common denominator. This man does not follow suit. Instead, he stands defiantly, analyzing his surroundings with an eerie confidence. In the mere glimpses of him I could afford, I saw a crooked smile as he scavenged something on the ground. Just by watching him from afar, I felt him ignite a fleeting spark of hope in my heart just before he melted into the shadows. With the remaining conviction I have left, I do pray that good fortune stays on his side.
 
-
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/New_Store_Ace.png/revision/latest?cb=20220325045215');
 INSERT INTO Survivors VALUES('Ada Wong','Wiretap','Reactive Healing','Low Profile','Sometimes it’s safer to keep people guessing, and no one knows this better than Ada Wong. Dexterous and enigmatic, Ada’s survival skills make her a valuable ally, provided interests remain aligned.
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/New_Store_Ada.png/revision/latest?cb=20220830161534');
@@ -73,3 +72,4 @@ INSERT INTO Survivors VALUES('Zarina Kassir','Off the Record','Red Herring','For
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/61/New_Store_Zarina.png/revision/latest?cb=20220325045629');
 INSERT INTO Survivors VALUES('Élodie Rakoto','Appraisal','Deception','Power Struggle','Occult investigator Élodie Rakoto has seen first-hand that things are not always as they seem. The comforting rational explanation isn’t always correct, and there’s certainly no reasoning with these merciless Killers. Luckily, she’s got more than a few cunning tricks up her sleeve.
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/New_Store_Elodie.png/revision/latest?cb=20220325045411');
+

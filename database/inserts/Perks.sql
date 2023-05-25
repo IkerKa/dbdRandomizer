@@ -1177,3 +1177,73 @@ If the KillerIconHelpLoading killer downs a Survivor while you are repairing a G
 INSERT INTO Perk VALUES('A Nurse''s Calling','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_aNursesCalling.png/revision/latest?cb=20160820090103' ,'Unlocks potential in one''s Aura-reading ability. The Auras of Survivors who are healing or being healed are revealed to you when they are within 20/26/32 metres of range..',0,1)
 
 --NO ESTAN EN LA BBDD
+
+INSERT INTO Perk VALUES('Blood Rush','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/IconPerks_bloodRush.png/revision/latest?cb=20230218135314' ,'Your mind and body are honed for great feats, allowing you to push through with extra effort when necessary.
+Once you are one Hook away from instant death, Blood Rush activates:
+Press the Active Ability button to lose a Health StateIconStatusEffects healing and instantly recover from the ExhaustedIconStatusEffects exhausted Status Effect.
+Causes the BrokenIconStatusEffects broken Status Effect for 28/24/20 seconds, while you are automatically healing back to HealthyIconHelp healthy.
+Cancels the healing effect upon taking damage.',1,0);
+
+INSERT INTO Perk VALUES('Teamwork: Collective Stealth','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/IconPerks_teamworkCollectiveStealth.png/revision/latest?cb=20230218135318' ,
+'When someone helps you out, you respond in kind.
+Whenever another Survivor finishes healing you, Teamwork: Collective Stealth activates, and both you and the Survivor who healed you benefit from the following effect:
+Suppresses your Scratch MarksIconHelp scratchMarks for as long as you stay within 12 metres of one another or one of you loses a Health StateIconStatusEffects healing.
+Teamwork: Collective Stealth has a cool-down of 180/160/140 seconds.
+Survivors can only be affected by one instance of Teamwork: Collective Stealth at a time.',1,0);
+
+
+Insert INTO perk VALUES('Background Player','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/IconPerks_backgroundPlayer.png/revision/latest?cb=20230218135313',
+'You are not usually the centre of attention and in some cases, this can be a good thing.
+When another Survivor is picked up, Background Player activates for the next 10 seconds:
+When you start running, break into a sprint at 150 % of your normal Running Movement speed for 4 seconds.
+Background Player causes the ExhaustedIconStatusEffects exhausted Status Effect for 60/50/40 seconds.
+Background Player cannot be used when Exhausted.',1,0);
+
+Insert INTO perk VALUES('Troubleshooter','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/IconPerks_troubleshooter.png/revision/latest?cb=20230524205359',
+'No amount of distraction will shake you from your primary task.
+When you are chased by the Killer, Troubleshooter activates:
+The AuraIconHelp auras of the GeneratorIconHelpLoading generators with the most progress is revealed to you.
+The Aura of the Killer is revealed to you for 4/5/6 seconds after dropping a PalletIconHelp pullDown.
+These effects linger for 6/8/10 seconds after ending the Chase, after which Troubleshooter deactivates.',1,0);
+
+Insert INTO perk VALUES('Made for This','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c0/IconPerks_madeForThis.png/revision/latest?cb=20230524205724', 
+'You were born to survive, and raised to adapt.
+Whenever you are in the Injured StateIconHelp injured, Made for This activates and you benefit from the following effects:
+Gain a 1/2/3 % HasteIconStatusEffects haste Status Effect.
+Gain the EnduranceIconStatusEffects endurance Status Effect for 6/8/10 seconds after completing a Healing action on another Survivor.
+Made for This cannot be used when suffering from Exhaustion, but does not cause the ExhaustedIconStatusEffects exhausted Status Effect.',1,0);
+
+Insert INTO perk VALUES('Scavenger','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_scavenger.png/revision/latest?cb=20230524205539',
+'Where others see junk, you see valuable improvised tools.
+While holding a depleted Toolbox, Scavenger activates:
+Succeeding at Great Repairing Skill Checks grants 1 Token, up to a maximum of 6/5/4 Tokens.
+Reaching the maximum number of Tokens automatically consumes them and fully recharges the Toolbox.
+Scavenger is disabled for the remainder of the Trial after recharging the Item.
+Scavenger grants the ability to rummage through an opened ChestIconHelp chests once per Trial and will guarantee a basic ToolboxFulliconItems toolboxFulliconItems toolbox.',1,0);
+
+
+Insert INTO perk VALUES('Friendly Competition','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_friendlyCompetition.png/revision/latest?cb=20230218135316',
+'You revel in the community spirit of a competition, and inspire others to follow suit.
+Whenever you complete a Generator with at least one other Survivor, Friendly Competition activates:
+Increases your Repair speed, and that of the other Survivor(s) who completed the repairs with you, by +5 % for the next 45/60/75 seconds.',1,0);
+
+Insert INTO perk VALUES('Teamwork: Power of Two','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2b/IconPerks_teamworkPowerOfTwo.png/revision/latest?cb=20230218135319',
+'It is hard to keep up with you, but it does not stop people from trying.
+Whenever you finish healing another Survivor, Teamwork: Power of Two activates, and both you and the healed Survivor benefit from the following effect:
+Grants a 5 % HasteIconStatusEffects haste Status Effect for as long as you stay within 12 metres of one another or one of you loses a Health StateIconStatusEffects healing.
+Teamwork: Power of Two has a cool-down of 180/160/140 seconds.
+Survivors can only be affected by one instance of Teamwork: Power of Two at a time.',1,0);
+
+Insert INTO perk VALUES('Cut Loose','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_cutLoose.png/revision/latest?cb=20230218135315',
+'You get in enough trouble, you know how to get out of it.
+After performing a rushed vault in a Chase, Cut Loose activates for the next 4/5/6 seconds:
+Suppresses both the Loud Noise Notification and the sound effects triggered by rushing to vault.
+Successfully performing a rushed vault while Cut Loose is active resets the timer.
+Cut Loose has a cool-down of 45 seconds.',1,0);
+
+
+
+
+
+
+
