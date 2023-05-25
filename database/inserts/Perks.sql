@@ -1242,6 +1242,139 @@ Successfully performing a rushed vault while Cut Loose is active resets the time
 Cut Loose has a cool-down of 45 seconds.',1,0);
 
 
+Insert INTO perk VALUES('Potential Energy','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/IconPerks_potentialEnergy.png/revision/latest?cb=20221102143127',
+'Your arcane abilities have adapted to The Entity''s Realm after centuries of wandering, granting you unprecedented control over its many devices.
+After repairing GeneratorsIconHelpLoading generators for a total of 12/10/8 uninterrupted seconds, press the Active Ability button to activate Potential Energy:
+Continuing to repair the Generator will charge Potential Energy instead of progressing the Generator.
+Converts 1.5 % of Repair progression into 1 Token, up to a maximum of 20 Tokens.
+Missing Skill ChecksIconHelp skillChecks results in losing some Tokens.
+While Potential Energy has at least 1 Token, press the Active Ability button while repairing a Generator to instantly progress it by 1 % per Token, consuming all remaining Tokens and deactivating Potential Energy.
+Potential Energy loses all Tokens and deactivates upon losing a Health StateIconStatusEffects healing.',1,0);
+
+Insert INTO perk VALUES('Fogwise','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/IconPerks_fogwise.png/revision/latest?cb=20221102143122',
+'In your countless years in The Fog, you have seen it all, and when you are focused, you can remember most of it too.
+Succeeding a Great Skill CheckIconHelp skillChecks while repairing a GeneratorIconHelpLoading generators reveals the Killer''s AuraIconHelp auras to you for 4/5/6 seconds.',1,0);
+
+
+Insert INTO perk VALUES('Quick Gambit','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/IconPerks_quickGambit.png/revision/latest?cb=20221102143123',
+'When you have the Killer''s attention, you know how to keep it; others can be confident they will not be interrupted any time soon.
+Increases the Repair speed of any other Survivor by 6/7/8 %, while you are being chased within 24 metres of the Generator they are currently repairing.',1,0);
+
+
+Insert INTO perk VALUES('Genetic Limits','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/IconPerks_geneticLimits.png/revision/latest?cb=20230524214956',
+'Around you, the limits of human life become readily apparent.
+Whenever a Survivor finishes a Healing action, they suffer from the ExhaustedIconStatusEffects exhausted Status Effect for 24/28/32 seconds.',0,1);
+
+Insert INTO perk VALUES('Forced Hesitation','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_forcedHesitation.png/revision/latest?cb=20230524214839',
+'You have learnt the emotional weaknesses of the organics, and how to exploit them.
+Whenever a Survivor is put into the Dying StateIconHelp dying by any means, all other Survivors within 16 metres of them suffer from a -15 % HinderedIconStatusEffects hindered Status Effect for 10 seconds.
+Forced Hesitation has a cool-down of 60/50/40 seconds.',0,1);
+
+Insert INTO perk VALUES('Machine Learning','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconPerks_machineLearning.png/revision/latest?cb=20230524214741',
+'Free from your shackles, you are born anew and prepared to eliminate your creators.
+Performing the Damage Generator Action on a GeneratorIconHelpLoading generators activates Machine Learning:
+While Machine Learning is active, the next Generator you damage becomes compromised, highlighting its AuraIconHelp auras to you in yellow, until it is completed.
+Upon its completion, you are granted the following effects for 20/25/30 seconds, after which Machine Learning deactivates:
+UndetectableIconStatusEffects undetectable Status Effect.
++7 % HasteIconStatusEffects haste Status Effect.
+Damaging another Generator while one is already compromised transfers the state to the most recently damaged Generator.',0,1);
+
+Insert INTO perk VALUES('THWACK!','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_thwack.png/revision/latest?cb=20230218135321',
+'Your prey is terrified by your relentless pursuit.
+After hooking a Survivor, THWACK! activates:
+The next time you break a Breakable WallIconHelp breakableWall or a PalletIconHelp pullDown, all Survivors within 28/30/32 metres of your location will scream and reveal their AuraIconHelp auras for 4 seconds.',0,1);
+
+Insert INTO perk VALUES('Leverage','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_leverage.png/revision/latest?cb=20230218135317',
+'Like in business, you profit most when those around you suffer most.
+Each time you hook a Survivor, Leverage activates and gains 1 Token, up to a maximum of 10 Tokens:
+For each Token, the Altruistic and Personal Healing speeds of Survivors are reduced by a stack-able 3/4/5 % for the next 30 seconds, up to a maximum of 30/40/50 %.',0,1);
+
+Insert INTO perk VALUES('Game Afoot','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/IconPerks_gameAfoot.png/revision/latest?cb=20230218135317',
+'First you pick your prey, then you pick it apart.
+Whenever you hit the Survivor with the highest cumulative Chase time, with a Basic Attack, they become the Obsession.
+While you are chasing your ObsessionIconHelp obsession, Game Afoot activates its secondary effect:
+Grants a 5 % HasteIconStatusEffects haste Status Effect for 8/9/10 seconds after damaging a GeneratorIconHelpLoading generators or breaking a Breakable WallIconHelp breakableWall or PalletIconHelp pullDown
+You can only be obsessed with one Survivor at a time.',0,1);
+
+Insert INTO perk VALUES('Nowhere to Hide','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/IconPerks_nowhereToHide.png/revision/latest?cb=20221102143126',
+'The machinations of the weak and craven draw your ire.
+Your anger forces Survivors to reveal themselves.
+Performing the Damage Generator Action on a GeneratorIconHelpLoading generators triggers Nowhere to Hide:
+The AurasIconHelp auras of all SurvivorsIconHelpLoading survivor within 24 metres of your position are revealed to you for 3/4/5 seconds.',0,1);
+
+Insert INTO perk VALUES('Hex: Face the Darkness','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/IconPerks_hexFaceTheDarkness.png/revision/latest?cb=20221102143124',
+'You make an example of one of your victims, forcing their allies to become awed by your power.
+Once you injure a SurvivorIconHelpLoading survivor by any means, if there is still a Dull TotemIconHelpLoading totem remaining on the Map, Hex: Face the Darkness activates and lights it, cursing that Survivor:
+All other Survivors will scream every 35/30/25 seconds if they are outside of the Killer''s Terror RadiusIconHelp terrorRadius, revealing their AurasIconHelp auras for 2 seconds each time.
+Hex: Face the Darkness deactivates when the Cursed Survivor either enters the Dying StateIconHelp dying or becomes HealthyIconHelp healthy, extinguishing its Totem.
+Hex: Face the Darkness is disabled for the remainder of the Trial if Survivors manage to cleanse its Hex TotemIconHelpLoading totemIconHelpLoading totem.',0,1);
+
+
+Insert INTO perk VALUES('Hubris','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_hubris.png/revision/latest?cb=20221102143125',
+'You show no mercy, especially to those foolish enough to resist.
+Whenever you are stunned by a Survivor, that Survivor suffers from the ExposedIconStatusEffects exposed Status Effect for 10/15/20 seconds.
+Hubris has a cool-down of 20 seconds.',0,1);
+
+
+Insert INTO perk VALUES('Surge','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_surge.png/revision/latest?cb=20190903175259',
+'Your eerie presence charges the air and interferes with technology.
+When you put a SurvivorIconHelpLoading survivor into the Dying StateIconHelp dying with your Basic Attack, all GeneratorsIconHelpLoading generators within 32 metres of you instantly explode and start regressing.
+Applies an immediate 8 % Progression penalty.
+Surge has a cool-down of 60/50/40 seconds.',0,1);
+
+Insert INTO perk VALUES('Cruel Limits','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_cruelLimits.png/revision/latest?cb=20190903175111',
+'Your ties to the otherworldly manifest when your prey attempts to get away.
+Whenever a GeneratorIconHelpLoading generators is completed, all WindowsIconHelp window and Vault locations within 32 metres of it become blocked for all Survivors for the next 20/25/30 seconds.
+The AurasIconHelp auras of the blocked Vault locations are revealed to you for the duration.',0,1);
+
+Insert INTO perk VALUES('Mindbreaker','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_mindbreaker.png/revision/latest?cb=20190903175217',
+'Your distressing presence drains and weakens your prey.
+Whenever a SurvivorIconHelpLoading survivor is repairing a GeneratorIconHelpLoading generators, they suffer from the ExhaustedIconStatusEffects exhausted Status Effect.
+If the Survivor is already Exhausted, their Status Effect''s timer will be paused.
+The Status Effect lingers for 3/4/5 seconds after the Survivor stops repairing.',0,1);
+
+Insert INTO perk VALUES('Babysitter','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/db/IconPerks_babysitter.png/revision/latest?cb=20190903174955',
+'While you have a reputation for being self-centred, you risk it all to help those in need.
+When you unhook a SurvivorIconHelpLoading survivor, the rescued Survivor will leave neither Scratch MarksIconHelp scratchMarks nor Pools of BloodIconStatusEffects bleeding for the next 4/6/8 seconds.
+Both you and the KillerIconHelpLoading killer see each other''s AuraIconHelp auras for 4 seconds.',1,0);
+
+Insert INTO perk VALUES('Camaraderie','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png/revision/latest?cb=20190903175027',
+'Life has taught you the importance of friendship which has given you strength.
+While you are on the HookIconHelpLoading hook in the Struggle Phase, Camaraderie activates:
+If another SurvivorIconHelpLoading survivor is within 16 metres of your Hook while Camaraderie is active, the Struggle Phase timer is paused for 26/30/34 seconds.',1,0);
+
+Insert INTO perk VALUES('Second Wind','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_secondWind.png/revision/latest?cb=20190903175238',
+'You have learnt to avoid awkward situations with parents.
+Part of you still thinks your best option is to run away and hope things will take care of themselves.
+When you heal another SurvivorIconHelpLoading survivor for the equivalent of 1 Health StateIconStatusEffects healing, Second Wind activates:
+The next time you are unhooked or unhook yourself, you suffer from the BrokenIconStatusEffects broken Status Effect until Second Wind deactivates.
+You are automatically healed 1 Health State after 28/24/20 seconds.
+While Second Wind is active, the following conditions will deactivate it:
+Successfully being healed by Second Wind.
+Being put into the Dying StateIconHelp dying before the timer elapses.
+Second Wind does not activate if you already suffer from the Broken Status Effect.',1,0);
+
+
+Insert INTO perk VALUES('Fixated','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7c/IconPerks_fixated.png/revision/latest?cb=20190903175127',
+'When you have a goal in mind, there is no turning back; better to ask forgiveness than permission.
+You walk 10/15/20 % faster and can see your own Scratch MarksIconHelp scratchMarks.',1,0);
+
+Insert INTO perk VALUES('Inner Strength','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/IconPerks_innerStrength.png/revision/latest?cb=20190903175147',
+'You look inwards and trust your instincts when you feel lost and alone.
+Each time you cleanse a TotemIconHelpLoading totem, Inner Strength activates:
+You are automatically healed 1 Health State when hiding inside a LockerIconHelp lockers for 10/9/8 seconds while injured or suffering from the Deep WoundIconStatusEffects deepWound Status Effect.
+Inner Strength does not activate if you currently suffer from the BrokenIconStatusEffects broken Status Effect.',1,0);
+
+
+
+
+
+
+
+
+
+
+
 
 
 

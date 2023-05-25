@@ -18,6 +18,7 @@ import services
 import traceback
 import datetime
 
+from discord.ext import commands
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -26,9 +27,11 @@ intent = discord.Intents.default()
 intent.members = True
 intent.message_content = True
 
+# Bot activity
+activity = discord.Activity(type=discord.ActivityType.watching, name="Looping n' chilling ☕")
 
 # start the dbdRandomizer
-client = discord.Client(intents=intent)
+client = discord.Client(intents=intent, activity=activity)
 
 
 # text format for the !commands
@@ -165,6 +168,39 @@ def getAddonInfo(addonName):
     addon_image = addon[3]
 
     return addon_name, addon_belongsTo, addon_description, addon_image, items, generalName
+
+
+#---> comando: !dbd survivor <survivorName>
+def getSurvivorInfo(survivorName):
+
+    survivorService = services.SurvivorService()
+    # If is None
+    if survivorName == None:
+        survivor = survivorService.get_survivor(survivorName=None, specific=False)
+    else:
+        survivor = survivorService.get_survivor(survivorName=survivorName, specific=True)
+
+    return survivor
+
+# ---> comando: !dbd perksof <survivorName>/<killerName>
+def getPerksOf(survivorName=None, killerName=None):
+    
+        survivorService = services.SurvivorService()
+    
+        if survivorName != None:
+            perks = survivorService.get_survivor_perks(survivorName=survivorName)
+        elif killerName != None:
+            perks = survivorService.get_killer_perks(survivorName=None, killerName=killerName)
+        else:
+            return None
+    
+        return perks
+
+def isSurvivor(survivorName):
+    survivorService = services.SurvivorService()
+
+    return survivorService.checkName(survivorName)
+
 
 # Get Juan setup:
 # It includes his favurite survivor
@@ -535,7 +571,155 @@ async def on_message(message):
         except Exception as e:
             await message.channel.send(f'```{traceback.format_exception(e)}```')
 
+        
+    # if the message is !dbd survivor <name?>
+    if message.content.startswith('!dbd survivor'):
+        # Check if it has a name 
+        try:
+            # Check if the command has a name or not
+            survivorN = message.content[14:]
             
+
+            # If it has a name
+            if survivorN == "" or survivorN == " ":
+                survivorN = None
+
+
+            # If it has no name, it will be a random survivor
+            survivor = getSurvivorInfo(survivorN)
+            if survivor == None:
+                    # Send an imagen with the survivor not found
+                    await message.channel.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/IconStatusEffects_exposed.png/revision/latest?cb=20170620155518")
+                    # Message saying that the survivor was not found, centerered and in bold
+                    await message.channel.send(f"**{survivorN}**, you sure you wrote it correctly? (case sensitive)")
+
+                    # Show the list of survivors
+                    await message.channel.send("Here is a list of survivors you can check:")
+                    await message.channel.send("https://deadbydaylight.fandom.com/wiki/Survivors")
+                    await message.channel.send("Or you can use the command **!dbd survivor** to get a random survivor")
+
+                    return
+
+            # Depends on the name, we will show a different embed
+            # If the name is None, it will be a random survivor
+            if survivorN == None:
+                # Just take the name and the image
+                survivor_name = survivor[0]
+                survivor_image = survivor[-1]
+
+                # Show an embed with the name of the survivor and the image
+                embed = discord.Embed(
+                    color=0xff0000,
+                    timestamp=datetime.datetime.now(datetime.timezone.utc))
+                
+                # Title of the embed bold and centered
+                embed.add_field(name="Survivor:",
+                                value=f"**{survivor_name}**",
+                                inline=False)
+                
+                embed.set_image(url=survivor_image)
+
+                # We will send the embed
+                await message.channel.send(embed=embed)
+
+            # If the name is not None, it will be a specific survivor
+            else:
+
+                # Take all the info: name, perk1,perk2,perk3, bio, image
+                survivor_name, survivor_perk1, survivor_perk2, survivor_perk3, survivor_bio, survivor_image = survivor
+
+
+                # Show an embed with the name of the survivor and the image
+                embed = discord.Embed(
+                    color=0xff0000,
+                    timestamp=datetime.datetime.now(datetime.timezone.utc))
+                
+                # Title of the embed bold and centered
+                embed.add_field(name="Survivor:",
+                                value=f"**{survivor_name}**",
+                                inline=False)
+                
+                embed.set_image(url=survivor_image)
+
+                # Add the perks
+                embed.add_field(name="**Perks:**",
+                                value=f"_{survivor_perk1}_\n_{survivor_perk2}_\n_{survivor_perk3}_",
+                                inline=False)
+                
+                # Add the bio
+                embed.add_field(name="**Bio:**",
+                                value=f"{survivor_bio}",
+                                inline=False)
+                
+                # We will send the embed
+                await message.channel.send(embed=embed)
+
+
+
+
+
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+
+    # if the message is !dbd perksof <name?>
+    if message.content.startswith('!dbd getperksof'):
+        try:
+            # Take the name
+            ownerName = message.content[16:]
+
+            # Check if is a killer or a survivor
+            isSurv = isSurvivor(ownerName)
+
+            if isSurv:
+                # Get the perks of the survivor
+                perks = getPerksOf(ownerName,None)
+
+            else:
+                # Get the perks of the killer
+                perks = getPerksOf(None,ownerName)
+
+            # Parse the perks 
+            # Its an array of tuples
+            # Format the tuple to a string
+            names = [f"**{perk[0]}**" for perk in perks]
+            # Join with a comma
+            names = ", ".join(names)
+
+            # Show an embed with the name of the survivor and the image
+            embed = discord.Embed(
+                color=0xff0000,
+                timestamp=datetime.datetime.now(datetime.timezone.utc))
+            
+            # Title of the embed bold and centered
+            embed.add_field(name=f"Perks of {ownerName}:",
+                            value=f"{names}",
+                            inline=False)
+            
+            # # Add the images
+            # # Get the images
+            # images = [perk[-1] for perk in perks]
+            
+            # # Add the images
+            # for image in images:
+            #     embed.set_image(url=image,inlin=True)
+
+                
+                
+                
+            
+            # We will send the embed
+            await message.channel.send(embed=embed)
+
+
+
+
+        except Exception as e:
+            await message.channel.send(f'```{traceback.format_exception(e)}```')
+        
+
+
+
+
 
 
 

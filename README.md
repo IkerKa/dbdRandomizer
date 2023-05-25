@@ -79,14 +79,13 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `randomPerk` - Get a random perk info with its owner                                    *(completed)*
 - `perk <name>` - Get information about a specific perk                                   *(completed)*
 - `simplePerk` - Get a random perk name and image                                         *(completed)*
-- `randomAddOn` - Get a random add-on
-- `randomAddOns` - Get a list of random add-ons
+- `randomAddOn` - Get a random add-on                                                     *(completed)*
+- `addon <addonName>` - Get information about a specific add-on                           *(completed)*
+- `survivor` - Get a random survivor                                                      *(completed)*
+- `survivor <name>` - Get information about a specific survivor                           *(completed)*
 - `randomOffering` - Get a random offering
-- `perk survivor` - Get a random perk from the survivors with the information about it.
-- `perk killer` - Get a random perk from the killers with the information about it.
-- `addon` - Get a random add-on with the information about it.
+- `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer
 - `offering` - Get a random offering with the information about it.
-- `survivor` - Get a random survivor
 - `killer` - Get a random killer
 - `survivor <name>` - Get information about a specific survivor (pending)
 - `killer <name>` - Get information about a specific killer (pending)
@@ -110,6 +109,10 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `sugestedPerkCombos` - Get a random sugested perk combo of 4 perks to use
 - `randomObjetive` - Get a random objetive to do in the match
         -Example: `!dbd randomObjetive` : "do 4 beamer saves in a match" (easy to do in the tutorial of discord bot (inspirational messages))
+- `randomMap` - Get a random map
+- `map <name>` - Get information about a specific map
+- `maplist` - Get a list of all maps
+- `shrine` - Get the current shrine of secrets
 
 ## **Entity Relationalship Diagram (ERD)📊**
 #### *Final Version*
