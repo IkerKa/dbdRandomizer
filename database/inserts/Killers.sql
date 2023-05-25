@@ -62,3 +62,15 @@ INSERT INTO Killers VALUES('The Demogorgon (The  Demogorgon)','Surge','Cruel Lim
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/New_Store_Demogorgon.png/revision/latest?cb=20220817104354');
 INSERT INTO Killers VALUES('The Dredge (The  Dredge)','Dissolution','Darkness Revealed','Septic Touch','A twisted abomination too disturbing to bear, The Dredge’s malevolence is palpable. All light slowly drains in its presence, surrounding Survivors in darkness. Using lockers as map-wide gateways, it can emerge at any moment, seemingly everywhere at once.
 ','https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/New_Store_Dredge.png/revision/latest?cb=20220607191722');
+
+--NO ESTAN EN BASE DE DATOS 
+
+INSERT INTO Killers VALUES('HUX-A7-13 (The Singularity)','Genetic Limits','Forced Hesitation','Machine Learning','A dark crystalline structure in an ancient ruin gifted — or perhaps cursed — HUX with sentience. It built a new body, and with it, a terrifying way to bend the rules of physics to its benefit.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/K32_charSelect_portrait.png/revision/latest?cb=20230525133300');
+
+INSERT INTO Killers VALUES('Adriana Imai (The Skull Merchant)','THWACK!','Leverage','Game Afoot','Inspired by the dark manga created by her father, The Skull Merchant relentlessly hunts her prey using the latest in surveillance technology.'
+,'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/Store_Skull_Merchant.png/revision/latest/scale-to-width-down/1000?cb=20230308040704');
+
+INSERT INTO killers VALUES('Tarhos Kovács (The Knight)','')
+
+
