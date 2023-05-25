@@ -18,6 +18,9 @@ import services
 import traceback
 import datetime
 
+import asyncio
+
+
 from discord.ext import commands
 
 load_dotenv()
@@ -33,6 +36,7 @@ activity = discord.Activity(type=discord.ActivityType.watching, name="Looping n'
 # start the dbdRandomizer
 client = discord.Client(intents=intent, activity=activity)
 
+bot = commands.Bot(command_prefix='!dbd', intents=intent)
 
 # text format for the !commands
 # parameters: boolean for the command
@@ -100,6 +104,10 @@ def formatCommands(indv, command):
         else:
             return "Command not found"
 
+@bot.command(name='randomPerk')
+async def _randomPerk(ctx, *args):
+    print("bot command")
+    await ctx.send(args[0])
 
 # ---> comando: !dbd randomPerk
 def getRandPerk():
@@ -697,18 +705,43 @@ async def on_message(message):
             
             # # Add the images
             # # Get the images
-            # images = [perk[-1] for perk in perks]
+            images = [perk[-1] for perk in perks]
             
-            # # Add the images
-            # for image in images:
-            #     embed.set_image(url=image,inlin=True)
+            image_index = 0
+            total_images = len(images)
+            current_image = images[image_index]
+            embed.set_image(url=current_image)
+            perkName = perks[image_index][0]
+            embed.set_footer(text=f'Perk: {perkName}')
 
-                
-                
-                
+            msg = await message.channel.send(embed=embed)
+            await msg.add_reaction('⬅️')
+            await msg.add_reaction('➡️')
+
+            def check(reaction, user):
+                return user == message.author and str(reaction.emoji) in ['⬅️', '➡️']
             
-            # We will send the embed
-            await message.channel.send(embed=embed)
+            while True:
+                try:
+                    reaction, user = await client.wait_for('reaction_add', timeout=30.0, check=check)
+
+                    if str(reaction.emoji) == '⬅️':
+                        image_index -= 1
+                        if image_index < 0:
+                            image_index = total_images - 1
+                    elif str(reaction.emoji) == '➡️':
+                        image_index += 1
+                        if image_index >= total_images:
+                            image_index = 0
+
+                    current_image = images[image_index]
+                    perkName = perks[image_index][0]
+                    embed.set_image(url=current_image)
+                    embed.set_footer(text=f'Perk: {perkName}')
+                    await msg.edit(embed=embed)
+                    await msg.remove_reaction(reaction, user)
+                except asyncio.TimeoutError:
+                    break
 
 
 
@@ -737,4 +770,6 @@ async def on_message(message):
 # We have to put the token in an environment variable
 
 # We can also put the token directly in the code but it is not recommended for security reasons
+
 client.run(TOKEN)
+
