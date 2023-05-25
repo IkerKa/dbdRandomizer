@@ -76,12 +76,12 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 
 - `help` - Get an introduction to the bot
 - `commands` - Get a list of commands
-- `randomPerk` - Get a random perk with its owner *(completed)*
+- `randomPerk` - Get a random perk info with its owner                                    *(completed)*
+- `perk <name>` - Get information about a specific perk                                   *(completed)*
+- `simplePerk` - Get a random perk name and image                                         *(completed)*
 - `randomAddOn` - Get a random add-on
 - `randomAddOns` - Get a list of random add-ons
 - `randomOffering` - Get a random offering
-- `randomSurvivor` - Get a random survivor
-- `randomKiller` - Get a random killer
 - `perk survivor` - Get a random perk from the survivors with the information about it.
 - `perk killer` - Get a random perk from the killers with the information about it.
 - `addon` - Get a random add-on with the information about it.
@@ -104,7 +104,7 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 --coming soon--
 
 - `item <name>` - Get information about a specific item (f.e medkit, toolbox, etc.) (pending)
-- `perk <name>` - Get information about a specific perk (pending)
+
 - `itemlist` - Get a list of all items (f.e medkit, toolbox, etc.) (pending)
 - `authors` - Get a list of all authors of the bot with its favorite perk, survivor, killer, item and its github link
 - `sugestedPerkCombos` - Get a random sugested perk combo of 4 perks to use
