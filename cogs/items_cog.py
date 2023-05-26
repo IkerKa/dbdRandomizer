@@ -144,9 +144,12 @@ class ItemCog(commands.Cog):
 
             # Its an array of tuples
             # Format the tuple to a string
-            names = [f"**{add[0]}**" for add in addons]
+            names = [f"{add[0]}" for add in addons]
             # Join with a comma
             names = ", ".join(names)
+
+            # Put addon[0] in bald
+            names = names.replace(addons[0][0], f"**{addons[0][0]}**")
 
             # Show an embed with the name of the survivor and the image
             embed = discord.Embed(
@@ -193,6 +196,19 @@ class ItemCog(commands.Cog):
 
                     current_image = images[image_index]
                     perkName = addons[image_index][0]
+                    # Edit, rechange the addon into normal, and focus in bald the new one
+                    names = [f"{add[0]}" for add in addons]
+                    # Join with a comma
+                    names = ", ".join(names)
+
+                    # Put the new addon in bold
+                    names = names.replace(addons[image_index][0], f"**{addons[image_index][0]}**")
+
+                    embed.set_field_at(0, name=f"Addons:",
+                            value=f"_{names}_",
+                            inline=False)
+                    
+
                     embed.set_image(url=current_image)
                     embed.set_footer(text=f'Perk: {perkName}')
                     await msg.edit(embed=embed)
