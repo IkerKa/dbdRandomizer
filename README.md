@@ -76,25 +76,23 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 
 - `help` - Get an introduction to the bot
 - `commands` - Get a list of commands
-- `randomPerk` - Get a random perk info with its owner                                    *(completed)*
-- `perk <name>` - Get information about a specific perk                                   *(completed)*
-- `simplePerk` - Get a random perk name and image                                         *(completed)*
-- `randomAddOn` - Get a random add-on                                                     *(completed)*
-- `addon <addonName>` - Get information about a specific add-on                           *(completed)*
-- `survivor` - Get a random survivor                                                      *(completed)*
-- `survivor <name>` - Get information about a specific survivor                           *(completed)*
-- `offering <name>?` - Get information about a specific offering                          *(completed)*
-- `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer                   *(completed)*
+- `randomPerk` - Get a random perk info with its owner                                                          *(completed)*
+- `perk <name>` - Get information about a specific perk                                                         *(completed)*
+- `simplePerk` - Get a random perk name and image                                                               *(completed)*
+- `randomAddOn` - Get a random add-on                                                                           *(completed)*
+- `addon <addonName>` - Get information about a specific add-on                                                 *(completed)*
+- `survivor` - Get a random survivor                                                                            *(completed)*
+- `survivor <name>` - Get information about a specific survivor                                                 *(completed)*
+- `offering <name>?` - Get information about a specific offering                                                *(completed)*
+- `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer                                         *(completed)*
+- `item <itemName?>` - Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it.     *(completed)*
+    for example: `!dbd item` : green toolbox and its information
 - `killer` - Get a random killer
 - `killer <name>` - Get information about a specific killer (pending)
 - `perkCombos survivor` - Get a random perk combo of 4 perks to use on a survivor
 - `perkCombos killer` - Get a random perk combo of 4 perks to use on a killer
 - `preMatch survivor` - Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)
 - `preMatch killer` - Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)
-- `item` - Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it. (pending)
-    for example: `!dbd item` : green toolbox and it info
-- `item <color>` - Get a random item (f.e medkit, toolbox, etc.) with the color you specified (pending)
-    for example: `!dbd item green` : green toolbox and it info
 
 --coming soon--
 
@@ -115,6 +113,8 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `quizz game` - Get a list of questions. Two players can enter a room, first to complete the quizz wins.
   p.e: "What is the name of the killer that has a chainsaw?" (answer: Leatherface/Hillbilly) or "Perk that allows you to see the aura of the killer when you are hooked?" (answer: Kindred)
   -The question can be filtered by category (perks, killers, survivors, items, etc.)
+- Verify/format commands to make them more user-friendly (case insensitive, spaces, etc.)
+
 
 ## **Entity Relationalship Diagram (ERD)📊**
 #### *Final Version*

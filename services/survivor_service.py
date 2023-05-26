@@ -53,6 +53,16 @@ class SurvivorService():
             
         else:
 
+            # Capitalize the first letter of all the words
+            # Lower case all the words
+            survivorName = survivorName.lower()
+            survivorName = survivorName.title()
+
+
+
+
+
+
             # Fetch the survivor with name
             with conn.cursor() as cursor:
                 cursor.execute(
