@@ -4,6 +4,22 @@ from .connection import conn
 
 class KillerService():
 
+    def __parseKillerName(self, kName):
+        # if there are 2 words...
+        if len(kName.split(" ")) == 2:
+            # Check if the first word is "The"
+            if kName.split(" ")[0].lower() == "the":
+                # If it is, remove it
+                kName = kName.split(" ")[1]
+
+        # Check if the name is onryo
+        if kName.lower() == "onryo":
+            kName = "onryō"
+
+        # then capitalize the first letter of the word
+        # First lower case all the letters
+        return kName.lower().capitalize()
+
     # The checkName is on survivor_service.py
 
     # Commands: killer, killer <name> at the moment
@@ -34,16 +50,7 @@ class KillerService():
         else:
 
             # if there are 2 words...
-            if len(kName.split(" ")) == 2:
-                # Check if the first word is "The"
-                if kName.split(" ")[0].lower() == "the":
-                    # If it is, remove it
-                    kName = kName.split(" ")[1]
-
-            # then capitalize the first letter of the word
-            # First lower case all the letters
-            kName = kName.lower()
-            kName = kName.capitalize()
+            kName = self.__parseKillerName(kName)
 
             with conn.cursor() as cursor:
                 cursor.execute(
@@ -74,21 +81,72 @@ class KillerService():
                         # If they are equal, return the killer
                         return killer
                     
-                    
-                    
-
-                    
                 # If there is no killer with that name, return None
                 return None
-            
 
-            
     def get_killer_perks(self, kName: str) -> tuple:
-        pass
-        
+        # Get only the perks of the survivor with name "survivorName"
+        # Just get the name of the perks and then goto perks table and get the name and icon
+        with conn.cursor() as cursor:
+            # perk_1s, perk_2s, perk_3s with 
+            cursor.execute(
+                """
+                SELECT perk_1k, perk_2k, perk_3k
+                FROM Killers
+                WHERE killerName = %s
+                """,
+                (kName,)
+            )
 
+            # Get the result
+            perks = cursor.fetchone()
+
+            # If there is no result, raise an exception
+            if perks is None:
+                return None
+            
+            # Now lets take the icon of the 3 perks
+            cursor.execute(
+                """
+                SELECT perkName, icon
+                FROM Perks
+                WHERE perkName = %s OR perkName = %s OR perkName = %s
+                """,
+                (perks[0], perks[1], perks[2])
+            )
+
+            # Get the result
+            perks = cursor.fetchall()
+
+            # If there is no result, raise an exception
+            if perks is None:
+                return None
+            
+            return perks
 
     # Power addons
     def get_killer_addons(self, kName: str) -> tuple:
-        pass
+        # Get the killer
+        killer = self.get_killer(kName, True)
+
+        # Get the killer addons
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT *
+                FROM Power_Addons
+                WHERE killerName = %s
+                """,
+                (killer[0],)
+            )
+
+            # Get the result
+            result = cursor.fetchall()
+
+            # If there is no result, raise an exception
+            if result is None:
+                raise Exception("WHOOOOPSIES :o, there is no killer")
+
+            # Return the result
+            return result
 

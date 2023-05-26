@@ -106,9 +106,9 @@ CREATE TABLE Offerings
     descripcion VARCHAR(50) NOT NULL,
     icon TEXT NOT NULL,
     
-    fromSurvivor BOOLEAN NOT NULL,
+    fromSurvivor INT NOT NULL,
     
-    fromKiller BOOLEAN NOT NULL,
+    fromKiller INT NOT NULL,
 
     PRIMARY KEY (offerName)
 );

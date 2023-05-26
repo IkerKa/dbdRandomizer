@@ -34,7 +34,12 @@ class AddOnCog(commands.Cog):
     def __getAddonInfo(self,addonName):
         addonService = services.AddOnService()
 
-        addon, items, generalName = addonService.get_addOn(addonName)
+        isOnDB = addonService.check_name(addonName)
+
+        if isOnDB == False:
+            return None, None, None, None, None, None, None
+
+        addon, info, generalName, isPower = addonService.get_addOn(addonName)
 
         if addon == None:
             return None, None, None, None, None, None
@@ -44,12 +49,14 @@ class AddOnCog(commands.Cog):
         addon_description = addon[2]
         addon_image = addon[3]
 
-        return addon_name, addon_belongsTo, addon_description, addon_image, items, generalName
+        return addon_name, addon_belongsTo, addon_description, addon_image, info, generalName, isPower
     
     async def __addon_group(self, ctx, adName : str):
         """
             Simple random addon, or detailed addon given an argument.
         """
+
+        
 
         # If the argument is None, we just want a random addon
         if adName is None:
@@ -58,12 +65,14 @@ class AddOnCog(commands.Cog):
                 # We will call the function to get the addon
                 addon_name, addon_belongTo, addon_description, addon_image, itemImage = self.__getRandAddon()
 
+
                 # [Warning] It should be always an item 
                 embed = discord.Embed(
                     title=addon_name,
                     description=addon_description,
                     color=0x00ff00,
-                    timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    timestamp=datetime.datetime.now(datetime.timezone.utc)
+                )
 
                 # embed.set_footer(
                 #     text=f"Owner: {owner[0]}",
@@ -89,54 +98,84 @@ class AddOnCog(commands.Cog):
         else:
 
             try:
-                addon_name, addon_belongsTo, addon_description, addon_image, items, generalName = self.__getAddonInfo(adName)
+                addon_name, addon_belongsTo, addon_description, addon_image, info, generalName, isPower = self.__getAddonInfo(adName)
 
                 # Check if the addon was found
                 if addon_name == None:
                     # Send an imagen with the addon not found
-                    await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/Unknown_QuestionMark.png/revision/latest?cb=20210929093312")
-                    # Message saying that the addon was not found, centerered and in bold
-                    await ctx.send(f"**{adName}**, you sure you wrote it correctly? (case sensitive)")
-
-                    # Show the list of addons
-                    await ctx.send("Here is a list of addons you can check:")
-                    await ctx.send("https://deadbydaylight.fandom.com/wiki/Add-ons")
-                    await ctx.send("Or you can use the command **!dbd randomAddon** to get a random addon")
-
+                    embed = discord.Embed(
+                        title="Addon not found :(",
+                        description="You sure that addon exists?",
+                        color=0xff0000,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/Unknown_QuestionMark.png/revision/latest?cb=20210929093312")
+                    
+                    # We will send the embed
+                    await ctx.send(embed=embed)
                     return
                 
-                # [Warning] It should be always an item
-                embed = discord.Embed(
-                    title=addon_name,
-                    description=addon_description,
-                    color=0x0000ff,
-                    timestamp=datetime.datetime.now(datetime.timezone.utc))
+                if not isPower:
                 
-                # embed.set_footer(
-                #     text=f"Owner: {owner[0]}",
-                #     icon_url=owner[-1],
+                    # [Warning] It should be always an item
+                    embed = discord.Embed(
+                        title=addon_name,
+                        description=addon_description,
+                        color=0x0000ff,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    # embed.set_footer(
+                    #     text=f"Owner: {owner[0]}",
+                    #     icon_url=owner[-1],
 
-                # )
+                    # )
 
-                # Try author instead of footer
-                embed.set_author(
-                    name=f"From: {generalName}"
-                )
+                    # Try author instead of footer
+                    embed.set_author(
+                        name=f"From: {generalName}"
+                    )
 
-                embed.set_thumbnail(url=addon_image)
+                    embed.set_thumbnail(url=addon_image)
 
-                # Add a field with the item list
-                # Parse the items list
-                # Format the tuple to a string
-                items = [f"**{item[0]}**" for item in items]
-                # Join with a comma
-                items = ", ".join(items)
-                embed.add_field(name="Items that can use this addon:",
-                                value=items,
-                                inline=False)
+                    # Add a field with the item list
+                    # Parse the items list
+                    # Format the tuple to a string
+                    items = [f"**{item[0]}**" for item in info]
+                    # Join with a comma
+                    items = ", ".join(items)
+                    embed.add_field(name="Items that can use this addon:",
+                                    value=items,
+                                    inline=False)
+                    
+                    # We will send the embed
+                    await ctx.send(embed=embed)
                 
-                # We will send the embed
-                await ctx.send(embed=embed)
+                else:
+
+                    # print(info)
+
+                    embed = discord.Embed(
+                        title=addon_name,
+                        description=addon_description,
+                        color=0x0000ff,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    # embed.set_footer(
+                    #     text=f"Owner: {owner[0]}",
+                    #     icon_url=owner[-1],
+
+                    # )
+
+                    # Try author instead of footer
+                    embed.set_author(
+                        name=f"From: {generalName}",
+                        icon_url=info[-1]
+                    )
+
+                    embed.set_thumbnail(url=addon_image)
+
+                    await ctx.send(embed=embed)
+
 
             except Exception as e:
                 await ctx.send(f'```{traceback.format_exception(e)}```')

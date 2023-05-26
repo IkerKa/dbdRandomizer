@@ -129,9 +129,5 @@ class PerkService():
             # Return the result
             return result, owner
         
-
-            
-
-    
     def random_combo(self):
         pass

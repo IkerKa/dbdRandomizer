@@ -374,6 +374,8 @@ class MyBot(commands.Bot):
             'cogs.addons_cog',
             'cogs.items_cog',
             'cogs.killer_cog',
+            'cogs.offering_cog',
+            'cogs.author_cog'
         ]
 
     async def setup_hook(self):

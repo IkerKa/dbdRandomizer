@@ -36,17 +36,27 @@ class SurvivorCog(commands.Cog):
             # If it has no name, it will be a random survivor
             survivor = self.__getSurvivorInfo(survivorN)
             if survivor == None:
-                    # Send an imagen with the survivor not found
-                    await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/IconStatusEffects_exposed.png/revision/latest?cb=20170620155518")
-                    # Message saying that the survivor was not found, centerered and in bold
-                    await ctx.send(f"**{survivorN}**, you sure you wrote it correctly? (case sensitive)")
+                    # Send an imagen with the survivor not found message
+                    embed = discord.Embed(
+                        color=0xff0000,
+                        title="Survivor not found!",
+                        description="You have to write a valid survivor name!",
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/IconStatusEffects_exposed.png/revision/latest?cb=20170620155518")
+                    
 
-                    # Show the list of survivors
-                    await ctx.send("Here is a list of survivors you can check:")
-                    await ctx.send("https://deadbydaylight.fandom.com/wiki/Survivors")
-                    await ctx.send("Or you can use the command **!dbd survivor** to get a random survivor")
+                    embed.add_field(name="Here is a list of survivors you can check:",
+                                    value="Jill Valentine, Nancy Wheeler, Nea Karlsson..."
+                                    )
+                    
+                    embed.set_footer(text="FORMAT: !dbd survivor NAME")
+
+
+                    await ctx.send(embed=embed)
 
                     return
+
 
             # Depends on the name, we will show a different embed
             # If the name is None, it will be a random survivor

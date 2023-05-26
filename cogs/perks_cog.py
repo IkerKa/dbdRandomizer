@@ -3,7 +3,7 @@ from discord.ext import commands
 
 import datetime, traceback, asyncio
 
-from services import PerkService, SurvivorService
+from services import PerkService, SurvivorService, KillerService
 
 class PerksCog(commands.Cog):
 
@@ -14,6 +14,7 @@ class PerksCog(commands.Cog):
         self.bot = bot
         self.perkService = PerkService()
         self.survivorService = SurvivorService()
+        self.killerService = KillerService()
 
     
     def __getRandPerk(self, isSurv : int, isKiller : int):
@@ -50,9 +51,9 @@ class PerksCog(commands.Cog):
     def __getPerksOf(self,survivorName=None, killerName=None):
     
         if survivorName != None:
-            perks = self.survivorService.get_survivor_perks(survivorName=survivorName)
+            perks = self.survivorService.get_survivor_perks(survivorName)
         elif killerName != None:
-            perks = self.survivorService.get_killer_perks(survivorName=None, killerName=killerName)
+            perks = self.killerService.get_killer_perks(killerName)
         else:
             return None
     
@@ -150,47 +151,73 @@ class PerksCog(commands.Cog):
         except Exception as e:
             await ctx.send(f'```{traceback.format_exception(e)}```')
 
-    async def __perks_of(self, ctx, ownerName):
+    async def __perks_of(self, ctx, ownerName : str):
         try:
-
+            
             # Check if is a killer or a survivor
-            isSurv = self.survivorService.checkName(ownerName)
+            isSurv = self.survivorService.checkName(ownerName.lower())
+
+            fullInfo = None
 
             if isSurv:
+                fullInfo = self.survivorService.get_survivor(ownerName, True)
                 # Get the perks of the survivor
                 perks = self.__getPerksOf(ownerName,None)
 
             else:
-                # Get the perks of the killer
-                perks = self.__getPerksOf(None,ownerName)
+                fullInfo = self.killerService.get_killer(ownerName, True)
+
+                if fullInfo is None:
+                    # error
+                    err_embed = discord.Embed(
+                        color=0xf0f000,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc),
+                        title="Whoops!",
+                        description="Can't find the survivor/killer. Are you sure you spelled it right?")
+
+                    err_embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/IconStatusEffects_exposed.png/revision/latest?cb=20170620155518")
+                    
+                    await ctx.send(embed=err_embed)
+
+                    return
+                else:
+                    # Get the perks of the killer
+                    perks = self.__getPerksOf(None,fullInfo[0])
 
             # Parse the perks 
             # Its an array of tuples
             # Format the tuple to a string
-            names = [f"**{perk[0]}**" for perk in perks]
+            perk_names = [f"{perk[0]}" for perk in perks]
+
+            image_index = 0
+
+            title_vars = perk_names.copy()
+            title_vars[image_index] = f"**{title_vars[image_index]}**"
+
             # Join with a comma
-            names = ", ".join(names)
+            names = ", ".join(title_vars)
 
             # Show an embed with the name of the survivor and the image
             embed = discord.Embed(
                 color=0xff0000,
-                timestamp=datetime.datetime.now(datetime.timezone.utc))
+                timestamp=datetime.datetime.now(datetime.timezone.utc),
+                description=names)
             
             # Title of the embed bold and centered
-            embed.add_field(name=f"Perks of {ownerName}:",
-                            value=f"{names}",
-                            inline=False)
             
             # # Add the images
             # # Get the images
             images = [perk[-1] for perk in perks]
             
-            image_index = 0
+            
             total_images = len(images)
             current_image = images[image_index]
             embed.set_image(url=current_image)
-            perkName = perks[image_index][0]
-            embed.set_footer(text=f'Perk: {perkName}')
+            embed.set_footer(text=f'Perk: {perk_names[image_index]}')
+            embed.set_author(
+                name=f"Perks of {fullInfo[0]}",
+                icon_url=fullInfo[-1]
+            )
 
             msg = await ctx.send(embed=embed)
             await msg.add_reaction('⬅️')
@@ -211,11 +238,23 @@ class PerksCog(commands.Cog):
                         image_index += 1
                         if image_index >= total_images:
                             image_index = 0
+                    
+                    title_vars = perk_names.copy()
+                    title_vars[image_index] = f"**{title_vars[image_index]}**"
+                    names = ", ".join(title_vars)
 
+                    embed = discord.Embed(
+                        color=0xff0000,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc),
+                        description=names)
+                    embed.set_footer(text=f'Perk: {perk_names[image_index]}')
+                    embed.set_author(
+                        name=f"Perks of {fullInfo[0]}",
+                        icon_url=fullInfo[-1]
+                    )
                     current_image = images[image_index]
-                    perkName = perks[image_index][0]
                     embed.set_image(url=current_image)
-                    embed.set_footer(text=f'Perk: {perkName}')
+
                     await msg.edit(embed=embed)
                     await msg.remove_reaction(reaction, user)
                 except asyncio.TimeoutError:
@@ -236,7 +275,7 @@ class PerksCog(commands.Cog):
     async def killer(self, ctx):
         await self.__perks_killer(ctx)
 
-    @perks.command(name="of", description="Find perks that belong to a certain killer or survivor.")
+    @perks.command(name="of", description="Subcommand for getting random killer perk")
     async def perks_of(self, ctx, *, arg1):
         await self.__perks_of(ctx, arg1)
 
