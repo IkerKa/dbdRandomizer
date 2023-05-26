@@ -750,11 +750,13 @@ def main():
 
 class MyBot(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix='!',intents=intent, activity=activity)
+        prefix = commands.when_mentioned_or('!dbd ')
+        super().__init__(command_prefix=prefix,intents=intent, activity=activity)
         self.initial_extensions = [
             'cogs.perks_cog',
             'cogs.surv_cog',
-            'cogs.addons_cog'
+            'cogs.addons_cog',
+            'cogs.items_cog',
         ]
 
     async def setup_hook(self):

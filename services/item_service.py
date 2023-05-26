@@ -57,7 +57,44 @@ class ItemService():
                     # Return the result
                     return result
                 
-                
+
 
     def get_addons(self, itemName: str) -> tuple:
-        pass
+        # First, take the image and the name of the item
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT *
+                FROM Items
+                WHERE itemName = %s
+                """,
+                (itemName,)
+            )
+
+            # Get the result
+            item = cursor.fetchone()
+
+            # If there is no result with name, it will be shown an error message
+            if item is None:
+                return None, None
+            
+            # Get the addons of the item
+            cursor.execute(
+                """
+                SELECT *
+                FROM Item_Addons
+                WHERE itemName = %s
+                """,
+                (itemName,)
+            )
+
+            # Get the result
+            addons = cursor.fetchall()
+
+            # If there is no result with name, it will be shown an error message
+            if addons is None:
+                return None, None
+            
+            # Return the result
+            return item, addons
+

@@ -112,6 +112,9 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 
 --Future updates--
 - `bingo` - Get a list of objectives. Two players can enter a room, first to complete a line wins.
+- `quizz game` - Get a list of questions. Two players can enter a room, first to complete the quizz wins.
+  p.e: "What is the name of the killer that has a chainsaw?" (answer: Leatherface/Hillbilly) or "Perk that allows you to see the aura of the killer when you are hooked?" (answer: Kindred)
+  -The question can be filtered by category (perks, killers, survivors, items, etc.)
 
 ## **Entity Relationalship Diagram (ERD)📊**
 #### *Final Version*
