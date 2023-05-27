@@ -123,6 +123,8 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `mostPlayed <killer/survivor/perk/item> <name>` - Get a list of the most played killers, survivors, perks, items, etc.
 - `mostSearched` - Get a list of the most searched killers, survivors, perks, items, etc.
 
+- `<sth> list` - Get a list of N <sth> (killer, survivor, perk, item, etc.)
+
 
 
 ## **Entity Relationalship Diagram (ERD)📊**

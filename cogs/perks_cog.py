@@ -16,7 +16,39 @@ class PerksCog(commands.Cog):
         self.survivorService = SurvivorService()
         self.killerService = KillerService()
 
+    def __getRandBoonPerk(self, isSurv : int, isKiller : int):
+            
+            # access the method to get a random perk
+            # Params: True True bc we want to get a random perk from the survivors and killers
+            perk, owner = self.perkService.randomBoon_perk(isSurv, isKiller)
+            # print(perk)
+            # print(owner)
     
+            perk_name = perk[0]
+            perk_description = perk[1]
+            perk_image = perk[2]
+            # Owner: another query
+    
+            # We return the name, description and image of the perk
+            return perk_name, perk_description, perk_image, owner
+
+    
+    def __getRandHexPerk(self, isSurv : int, isKiller : int):
+            
+            # access the method to get a random perk
+            # Params: True True bc we want to get a random perk from the survivors and killers
+            perk, owner = self.perkService.randomHex_perk(isSurv, isKiller)
+            # print(perk)
+            # print(owner)
+    
+            perk_name = perk[0]
+            perk_description = perk[1]
+            perk_image = perk[2]
+            # Owner: another query
+    
+            # We return the name, description and image of the perk
+            return perk_name, perk_description, perk_image, owner
+
     def __getRandPerk(self, isSurv : int, isKiller : int):
 
         # access the method to get a random perk
@@ -59,7 +91,45 @@ class PerksCog(commands.Cog):
     
         return perks
 
-    # self.survivorService.checkName(survivorName) isSurvivor
+    async def __randomBoon_perk(self, ctx, isSurv : int, isKiller : int):
+        # Just inline the image of the perk and the name of the perk in the same line
+        perk_name, perk_image, _, _ = self.__getRandBoonPerk(isSurv, isKiller)
+
+
+        # Show an embed with the name of the perk and the image
+        embed = discord.Embed(
+            color=0xff0000,
+            timestamp=datetime.datetime.now(datetime.timezone.utc))
+
+        # Title of the embed bold and centered
+        embed.add_field(name="Perk:",
+                        value=f"**{perk_name}**",
+                        inline=False)
+        
+        embed.set_image(url=perk_image)
+
+        # We will send the embed
+        await ctx.send(embed=embed)
+
+    async def __randomHex_perk(self, ctx, isSurv : int, isKiller : int):
+        # Just inline the image of the perk and the name of the perk in the same line
+        perk_name, perk_image, _, _ = self.__getRandHexPerk(isSurv, isKiller)
+
+
+        # Show an embed with the name of the perk and the image
+        embed = discord.Embed(
+            color=0xff0000,
+            timestamp=datetime.datetime.now(datetime.timezone.utc))
+
+        # Title of the embed bold and centered
+        embed.add_field(name="Perk:",
+                        value=f"**{perk_name}**",
+                        inline=False)
+        
+        embed.set_image(url=perk_image)
+
+        # We will send the embed
+        await ctx.send(embed=embed)
 
     async def __random_perk(self, ctx, isSurv : int, isKiller : int):
         # Just inline the image of the perk and the name of the perk in the same line
@@ -97,15 +167,22 @@ class PerksCog(commands.Cog):
 
                 if perk_name == None:
                     # Send an image with the perk not found
-                    # url: https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641
-                    await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641")
-                    # Message saying that the perk was not found, centerered and in bold
-                    await ctx.send(f"**{perkN}** was not found (case sensitive)")
+                    embed = discord.Embed(
+                        # Perk _<perkName>_ not found
+                        title=f"Perk _{perkN}_ not found",
+                        description="Check the name of the perk and try again, or check if it's a Hex. In that case use hex: first.",
+                        color=0xff0000,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    
+                    embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641")
 
-                    # Show the list of perks
-                    await ctx.send("Here is a list of perks you can check:")
-                    await ctx.send("https://deadbydaylight.fandom.com/wiki/Perks")
-                    await ctx.send("Or you can use the command **!dbd randomPerk** to get a random perk")
+                    embed.set_footer(
+                        text="Use !dbd perks for more info",
+
+                    )
+                    # We will send the embed
+                    await ctx.send(embed=embed)
 
                     return
 
@@ -263,6 +340,29 @@ class PerksCog(commands.Cog):
         except Exception as e:
             await ctx.send(f'```{traceback.format_exception(e)}```')
 
+    async def __perks_hex(self, ctx, perkN):
+        # Just add the hex to the perkN
+        if perkN is None:
+            # print("No perkN")
+            await self.__randomHex_perk(ctx, 0, 1)
+        else:
+            perkN = f"Hex: {perkN.lower()}"
+            # Call perk group
+            await self.__perks_group(ctx, perkN)
+
+    async def __perks_boon(self, ctx, perkN):
+        # Just add the hex to the perkN
+        if perkN is None:
+            # print("No perkN")
+            await self.__randomBoon_perk(ctx, 1,0)
+        else:
+            perkN = f"Boon: {perkN.lower()}"
+            # Call perk group
+            await self.__perks_group(ctx, perkN)
+
+
+
+
     @commands.group(description="Command group for Perks", invoke_without_command=True, pass_context=True)
     async def perks(self, ctx, *, arg1 = None):
         await self.__perks_group(ctx, arg1)
@@ -278,6 +378,19 @@ class PerksCog(commands.Cog):
     @perks.command(name="of", description="Subcommand for getting random killer perk")
     async def perks_of(self, ctx, *, arg1):
         await self.__perks_of(ctx, arg1)
+    
+    @perks.command(name="hex", description="(QoL)Subcommand for getting random hex perk or a specific one")
+    async def perks_hex(self, ctx, *, arg1 = None):
+        await self.__perks_hex(ctx, arg1)
+
+    @perks.command(name="boon", description="(QoL)Subcommand for getting random boon perk or a specific one")
+    async def perks_boon(self, ctx, *, arg1 = None):
+        await self.__perks_boon(ctx, arg1)
+
+
+
+
+    # @perks.command(name="list", description="Subcommand for getting a list of perks")
 
 async def setup(bot):
     await bot.add_cog(PerksCog(bot))
