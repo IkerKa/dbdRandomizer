@@ -87,14 +87,17 @@ class ItemCog(commands.Cog):
                 # If the item is None, we will send an error message
                 if itemName is None:
                     # We will send the error  message
-                    await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/IconHelp_movementSpeed.png/revision/latest?cb=20201111211324")
+                    embed = discord.Embed(
+                        title="Ou nou...",
+                        description="The item you are looking {} doesn't exist".format(iName),
+                        colour=discord.Colour.dark_red()
+                    )
 
-                    await ctx.send(f"**{iName}**, you sure you wrote it correctly? (case sensitive)")
-
-                    # Show the list of addons
-                    await ctx.send("Here is a list of addons you can check:")
-                    await ctx.send("https://deadbydaylight.fandom.com/wiki/Items")
-                    await ctx.send("Or you can use the command **!dbd item** to get a random item")
+                    # We will add the image of the item
+                    embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/IconHelp_movementSpeed.png/revision/latest?cb=20201111211324")
+                    embed.set_footer(text="You sure you wrote it correctly?")
+                    # We will send the embed
+                    await ctx.send(embed=embed)
 
                     return
 
@@ -123,16 +126,21 @@ class ItemCog(commands.Cog):
 
         if item is None:
             # We will send the error  message
-            await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/IconHelp_movementSpeed.png/revision/latest?cb=20201111211324")
+            embed = discord.Embed(
+                title="Ou nou...",
+                description="The item you are looking {} doesn't exist".format(iName),
+                colour=discord.Colour.dark_red()
+            )
 
-            await ctx.send(f"**{iName}**, you sure you wrote it correctly? (case sensitive)")
+            # We will add the image of the item
+            embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/IconHelp_movementSpeed.png/revision/latest?cb=20201111211324")
+            embed.set_footer(text="You sure you wrote it correctly?")
 
-            # Show the list of addons
-            await ctx.send("Here is a list of addons you can check:")
-            await ctx.send("https://deadbydaylight.fandom.com/wiki/Items")
-            await ctx.send("Or you can use the command **!dbd item** to get a random item")
+            # We will send the embed
+            await ctx.send(embed=embed)
 
             return
+
         
         elif addons is None:
             await ctx.send(f"**{iName}** doesn't have any addons")

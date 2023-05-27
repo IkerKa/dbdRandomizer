@@ -8,6 +8,13 @@ class ItemService():
     # item <itemName> (optional)
     # item addons <itemName> (mandatory)
 
+    def parseName(self, itemName: str) -> str:
+        # Capitalize the first letter of the words and lowercase the rest
+        itemName = itemName.lower()
+        itemName = itemName.title()
+
+        return itemName
+
     def get_item(self, itemName: str, specific: bool) -> tuple:
         """
         Get an item from the database (if specific is True, it will get the item with the name, if not, it will get a random item)
@@ -38,6 +45,10 @@ class ItemService():
             
         else:
                 
+                
+                # Parse
+                itemName = self.parseName(itemName)
+
                 # Fetch the item with name
                 with conn.cursor() as cursor:
                     cursor.execute(
@@ -61,6 +72,10 @@ class ItemService():
 
     def get_addons(self, itemName: str) -> tuple:
         # First, take the image and the name of the item
+
+        itemName = self.parseName(itemName)
+
+        
         with conn.cursor() as cursor:
             cursor.execute(
                 """

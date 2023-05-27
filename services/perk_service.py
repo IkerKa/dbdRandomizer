@@ -79,11 +79,12 @@ class PerkService():
         # The same as random_perk, but with a perk name, so first, we need to get the perk and check if it exists
         with conn.cursor() as cursor:
 
+            # We are going to check
             cursor.execute(
                 """
                 SELECT *
                 FROM Perks
-                WHERE perkName = %s
+                WHERE LOWER(perkName) = LOWER(%s)
                 """,
                 (perk_name,)
             )
