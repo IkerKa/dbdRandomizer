@@ -115,6 +115,15 @@ ALL OF THEM STARTS WITH `!dbd <command>`
   -The question can be filtered by category (perks, killers, survivors, items, etc.)
 - Verify/format commands to make them more user-friendly (case insensitive, spaces, etc.)
 
+- `hallOfFame` - Get a list of the best players of the bot (with the most points) 
+- `points` - Get the points of a player
+- `leaderboard` - Get a list of the best players of the bot (with the most points)
+- `mostPlayed` - Get a list of the most played killers, survivors, perks, items, etc.
+- `mostPlayed <killer/survivor/perk/item>` - random killer/survivor/perk/item that is the most played
+- `mostPlayed <killer/survivor/perk/item> <name>` - Get a list of the most played killers, survivors, perks, items, etc.
+- `mostSearched` - Get a list of the most searched killers, survivors, perks, items, etc.
+
+
 
 ## **Entity Relationalship Diagram (ERD)📊**
 #### *Final Version*
