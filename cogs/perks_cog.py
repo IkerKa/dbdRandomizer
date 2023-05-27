@@ -1,9 +1,23 @@
+import random
 import discord
 from discord.ext import commands
 
 import datetime, traceback, asyncio
 
 from services import PerkService, SurvivorService, KillerService
+
+import formatter as formatter
+from formatter import perk_imager as pi
+from PIL import Image
+from io import BytesIO
+import requests
+import os
+
+# OpenCV 
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
 
 class PerksCog(commands.Cog):
 
@@ -15,6 +29,10 @@ class PerksCog(commands.Cog):
         self.perkService = PerkService()
         self.survivorService = SurvivorService()
         self.killerService = KillerService()
+
+    def __randomCombo(self, ctx, isSurv : int, isKiller : int, number : input):
+        
+        return self.perkService.random_combo(isSurv, isKiller, number)
 
     def __getRandBoonPerk(self, isSurv : int, isKiller : int):
             
@@ -361,6 +379,118 @@ class PerksCog(commands.Cog):
             await self.__perks_group(ctx, perkN)
 
 
+    async def __perkCombo_group(self,ctx, character, number):
+
+        # Loading embed
+        loading_embed = discord.Embed(
+            color=0xf0f000,
+            timestamp=datetime.datetime.now(datetime.timezone.utc),
+            title="Loading...",
+            description="Wait fellas!, Your perk combo is baking ʕ••ʔ")
+
+        msg = await ctx.send(embed=loading_embed)
+
+        
+        if character is not None:
+            character = character.lower()
+        
+        # If the character is killer
+        if character is None:
+            # Just a randomCombo
+            randInteger = random.randint(0,1)
+            if randInteger == 0:
+                perks = self.__randomCombo(ctx,0,1, number)
+                character = "killer"
+            else:
+                perks = self.__randomCombo(ctx,1,0, number)
+                character = "survivor"
+        
+        if character == "killer":
+            perks = self.__randomCombo(ctx,0,1, number)
+        elif character == "survivor":
+            perks = self.__randomCombo(ctx,1,0, number)
+        # else:
+        #     embed = discord.Embed(
+        #         color=0xf0f000,
+        #         timestamp=datetime.datetime.now(datetime.timezone.utc),
+        #         title="Whoops!",
+        #         description="Invalid command. Just !dbd perkcombo killer/survivor")
+            
+        #     embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/IconHelp_exitGates.png/revision/latest?cb=20170907140953")
+            
+        #     await ctx.send(embed=embed)
+
+
+        # Parse the perks
+        # Make an embed
+
+        # print("PERKS: ", perks)
+
+        ps = [f"{perk[0]}" for perk in perks]
+        # Get the first 4
+        ps = ps[:4]
+
+        # Join with comma the first 4
+        names = ", ".join(ps)
+
+
+
+
+        embed = discord.Embed(
+            title=f"Your perk combo is ready!",
+            color=0xf0f000,
+            timestamp=datetime.datetime.now(datetime.timezone.utc),
+            description=names)
+
+
+        embed.set_footer(text="Perk Combo")
+        # print("PERKS: ", perks)
+
+        perksImages = [perk[1] for perk in perks]
+
+        if len(perksImages) < 4:
+            while(len(perksImages) < 4):
+                perksImages.append(None)
+
+        # Print formatted string
+        # print("PERKS IMAGES: ", perksImages)
+
+        
+        image_perk = []
+        for perk in perksImages:
+            if perk is not None:
+                image_perk.append(Image.open(BytesIO(requests.get(perk).content)))
+            else:
+                image_perk.append(None)
+
+        if character == "killer":
+            embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconHelpLoading_killer.png/revision/latest?cb=20220324212743")
+        elif character == "survivor":
+            embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconHelpLoading_survivor.png/revision/latest?cb=20220324212914")
+
+        # Create a perk display object
+        # 4 arguments passed as
+        pdisp = pi.perk_display(
+            up=image_perk[0],
+            left=image_perk[1],
+            right=image_perk[2],
+            down=image_perk[3],
+            size=(512, 512)
+        )
+
+        bytes_img = BytesIO()
+        pdisp.save(bytes_img, format="PNG")
+        bytes_img.seek(0)
+        dfile = discord.File(bytes_img, filename="image.png")
+
+        embed.set_image(url="attachment://image.png")
+
+        # Delete the loading message
+        await msg.delete()
+        
+
+        # Substitution for the message
+        await ctx.send(embed=embed, file=dfile)
 
 
     @commands.group(description="Command group for Perks", invoke_without_command=True, pass_context=True)
@@ -386,6 +516,26 @@ class PerksCog(commands.Cog):
     @perks.command(name="boon", description="(QoL)Subcommand for getting random boon perk or a specific one")
     async def perks_boon(self, ctx, *, arg1 = None):
         await self.__perks_boon(ctx, arg1)
+
+    # New group for getting a list of perks
+    @commands.group(description="Command group for Perks", invoke_without_command=True, pass_context=True)
+    async def perkcombo(self, ctx, arg1 = None, arg2 = None):
+        # arg1 could be survivor or killer
+        if arg1 is None:
+            await self.__perkCombo_group(ctx, character=None, number=4)
+        elif arg1.isnumeric():
+            await self.__perkCombo_group(ctx, character=None, number=int(arg1))
+        else:
+            if arg2 is None:
+                await self.__perkCombo_group(ctx, character=arg1, number=4)
+            elif arg2.isnumeric():
+                await self.__perkCombo_group(ctx, character=arg1, number=int(arg2))
+            else:
+                await ctx.send("Invalid command. Just !dbd perkcombo killer/survivor <number>")
+
+
+    # Same, survivor,killer ...
+
 
 
 

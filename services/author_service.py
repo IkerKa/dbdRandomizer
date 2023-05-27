@@ -32,7 +32,7 @@ class AuthorService():
             survivor_name="Jill Valentine"
             mapa_name="Hawkins National Laboratory/Haddonfield"
             perks.append("Lithe")
-            perks.append("Adrenaline/Resilience")
+            perks.append("Adrenaline")
             perks.append("Off the Record")
             perks.append("Inner Healing")
 
@@ -60,8 +60,33 @@ class AuthorService():
 
             resultado = cursor.fetchone()
 
+        # Get perks images
+        # Search them in the database
+        perks_images = []
+
+        for perk in perks:
+            print("PERK: ", perk)
+            with conn.cursor() as cursor:
+                cursor.execute(
+                    """
+                        SELECT icon
+                        FROM Perks
+                        WHERE perkName = %s
+                    """,
+                    (perk,)
+                )
+
+                res = cursor.fetchone()
+                perks_images.append(res[0])
+
+        # Get map image
+        # Coming soon
+
+
+
+
         # Nombre survivor , Foto , perk 1, perk 2, perk 3, perk 4 y mapa
-        return resultado[0],resultado[-1],perks,mapa_name
+        return resultado[0],resultado[-1], perks, perks_images, mapa_name
 
 
 

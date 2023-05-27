@@ -87,18 +87,15 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `perksof <survivor/killer>` - Get the 3 perks of a survivor or killer                                         *(completed)*
 - `item <itemName?>` - Get a variety-random item (f.e medkit, toolbox, etc.) with the information about it.     *(completed)*
     for example: `!dbd item` : green toolbox and its information
-- `killer` - Get a random killer
+- `killer` - Get a random killer                                                                                *(completed)*
 - `killer <name>` - Get information about a specific killer (pending)
-- `perkCombos survivor` - Get a random perk combo of 4 perks to use on a survivor
-- `perkCombos killer` - Get a random perk combo of 4 perks to use on a killer
+- `perkCombos survivor` - Get a random perk combo of 4 perks to use on a survivor                               *(completed)*
+- `perkCombos killer` - Get a random perk combo of 4 perks to use on a killer                                   *(completed)*
 - `preMatch survivor` - Get a random pre-match lobby setup (including 4 perks (from the survivors), 1 item (with 2 add-ons), 1 offering, and 1 survivor)
 - `preMatch killer` - Get a random pre-match lobby setup (including 4 perks (from the killers), 1 item (with 2 add-ons), 1 offering, and 1 killer)
 
 --coming soon--
 
-- `item <name>` - Get information about a specific item (f.e medkit, toolbox, etc.) (pending)
-
-- `itemlist` - Get a list of all items (f.e medkit, toolbox, etc.) (pending)
 - `authors` - Get a list of all authors of the bot with its favorite perk, survivor, killer, item and its github link
 - `sugestedPerkCombos` - Get a random sugested perk combo of 4 perks to use
 - `randomObjetive` - Get a random objetive to do in the match
@@ -124,6 +121,14 @@ ALL OF THEM STARTS WITH `!dbd <command>`
 - `mostSearched` - Get a list of the most searched killers, survivors, perks, items, etc.
 
 - `<sth> list` - Get a list of N <sth> (killer, survivor, perk, item, etc.)
+
+- `promoCodes` - Get a list of promo codes (to earn BP, shards, etc.)
+
+- `randomBuild` - Get a random build (killer or survivor)
+
+- `randomPerkBuild` - Get a random perk build (killer or survivor)
+
+
 
 
 

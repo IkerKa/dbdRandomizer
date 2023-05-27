@@ -35,6 +35,7 @@ class OfferingsCog(commands.Cog):
         # We return the name, description and image of the Offering
         return offering_name, offering_description, offering_image
 
+    # This is not necessary
     def __getOfferingsOf(self,survivorName=None, killerName=None):
     
         if survivorName != None:
@@ -47,10 +48,17 @@ class OfferingsCog(commands.Cog):
         return offerings
 
     # self.survivorService.checkName(survivorName) isSurvivor
+    async def __getOfferingInfo(self,offeringName):
+        # We will call the function to get the Offering
+        offering, offering_description, offering_image = self.offeringService.get_offering(offeringName)
+
+        # We return the name, description and image of the Offering
+        return offering, offering_description, offering_image
+    
 
     async def __randomOffering(self, ctx, isSurv : int, isKiller : int):
         # Just inline the image of the Offering and the name of the Offering in the same line
-        offering_name, offering_desc, offering_image = self.__getRandOffering(isSurv, isKiller)
+        offering_name, _, offering_image = self.__getRandOffering(isSurv, isKiller)
 
         # Show an embed with the name of the Offering and the image
         embed = discord.Embed(
@@ -80,48 +88,44 @@ class OfferingsCog(commands.Cog):
                 # Detailed Offering, name is arg1
 
                 # We will call the function to get the Offering
-                Offering_name, Offering_image, Offering_description, owner = self.__getOfferingInfo(offeringN)
+                ok = True
+                try:
+                    offering, offering_description, offering_image =  await self.__getOfferingInfo(offeringN)
+                except:
+                    ok = False
 
-                if Offering_name == None:
-                    # Send an image with the Offering not found
-                    # url: https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641
-                    await ctx.send("https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641")
-                    # Message saying that the Offering was not found, centerered and in bold
-                    await ctx.send(f"**{offeringN}** was not found (case sensitive)")
+                if not ok:
+                    # Send an image with the perk not found
+                    embed = discord.Embed(
+                        # Perk _<perkName>_ not found
+                        title=f"offering _{offeringN}_ not found",
+                        description="Check the name of the offering and try again.",
+                        color=0xff0000,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    
+                    
+                    embed.set_thumbnail(url="https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/Atl_Loadout_Icon_Cruelty.png/revision/latest?cb=20210604022641")
 
-                    # Show the list of offerings
-                    await ctx.send("Here is a list of offerings you can check:")
-                    await ctx.send("https://deadbydaylight.fandom.com/wiki/offerings")
-                    await ctx.send("Or you can use the command **!dbd randomOffering** to get a random Offering")
+                    embed.set_footer(
+                        text="Use !dbd offerings for more info",
 
-                    return
+                    )
+                    # We will send the embed
+                    await ctx.send(embed=embed)
 
-                if owner == None:
-                    owner = ("No pertenece a nadie (:",
-                            "https://i.imgur.com/Od372kM_d.webp?maxwidth=760&fidelity=grand")
+                else:
+                    # We will create the embed
+                    # timestamp utc + 2
+                    embed = discord.Embed(
+                        title=offering,
+                        description=offering_description,
+                        color=0x00fff0,
+                        timestamp=datetime.datetime.now(datetime.timezone.utc))
 
-                # We will create the embed
-                # timestamp utc + 2
-                embed = discord.Embed(
-                    title=Offering_name,
-                    description=Offering_description,
-                    color=0x00fff0,
-                    timestamp=datetime.datetime.now(datetime.timezone.utc))
+                    embed.set_thumbnail(url=offering_image)
 
-                # embed.set_footer(
-                #     text=f"Owner: {owner[0]}",
-                #     icon_url=owner[-1],
-                # )
-                # Try author instead of footer
-                embed.set_author(
-                    name=f"Owner: {owner[0]}",
-                    icon_url=owner[-1],
-                )
-
-                embed.set_thumbnail(url=Offering_image)
-
-                # We will send the embed
-                await ctx.send(embed=embed)
+                    # We will send the embed
+                    await ctx.send(embed=embed)
 
         except Exception as e:
             await ctx.send(f'```{traceback.format_exception(e)}```')

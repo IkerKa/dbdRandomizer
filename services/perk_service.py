@@ -215,5 +215,20 @@ class PerkService():
             # Return the result
             return result, owner
         
-    def random_combo(self):
-        pass
+    def random_combo(self, survivor : int, killer : int, n : int = 4):
+
+        # Get a random perk from the database
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT *
+                FROM Perks
+                WHERE fromSurvivor = %s OR fromKiller = %s
+                ORDER BY RANDOM()
+                LIMIT %s
+                """,
+                (survivor, killer, n)
+            )
+
+            # Get the result
+            return cursor.fetchmany(n)

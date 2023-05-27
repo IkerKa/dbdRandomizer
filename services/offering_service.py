@@ -22,3 +22,23 @@ class OfferingService():
             offering = cursor.fetchone()
 
             return offering[0], offering[1], offering[2]
+        
+    def get_offering(self, offeringName : str):
+        # After that, get the owner
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT *
+                FROM Offerings
+                WHERE offerName = %s
+                """,
+                (offeringName,)
+            )
+
+            offering = cursor.fetchone()
+
+            if offering is None:
+                raise Exception("No offering found")
+
+            return offering[0], offering[1], offering[2]
+        
