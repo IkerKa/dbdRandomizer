@@ -29,12 +29,12 @@ class AuthorService():
 
 
         elif authorName == "Iker":
-            survivor_name="Jill Valentine"
+            survivor_name="Nancy Wheeler"
             mapa_name="Hawkins National Laboratory/Haddonfield"
             perks.append("Lithe")
             perks.append("Adrenaline")
-            perks.append("Off the Record")
-            perks.append("Inner Healing")
+            perks.append("Resilience")          #or off the record
+            perks.append("Inner Healing")   
 
         elif authorName == "Dario":
             survivor_name="Jake Park"

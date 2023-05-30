@@ -1,0 +1,272 @@
+{
+    "Realms": [
+        {
+            "name": "The MacMillan Estate",
+            "maps": [
+                {
+                    "name": "Coal Tower",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Coal_Tower"
+                },
+                {
+                    "name": "Groaning Storehouse",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Groaning_Storehouse"
+                },
+                {
+                    "name": "Ironworks of Misery",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Ironworks_of_Misery"
+                },
+                {
+                    "name": "Shelter Woods",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Shelter_Woods"
+                },
+                {
+                    "name": "Suffocation Pit",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Suffocation_Pit"
+                }
+            ]
+        },
+        {
+            "name": "Autohaven Wreckers",
+            "maps": [
+                {
+                    "name": "Azarov's Resting Place",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Azarov's_Resting_Place"
+                },
+                {
+                    "name": "Blood Lodge",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Blood_Lodge"
+                },
+                {
+                    "name": "Gas Heaven",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Gas_Heaven"
+                },
+                {
+                    "name": "Wreckers' Yard",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Wreckers'_Yard"
+                },
+                {
+                    "name": "Wretched Shop",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Wretched_Shop"
+                }
+            ]
+        },
+        {
+            "name": "Coldwind Farm",
+            "maps": [
+                {
+                    "name": "Fractured Cowshed",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Fractured_Cowshed"
+                },
+                {
+                    "name": "Rancid Abattoir",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Rancid_Abattoir"
+                },
+                {
+                    "name": "Rotten Fields",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Rotten_Fields"
+                },
+                {
+                    "name": "The Thompson House",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Thompson_House"
+                },
+                {
+                    "name": "Torment Creek",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Torment_Creek"
+                }
+            ]
+        },
+        {
+            "name": "Crotus Prenn Asylum",
+            "maps": [
+                {
+                    "name": "Disturbed Ward",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Disturbed_Ward"
+                },
+                {
+                    "name": "Father Campbell's Chapel",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Father_Campbell's_Chapel"
+                }
+            ]
+        },
+        {
+            "name": "Haddonfield",
+            "maps": [
+                {
+                    "name": "Lampkin Lane",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Lampkin_Lane"
+                }
+            ]
+        },
+        {
+            "name": "Backwater Swamp",
+            "maps": [
+                {
+                    "name": "The Pale Rose",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Pale_Rose"
+                },
+                {
+                    "name": "Grim Pantry",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Grim_Pantry"
+                }
+            ]
+        },
+        {
+            "name": "L\u00e9ry's Memorial Institute",
+            "maps": [
+                {
+                    "name": "Treatment Theatre",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Treatment_Theatre"
+                }
+            ]
+        },
+        {
+            "name": "Red Forest",
+            "maps": [
+                {
+                    "name": "Mother's Dwelling",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Mother's_Dwelling"
+                },
+                {
+                    "name": "The Temple of Purgation",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Temple_of_Purgation"
+                }
+            ]
+        },
+        {
+            "name": "Springwood",
+            "maps": [
+                {
+                    "name": "Badham Preschool I",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Badham_Preschool_I"
+                },
+                {
+                    "name": "Badham Preschool II",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Badham_Preschool_II"
+                },
+                {
+                    "name": "Badham Preschool III",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Badham_Preschool_III"
+                },
+                {
+                    "name": "Badham Preschool IV",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Badham_Preschool_IV"
+                },
+                {
+                    "name": "Badham Preschool V",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Badham_Preschool_V"
+                }
+            ]
+        },
+        {
+            "name": "Gideon Meat Plant",
+            "maps": [
+                {
+                    "name": "The Game",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Game"
+                }
+            ]
+        },
+        {
+            "name": "Yamaoka Estate",
+            "maps": [
+                {
+                    "name": "Family Residence",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Family_Residence"
+                },
+                {
+                    "name": "Sanctum of Wrath",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Sanctum_of_Wrath"
+                }
+            ]
+        },
+        {
+            "name": "Ormond",
+            "maps": [
+                {
+                    "name": "Mount Ormond Resort",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Mount_Ormond_Resort"
+                }
+            ]
+        },
+        {
+            "name": "Hawkins National Laboratory",
+            "maps": [
+                {
+                    "name": "The Underground Complex",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Underground_Complex"
+                }
+            ]
+        },
+        {
+            "name": "Grave of Glenvale",
+            "maps": [
+                {
+                    "name": "Dead Dawg Saloon",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Dead_Dawg_Saloon"
+                }
+            ]
+        },
+        {
+            "name": "Silent Hill",
+            "maps": [
+                {
+                    "name": "Midwich Elementary School",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Midwich_Elementary_School"
+                }
+            ]
+        },
+        {
+            "name": "Raccoon City",
+            "maps": [
+                {
+                    "name": "Raccoon City Police Station",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station"
+                },
+                {
+                    "name": "Raccoon City Police Station East Wing",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station_East_Wing"
+                },
+                {
+                    "name": "Raccoon City Police Station West Wing",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station_West_Wing"
+                }
+            ]
+        },
+        {
+            "name": "Forsaken Boneyard",
+            "maps": [
+                {
+                    "name": "Eyrie of Crows",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Eyrie_of_Crows"
+                }
+            ]
+        },
+        {
+            "name": "Withered Isle",
+            "maps": [
+                {
+                    "name": "Garden of Joy",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Garden_of_Joy"
+                }
+            ]
+        },
+        {
+            "name": "The Decimated Borgo",
+            "maps": [
+                {
+                    "name": "The Shattered Square",
+                    "url": "https://deadbydaylight.fandom.com/wiki/The_Shattered_Square"
+                }
+            ]
+        },
+        {
+            "name": "Dvarka Deepwood",
+            "maps": [
+                {
+                    "name": "Toba Landing",
+                    "url": "https://deadbydaylight.fandom.com/wiki/Toba_Landing"
+                }
+            ]
+        }
+    ]
+}
