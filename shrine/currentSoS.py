@@ -39,16 +39,7 @@ def get_current_sos():
 
     time = table.find_all('tr')[-1].find('th', class_='sosHeader').find('span').text.strip()
 
-    return {'perks': perks, 'time': time}
-
-
-def main():
-    sos = get_current_sos()
-
-    print(sos)
-
-if __name__ == '__main__':
-    main()
+    return perks, time
 
 
 
