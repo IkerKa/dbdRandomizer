@@ -6,8 +6,10 @@
             "associated_realm": "The MacMillan Estate",
             "tile_area": "132",
             "map_area": "8448",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg"
+            ],
+            "description": "Once used for storing the coal that fuelled the Foundry, it now lies abandoned. The roof is split wide open, suggesting some titanic explosion, but the angles don't seem to make sense. So to fathom its destiny is not done easily \u2014 even if one would want to.While within the Coal Tower, one can occassionally hear a creaking noise on the Lower Floor.The Coal Tower, or The Warehouse, is the main landmark on the Coal Tower Map.The Warehouse contains 3 Lockers on the Lower Floor, 2 of which are side-by-side.The Warehouse contains 3 Breakable Walls on the Lower Floor. A Breakable Walls on the Upper Floor leads to a drop-off once broken.The Warehouse contains a Generator on the Upper Floor.The Warehouse contains a Chest on the Upper Floor.The Warehouse potentially contains a staircase on the Lower Floor, leading to the Basement.The Warehouse is a two-story building with a staircase on the inside.The Warehouse contains 1 Window on the Lower Floor.The Warhouse contains 3 drop-offs from the Upper Floor, one of which is blocked by a Breakable Wall.The Warehouse contains 2 Pallets outside."
         },
         {
             "name": "\"Groaning Storehouse\"",
@@ -15,8 +17,10 @@
             "associated_realm": "The MacMillan Estate",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg"
+            ],
+            "description": "On the eastern edge of the estate, near the woods, lie the remains of the MacMillan warehouse. Dwarfing the surround buildings, the massive storehouse can often be heard creaking and groaning as if it were crying out with the anguish of the incinerated labourers.The Storehouse is the main landmark on the Groaning Storehouse Map.The Storehouse contains a Chest.The Storehouse contains three Lockers, 2 of which are side-by-side.The Storehouse potentially contains a Generator.The Storehouse potentially contains the entrance to the Basement.The Storehouse is a large single story building.The Storehouse has 2 main entrances, with each entrance having two large garage doors (making 4 in total). These garage doors are sometimes closed.The Storehouse has 2 Windows.The Storehouse contains a Breakable Wall.The Storehouse may contain a Pallet."
         },
         {
             "name": "\"Ironworks of Misery\"",
@@ -24,8 +28,10 @@
             "associated_realm": "The MacMillan Estate",
             "tile_area": "160",
             "map_area": "10240",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg"
+            ],
+            "description": "The beating heart of the Mine, the Foundry was where the iron ore was directly smelted into vast ingots. The huge vats still bear evidence of the bodies that were incinerated within them \u2014 preserved in the metal residue.The MacMillan foundry was consigned to the scrap heap and its horrors were forgotten as time passed and the buildings fell into ruin.The Foundry is the main landmark on the Ironworks of Misery Map.There is an additional Water Tower landmark. The Water Tower makes creaking noises when players pass by.The Foundry contains 7 Lockers. 3 Lockers are on the Lower Floor, with 2 of these side-by-side. 2 Lockers are side-by-side on the Upper Floor's metal pathway. 2 Lockers are in the Office on the Upper Floor.The Foundry potentially contains a staircase leading to the Basement.The Foundry contains a Generator on the Lower Floor.The Foundry contains a Chest on the Upper Floor, in the Office.The Foundry potentially contains a Hook on the Lower Floor.The Foundry potentially contains a Totem on the Upper Floor.The Foundry is a tall and large two-story building with two staircases - one inside and one outside. The inside staircase contains 3 drop-off points. The outside staircase contains 1 drop-off point.The Foundry contains 3 Windows. One of the 2 Windows on the Upper Floor is always blocked off. One of the Upper-Floor Windows is in the Office. One Window is on the Lower Floor.The Foundry contains 2 Breakable Walls, of which 1 on the Lower Floor and 1 on the Upper Floor.The Foundry has 3 unblocked entry points on the Lower Floor. Two of these are large openings, while 1 is a smaller entry."
         },
         {
             "name": "\"Shelter Woods\"",
@@ -33,8 +39,10 @@
             "associated_realm": "The MacMillan Estate",
             "tile_area": "176",
             "map_area": "11264",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg"
+            ],
+            "description": "The woods surrounding the estate might be the only witnesses to what really happened here.Its trees have a certain deformed character, as if what they saw made them want to run away.There are very few visitors to the woods \u2014 even animals seem to avoid it if possible.Deep in the heart of the Shelter Woods lies a hunting camp, where luxury and brutality coalesce.Many grotesque tools have been crafted within its walls. The high life indeed.The main landmark of Shelter Woods is The Skull Merchant's Hunting Camp she set up in the middle of the Map.The original landmark of Shelter Woods is a large, ancient tree growing off to one side of the Map.It was moved from the centre of the Map to make room for the Hunting Camp introduced in Patch 6.6.0."
         },
         {
             "name": "\"Suffocation Pit\"",
@@ -42,8 +50,43 @@
             "associated_realm": "The MacMillan Estate",
             "tile_area": "160",
             "map_area": "10240",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_MacMillan_Estate.ogg"
+            ],
+            "description": "You can still see the tiny entrance that miners used to haul the ore to the surface. Now it is nothing more than a pile of rubble. No one bothered to clear it as they feared whatever might be found inside. Instead it fell into oblivion.The Mine is the main landmark on the Suffocation Pit Map.The Mine contains 2 Lockers, side-by-side.The Mine potentially contains the entrance to the Basement.The Mine contains a Chest above the potential Basement entry point.The Mine is a large single-story building with some scaffolding on the inside and several entrances and vault-locations.The Mine has 3 unblocked entry points, 2 large openings and 1 smaller doorway.The Mine contains 3 Windows. One will always be blocked off.The Mine contains a Breakable Wall."
+        },
+        {
+            "name": "\"Azarov's Resting Place\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/IconMap_Jnk_Office.png/revision/latest?cb=20201202161324",
+            "associated_realm": "Autohaven Wreckers",
+            "tile_area": "176",
+            "map_area": "11264",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg"
+            ],
+            "description": "The Office is where money changed owners and hands were shook. The heavy duty safe in the floor might have been a dead giveaway to the shady business that took place. Wads of cash were hidden all over this hellish place. Stating that money wasn\u2019t an issue, maybe people got executed for enjoyment, rather than wealth."
+        },
+        {
+            "name": "\"Blood Lodge\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/IconMap_Jnk_Lodge.png/revision/latest?cb=20201202161451",
+            "associated_realm": "Autohaven Wreckers",
+            "tile_area": "156",
+            "map_area": "9984",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg"
+            ],
+            "description": "A run-down log cabin at the edge of the scrap yard and the home of its owner. Weird carvings and etchings in the wall perhaps say more about the owner\u2019s state of mind and allude to his disappearance. Reports suggested that prisoners were held in its dark basement before they were taken to the crusher."
+        },
+        {
+            "name": "\"Gas Heaven\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d2/IconMap_Jnk_GasStation.png/revision/latest?cb=20201202161718",
+            "associated_realm": "Autohaven Wreckers",
+            "tile_area": "156",
+            "map_area": "9984",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg"
+            ],
+            "description": "For decades, Azarov's Gas Heaven offered the last chance for weary travellers to rest and fuel up before the long, hard haul through the backcountry wastes. Wiser travellers learned to decline that offer. Cars and trucks were always breaking down around Gas Heaven, the phones never worked, and people had a peculiar habit of going missing. When the new highway came through, bypassing Gas Heaven entirely, business dried up and the old gas station was abandoned. Between the disappearances and Azarov's mob ties, no one knows quite how many bodies are stashed out there in that forest, or what else is hidden in the ruins of the old rest stop."
         },
         {
             "name": "\"Wreckers' Yard\"",
@@ -51,8 +94,21 @@
             "associated_realm": "Autohaven Wreckers",
             "tile_area": "144",
             "map_area": "9216",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg"
+            ],
+            "description": "The Junkyard is packed with sharp objects. Walking around the area, aware of the bloodbath that took place here, changes the landscape. Blood covered metal and bits of flesh. One does not willingly walk amongst all this evidence of death.Wreckers' Yard is one of very few Maps without a significant Landmark other than the Killer Shack.Most of the space is taken up by high walls of scrap broken up by scrapped vehicles such as buses, cranes, and tankers, as well as the occasional patch of trees.The Killer Shack is located in the centre of the map, and will always contain the Basement.High walls won't spawn next to the shack; instead it is surrounded by low walls, pull-downs, open space, and the occasional hill. However, there usually spawns a small hill next to it."
+        },
+        {
+            "name": "\"Wretched Shop\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4d/IconMap_Jnk_Garage.png/revision/latest?cb=20201202161858",
+            "associated_realm": "Autohaven Wreckers",
+            "tile_area": "164",
+            "map_area": "10496",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Autohaven_Wreckers.ogg"
+            ],
+            "description": "This old garage was once not just a place of death and execution. Automobiles were actually repaired here amongst oil mixed with blood. But as investigators found out about the atrocities that took place, it became forgotten."
         },
         {
             "name": "\"Fractured Cowshed\"",
@@ -60,8 +116,10 @@
             "associated_realm": "Coldwind Farm",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg"
+            ],
+            "description": "The old run-down cowshed was one of the first barns the Thompsons built on Coldwind Farm. It was originally intended to house sick animals at a safe distance from the rest of the livestock, but no animal who entered it ever survived. An investigation revealed the building was infested with toxic mould. The Thompsons figured it must be a construction fault or something to do with the dampness of the wood. A new barn was built, and the old cowshed was left to rot in the shadows.The Barn is the main Landmark on the\u00a0Fractured Cowshed\u00a0Map.The Barn contains a Generator.The Barn contains 4 Lockers.The Barn potentially contains a Chest.The Barn potentially contains the entrance to the Basement.The Barn is a large one-story building.The Barn has four entrances.The Barn contains 2 Windows."
         },
         {
             "name": "\"Rancid Abattoir\"",
@@ -69,8 +127,10 @@
             "associated_realm": "Coldwind Farm",
             "tile_area": "136",
             "map_area": "8704",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg"
+            ],
+            "description": "Once part of the farm, the Slaughterhouse was still in operation for many years after the breakup of the farmland. Rotting stench and stained floors provide proof of all the deaths that have taken place here... animal or otherwise.The Slaughterhouse is the main Landmark on the Rancid Abattoir Map.The Slaughterhouse contains 7 Lockers.The Slaughterhouse potentially contains the entrance to the Basement.The Slaughterhouse potentially contains a Generator.The Slaughterhouse potentially contains a Chest.The Slaughterhouse also contains three Windows.The Slaughterhouse is a large one-story building with several vault locations and Pallets.The Slaughterhouse has four entrances.The Slaughterhouse contains 3 Windows.The Slaughterhouse contains 2 Pallets."
         },
         {
             "name": "\"Rotten Fields\"",
@@ -78,8 +138,10 @@
             "associated_realm": "Coldwind Farm",
             "tile_area": "160",
             "map_area": "10240",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg"
+            ],
+            "description": "Even before the fall of Coldwind Farm, the cornfields were surrounded by tales of ominous myths. Everything from mutilated animals to red corn stalks. Now it's abandoned, but still, someone seems to care for the corn in some way as the stalks still stand tall.Rotten Fields is one of the few Maps without a significant landmark building."
         },
         {
             "name": "\"The Thompson House\"",
@@ -87,8 +149,10 @@
             "associated_realm": "Coldwind Farm",
             "tile_area": "152",
             "map_area": "9728",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg"
+            ],
+            "description": "The centrepiece of Coldwind Farm, the Farmhouse, stood proudly over the fields of golden corn for decades. After the horrific events of 1972, the building fell into disrepair and eventual ruin. The Farmhouse is now nothing more than a forgotten, former home where holidays were once celebrated.The Farmhouse is the main Landmark on the The Thompson House Map.The Farmhouse contains 4 Lockers.The Farmhouse potentially contains the entrance to the Basement.The Farmhouse contains a Generator on the Upper Floor.The Farmhouse contains a Chest on the Upper Floor.The Farmhouse is a large two-story building with a staircase on the inside.The Ground Floor has five entrances.The Upper Floor contains a Window."
         },
         {
             "name": "\"Torment Creek\"",
@@ -96,8 +160,21 @@
             "associated_realm": "Coldwind Farm",
             "tile_area": "168",
             "map_area": "10752",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Coldwind_Farm.ogg"
+            ],
+            "description": "The Silo is one of the oldest remaining buildings that made up Coldwind Farm. The great storm of 2003 brought the ancient structure crashing down. It was weeks later that searchers discovered twelve bodies that were buried in the ruins. Their crushed corpses were buried deep in the slurry that oozed out from the base and made identification almost impossible.The Silo is the main Landmark on the Torment Creek Map.The Silo contains one Locker.The Silo potentially contains the entrance to the Basement.The Silo contains a Generator.The Silo potentially contains a Chest.The Silo potentially contains a Hook.The Silo is a large single-story building.The Silo contains three entrances and one Window."
+        },
+        {
+            "name": "\"Disturbed Ward\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/IconMap_Asy_Asylum.png/revision/latest?cb=20210209230723",
+            "associated_realm": "Crotus Prenn Asylum",
+            "tile_area": "172",
+            "map_area": "11008",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Crotus_Prenn_Asylum.ogg"
+            ],
+            "description": "The last standing structure after the fire, that still shows the grandeur of the original architecture. Its two floors and dark basement leave nothing of the tale of horrors that took place here. Nothing but memories that linger in the abandoned rooms."
         },
         {
             "name": "\"Father Campbell's Chapel\"",
@@ -105,8 +182,65 @@
             "associated_realm": "Crotus Prenn Asylum",
             "tile_area": "140",
             "map_area": "8960",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Crotus_Prenn_Asylum.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Crotus_Prenn_Asylum.ogg"
+            ],
+            "description": "Nestled in a quiet part of the grounds, Father Campbell's Chapel was a haven from the horrors of the rest of the Asylum. Those patients whose illnesses were less severe were given the run of the place and many would come here for refuge, to communicate with God and confess their sins.Sadly, Father Campbell's legacy of good works counted for nothing when The Nurse's mind snapped, and he drew his final breath in the confessional that had helped so many.Now the Chapel has been joined by a strange companion: a carny's caravan, pulled by a shadowy horse. It has long travelled through the Fog, moving from Realm to Realm, and now temporarily camps here.Beware: only a fool would let the bright colours seduce them into visiting.The Chapel is the main Landmark on the Father Campbell's Chapel Map.The Chapel contains a Generator on the Upper Floor.The Chapel contains 3 Lockers on the Lower Floor and 1 on the Upper Floor.The Chapel potentially contains a Chest.The Chapel potentially contains a staircase leading to the Basement.The Chapel is several stories tall, but only the ground and first floor are accessible, the staircase leading to the upper floors being blocked off by rubble.There are several Windows located throughout the building.The Clown's Caravan consists of a set of circus-themed assets, such as a fortune-telling machine, booths and an axe-throwing target. His main caravan is one of these Structures.The Clown's Caravan consists of a lot of Structures. There are multiple Pallets."
+        },
+        {
+            "name": "\"Lampkin Lane\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/IconMap_Sub_Street.png/revision/latest?cb=20220405170132",
+            "associated_realm": "Haddonfield",
+            "tile_area": "152",
+            "map_area": "9728",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Haddonfield.ogg"
+            ],
+            "description": "A simple street with houses that witnessed the horrors that took place. A jungle gym where children once learned to climb. Sidewalks where fathers taught their daughters to ride a bike. All gone. Instead it sits in the palm of the Entity, forever held in darkness."
+        },
+        {
+            "name": "\"The Pale Rose\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/IconMap_Swp_ThePaleRose.png/revision/latest?cb=20170209210123",
+            "associated_realm": "Backwater Swamp",
+            "tile_area": "161",
+            "map_area": "10304",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Backwater_Swamp.ogg"
+            ],
+            "description": "The Pale Rose, an ancient paddle steamer in the middle of the swamp, held captive of the stagnant mud. It has been here long before the residents began their hunt, a barely visible silhouette from the nearby village. There are signs of inhabitation, particularly in the upper states room where strange, ritualistic markings in dried blood and dirt cover the floor. From the scale of the bloodletting, something horrid has taken place here."
+        },
+        {
+            "name": "\"Grim Pantry\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/IconMap_Swp_GrimPantry.png/revision/latest?cb=20170915080630",
+            "associated_realm": "Backwater Swamp",
+            "tile_area": "168",
+            "map_area": "10752",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Backwater_Swamp.ogg"
+            ],
+            "description": "One shack stood apart from the rest of the village. Once the water was drained and the area beneath the base was revealed, the true horror of the swamp's cage was discovered. It was here that the prisoners, if that's what we should call them, were brought. Held in the water, their bodies bloating horrendously, they were plucked, one by one for the family's needs. The stilts that kept the building upright acted as the only bars that awful jail needed."
+        },
+        {
+            "name": "\"Treatment Theatre\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/IconMap_Hos_Treatment.png/revision/latest?cb=20200107170105",
+            "associated_realm": "L\u00e9ry's Memorial Institute",
+            "tile_area": "98",
+            "map_area": "6272",
+            "map_layout": [
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/80/TreatmentTheatreOutline.png/revision/latest?cb=20230426222342"
+            ],
+            "description": "An old building was found. A scientific center of some sort, full of discarded equipment. Some I recognized, other items are new to me. It does seem to have been abandoned. I do not question its presence like I do not question the changes that this world provides me with. Instead, I strive to adapt and survive. Inside, I have found small areas of snow, but also traces of something dark. Beds that probably did not hold free people. Corridors that lack warmth. I feel unwelcome inside it. I will try to stay away as its maze-like features might trap me for good. What transpired here? Do I want to know?"
+        },
+        {
+            "name": "\"Mother's Dwelling\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconMap_Brl_MadHouse.png/revision/latest?cb=20230311132630",
+            "associated_realm": "Red Forest",
+            "tile_area": "188",
+            "map_area": "12032",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Red_Forest.ogg"
+            ],
+            "description": "This house is new to me. I have never stumbled upon its existence before. Nature made a good job hiding from the rest of the world. I am pondering upon who might live there. Sometimes I have seen lights stemming from its windows. Sometimes a passing shadow. The engulfment that the surrounding wilderness provides might not be unintentional. Might it be on purpose? Might this... home seek anonymity and to be unseen by the rest of the world? I am not at peace with this dwelling. I believe to be hearing screams and wailing coming from it. But my mind is unstable and my ears might not be trusted. Or can they?"
         },
         {
             "name": "\"The Temple of Purgation\"",
@@ -114,8 +248,10 @@
             "associated_realm": "Red Forest",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Red_Forest.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Red_Forest.ogg"
+            ],
+            "description": "The half-forgotten Temple complex dedicated to the cleansing of the High Priestess' followers. The vertiginous hypo-style hall was believed to hold the weight of the heavens. Stolen from the memories of The Plague, the Temple was planted in the howling Red Forest, whose winds eroded its smooth edges. It now stands as a beacon of fear, visible from all cardinal points.The Temple is the main Landmark on The Temple of Purgation.The Temple contains one Generator, that activates structures and doors within the Temple upon completion.The Temple contains several lockers and vaults.The Temple is a large stone building in the centre of the Map with three accessible floors. There are several entrances and exits."
         },
         {
             "name": "\"Badham Preschool I\"",
@@ -123,8 +259,10 @@
             "associated_realm": "Springwood",
             "tile_area": "144",
             "map_area": "9216",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg"
+            ],
+            "description": "This is not the Badham Preschool where children laughed and learned, made lifelong friendships and had their paintings hung on the walls. This is a dark echo created from the nightmares of those who suffered there. The walls creak under the burden of history. Events that should be long forgotten are recorded forever in the plaster and stone, pervading the building with misery. Only one part of the building is accurately reflected in this darkness. The squalid room where Freddy Krueger lived and worked. The hidden basement area where he committed the heinous acts that appalled a town and condemned him to death. This is a place of the subconscious, of the nightmare brought into hideous reality.The Kindergarten is the main Landmark in the Badham Preschool I Map.The Kindergarten potentially contains the Basement.The Kindergarten contains a Generator.The Kindergarten contains several Pallets.The Kindergarten contains several Lockers.The Kindergarten potentially contains a Chest.The Badham Preschool building is a mid-sized two-story building, with a ground floor and a boiler room below.\nIn case it contains the Killer Basement, it becomes a three-story building, with two lower levels.The ground floor has 4 entrances, one on each side of the building, each with a small hallway leading into the building. It also contains and 4 Lockers.There are 2 Pallets and 1 Locker in the boiler room."
         },
         {
             "name": "\"Badham Preschool II\"",
@@ -132,8 +270,10 @@
             "associated_realm": "Springwood",
             "tile_area": "144",
             "map_area": "9216",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg"
+            ],
+            "description": "This is not the Badham Preschool where children laughed and learned, made lifelong friendships and had their paintings hung on the walls. This is a dark echo created from the nightmares of those who suffered there. The walls creak under the burden of history. Events that should be long forgotten are recorded forever in the plaster and stone, pervading the building with misery. Only one part of the building is accurately reflected in this darkness. The squalid room where Freddy Krueger lived and worked. The hidden basement area where he committed the heinous acts that appalled a town and condemned him to death. This is a place of the subconscious, of the nightmare brought into hideous reality.The Kindergarten is the main Landmark in the Badham Preschool II Map.The Kindergarten potentially contains the Basement.The Kindergarten contains a Generator.The Kindergarten contains several Pallets.The Kindergarten contains several Lockers.The Kindergarten potentially contains a Chest.The Badham Preschool building is a mid-sized two-story building, with a ground floor and a boiler room below.\nIn case it contains the Killer Basement, it becomes a three-story building, with two lower levels.The ground floor has 4 entrances, one on each side of the building, each with a small hallway leading into the building. It also contains and 4 Lockers.There are 2 Pallets and 1 Locker in the boiler room."
         },
         {
             "name": "\"Badham Preschool III\"",
@@ -141,8 +281,10 @@
             "associated_realm": "Springwood",
             "tile_area": "144",
             "map_area": "9216",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg"
+            ],
+            "description": "This is not the Badham Preschool where children laughed and learned, made lifelong friendships and had their paintings hung on the walls. This is a dark echo created from the nightmares of those who suffered there. The walls creak under the burden of history. Events that should be long forgotten are recorded forever in the plaster and stone, pervading the building with misery. Only one part of the building is accurately reflected in this darkness. The squalid room where Freddy Krueger lived and worked. The hidden basement area where he committed the heinous acts that appalled a town and condemned him to death. This is a place of the subconscious, of the nightmare brought into hideous reality.The Kindergarten is the main Landmark in the Badham Preschool III Map.The Kindergarten potentially contains the Basement.The Kindergarten contains a Generator.The Kindergarten contains several Pallets.The Kindergarten contains several Lockers.The Kindergarten potentially contains a Chest.The Badham Preschool building is a mid-sized two-story building, with a ground floor and a boiler room below.\nIn case it contains the Killer Basement, it becomes a three-story building, with two lower levels.The ground floor has 4 entrances, one on each side of the building, each with a small hallway leading into the building. It also contains and 4 Lockers.There are 2 Pallets and 1 Locker in the boiler room."
         },
         {
             "name": "\"Badham Preschool IV\"",
@@ -150,8 +292,10 @@
             "associated_realm": "Springwood",
             "tile_area": "140",
             "map_area": "8960",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg"
+            ],
+            "description": "This is not the Badham Preschool where children laughed and learned, made lifelong friendships and had their paintings hung on the walls. This is a dark echo created from the nightmares of those who suffered there. The walls creak under the burden of history. Events that should be long forgotten are recorded forever in the plaster and stone, pervading the building with misery. Only one part of the building is accurately reflected in this darkness. The squalid room where Freddy Krueger lived and worked. The hidden basement area where he committed the heinous acts that appalled a town and condemned him to death. This is a place of the subconscious, of the nightmare brought into hideous reality.The Kindergarten is the main Landmark in the Badham Preschool IV Map.The Kindergarten potentially contains the Basement.The Kindergarten contains a Generator.The Kindergarten contains several Pallets.The Kindergarten contains several Lockers.The Kindergarten potentially contains a Chest.The Badham Preschool building is a mid-sized two-story building, with a ground floor and a boiler room below.\nIn case it contains the Killer Basement, it becomes a three-story building, with two lower levels.The ground floor has 4 entrances, one on each side of the building, each with a small hallway leading into the building. It also contains and 4 Lockers.There are 2 Pallets and 1 Locker in the boiler room."
         },
         {
             "name": "\"Badham Preschool V\"",
@@ -159,8 +303,23 @@
             "associated_realm": "Springwood",
             "tile_area": "148",
             "map_area": "9472",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg"
+            ],
+            "description": "This is not the Badham Preschool where children laughed and learned, made lifelong friendships and had their paintings hung on the walls. This is a dark echo created from the nightmares of those who suffered there. The walls creak under the burden of history. Events that should be long forgotten are recorded forever in the plaster and stone, pervading the building with misery. Only one part of the building is accurately reflected in this darkness. The squalid room where Freddy Krueger lived and worked. The hidden basement area where he committed the heinous acts that appalled a town and condemned him to death. This is a place of the subconscious, of the nightmare brought into hideous reality.The Kindergarten is the main Landmark in the Badham Preschool V Map.The Kindergarten potentially contains the Basement.The Kindergarten contains a Generator.The Kindergarten contains several Pallets.The Kindergarten contains several Lockers.The Kindergarten potentially contains a Chest.The Badham Preschool building is a mid-sized two-story building, with a ground floor and a boiler room below.\nIn case it contains the Killer Basement, it becomes a three-story building, with two lower levels.The ground floor has 4 entrances, one on each side of the building, each with a small hallway leading into the building. It also contains and 4 Lockers.There are 2 Pallets and 1 Locker in the boiler room."
+        },
+        {
+            "name": "\"The Game\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/IconMap_Fin_TheGame.png/revision/latest?cb=20210209230531",
+            "associated_realm": "Gideon Meat Plant",
+            "tile_area": "76 (Upper Floor)66 (Lower Floor)",
+            "map_area": "4,864 (Upper Floor)4,224 (Lower Floor)",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Springwood.ogg",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/eb/TheGameOutline_UpperFloor.png/revision/latest?cb=20180821103853",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ef/TheGameOutline_LowerFloor.png/revision/latest?cb=20180129213449"
+            ],
+            "description": "The sickly glow of fluorescent lighting bathes the room where Jigsaw planned out his games. This place is the product of a fevered mind, desperately trying to complete their life\u2019s work, their legacy, before their inevitable end. A place of creation and destruction, from which devices of death and rebirth were produced.Below is the crucible itself; the location of so many tests and decisions. The smell of fear, blood and death has soaked into the brick walls. The corridors are a maze, disorientating the test subjects as they traverse the game rooms. And, at the heart, a bathroom, reverberating with the rattle of chains on tiles. A door is pulled closed and the room is plunged into darkness.The Bathroom is the main Landmark on the The Game Map, an iconic place from the SAW\u2122 franchise.The Bathroom contains a Generator.The Bathroom contains several Lockers.The Bathroom contains a Chest.The staircase leading into the Basement is always located behind the Bathroom.The Bathroom is a narrow, elongated room located in a corner on the Lower Floor of The Game."
         },
         {
             "name": "\"Family Residence\"",
@@ -168,8 +327,10 @@
             "associated_realm": "Yamaoka Estate",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Yamaoka_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Yamaoka_Estate.ogg"
+            ],
+            "description": "While the Yamaoka Estate displayed a glorious past, the Family Residence was falling apart. The house needed numerous renovations to remain habitable.The last generation of the Yamaoka family were facing troubled times. Their finances were dire and the situation worsened when the daughter started university, just a few months before the mother became ill. Shouldering both university fees and hospital bills, the father worked past exhaustion.To keep a roof over their heads, he profaned their legacy. The walls of their ancestral home were sealed with mouldy materials for a cheap fix.As the house was stripped of its integrity, an old anger was awakened.The Family Residence is the main landmark on the Family Residence Map.The Family Residence contains a Generator.The Family Residence contains 2 Lockers.The Family Residence potentially contains the entrance to the Basement.In the middle of The Family Residence's Lower Floor is the location where Rin fell, as can be seen by the broken glass and blood surrounding it. Looking up, one can see the broken glass partition that she fell from.The Family Residence is a Japanese-themed two-story family house with several vaulting locations. Only the Lower Floor is accessible.The Family Residence contains 2 Windows."
         },
         {
             "name": "\"Sanctum of Wrath\"",
@@ -177,8 +338,10 @@
             "associated_realm": "Yamaoka Estate",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Yamaoka_Estate.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Yamaoka_Estate.ogg"
+            ],
+            "description": "Once opulent and well-tended by priests, the shrine was abandoned for unknown reasons. Season after season, the harsh and unforgiving weather corroded its grandeur. Paths that welcomed weary travelers, were now thick with vegetation growing damp and unrestrained. The sculptures were a haven for moss and lichen, concealing a scratched and brittle stone.Kazan shuddered with rage as he stepped into the area. Unable to restrain himself, he unleashed his might on a statue atop the shrine, clubbing its arms and head to pieces. Even after he left, a rot seemed to pervade the air. The chime of bells played softly on the wind, as everything around them crumbled. Torn from Kazan's memories, the shrine now stood on the estate of this childhood home - a trick by the Entity that infuriated him even more.The Shrine is the main Landmark on the Sanctum of Wrath map.The Shrine contains a Generator.\nThe Shrine contains multiple Windows on the railings.\nThe Shrine contains a Pallet beside its statue.\nThe Shrine potentially contains a staircase leading to the Basement.The Shrine is a medium-sized two-story building. It contains four staircases leading to its top, and multiple Windows and drop-downs.https://deadbydaylight.fandom.com/wiki/File:ShowcaseVideo_SanctumOfWrath.mp4"
         },
         {
             "name": "\"Mount Ormond Resort\"",
@@ -186,8 +349,10 @@
             "associated_realm": "Ormond",
             "tile_area": "156",
             "map_area": "9984",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Ormond.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Ormond.ogg"
+            ],
+            "description": "Ormond was once a small, remote ski town with idyllic slopes, but its resort turned obsolete when a deluxe ski village was built on Mount Richards less than two hours away. Mount Richards offered fresh slopes with luxurious stores and hotels, which crushed Mount Ormond's isolated, decrepit facilities.The fate of the mountain worsened when a mining project took interest in the coal present at its summit. The mountaintop was lined by explosives to extract coal seams from under it. The project caused a public outrage and was stopped midway.Mount Ormond is now a soulful, deforested graveyard where gangs and teenagers go looking for trouble. Some people say that the mountain hides a darkness, a bottomless hole from where no one can return.The Chalet is the main landmark on the Mount Ormond Resort Map.The Chalet contains a Generator.The Chalet contains 2 Lockers.The Chalet contains several Windows.The Chalet potentially contains the entrance to the Basement.The Cottage is a large three-story cottage, one can move up the stairs and jump down from balconies."
         },
         {
             "name": "\"The Underground Complex\"",
@@ -195,8 +360,10 @@
             "associated_realm": "Hawkins National Laboratory",
             "tile_area": "138",
             "map_area": "8832",
-            "map_layout": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/TheUndergroundComplexOutline.png/revision/latest?cb=20210422193216",
-            "lore": "a"
+            "map_layout": [
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/TheUndergroundComplexOutline.png/revision/latest?cb=20210422193216"
+            ],
+            "description": "Located below the Hawkins National Laboratory, this underground complex released dozens of inter-dimensional creatures in November of 1983, before the rift was sealed.The site kept some vestiges of its past as the mental health institute, including a mouldy isolation tank used by patients suffering from acute anxiety that was later modernised for mind control experimentation on promising test subjects.Now the walls of the abandoned facility are sprayed with bullets and blood, evidence of a battle against inter-dimensional creatures.The Rift Lab was the main Landmark on The Underground Complex Map.The Rift Lab consisted of two floors:The Upper Floor could be accessed by going up a staircase.The Interrogation Rooms were the secondary Landmark on The Underground Complex Map.The Interrogation Rooms potentially contained a Chest.\nThe Interrogation Rooms potentially contained a Totem.\nThe Isolation Room beside the Interrogation Rooms contained a Generator.The Interrogation Rooms were all located on the Upper Floor of the Map.There were various vaults in the Rooms.Some potential Pallets could spawn over there.Before the Stranger Things Chapter was removed, there was 1 unlockable Achievement for the Map."
         },
         {
             "name": "\"Dead Dawg Saloon\"",
@@ -204,8 +371,59 @@
             "associated_realm": "Grave of Glenvale",
             "tile_area": "136",
             "map_area": "8704",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Grave_of_Glenvale.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Grave_of_Glenvale.ogg"
+            ],
+            "description": "An early settlement on the unforgiving frontier, the outpost of Glenvale was snuffed out in a ruthless, bloody gang war. Responding to the abduction of five brothers-in-arms, the Hellshire Gang stormed in with six shooters and dynamite. What began as a standoff with the Mason Kelly Gang quickly broke down into a chaotic war zone. Guns fired indiscriminately in a desperate bid for self-preservation, cutting through gang members and civilians alike.When the dust settled, the dead outnumbered the living. The hostages were discovered to have been long killed, their bodies disemboweled, guts strewn across town. In a silent rage, the few surviving Hellshire members rounded up their injured enemies and finished them in the same gruesome manner. By nightfall, only the crows remained, feasting gluttonously upon their victory.The Saloon is the main landmark on the Dead Dawg Saloon Map.The Saloon is a large two-story building potentially containing a staircase leading to the Basement.It has plenty of Windows on both of its floors.It resembles Saloons found in Wild West towns.The Gallows is a secondary landmark on the Dead Dawg Saloon Map.The Gallows are a small landmark positioned near the Saloon, the Killer Shack and the town entrance.It has several Lockers below the main floor."
+        },
+        {
+            "name": "\"Midwich Elementary School\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d5/IconMap_Wal_Level01.png/revision/latest?cb=20200526201428",
+            "associated_realm": "Silent Hill",
+            "tile_area": "64 (Lower Floor)49.5 (Upper Floors)",
+            "map_area": "4,096 (Lower Floor)3,168 (Upper Floors)",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Grave_of_Glenvale.ogg",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/MidwichElementarySchoolOutline_LowerFloor.png/revision/latest?cb=20200824134135",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/MidwichElementarySchoolOutline_UpperFloors.png/revision/latest?cb=20200825121017"
+            ],
+            "description": "To students who were bullied by their teachers and classmates, attending Midwich Elementary School was comparable to torture. As the Order's grip on the town's supernatural energies tightened, a transformation occurred. The childhood trauma that took place in the building manifested itself into a twisted, nightmarish design.Though desks and textbooks remain, they are eerily contrasted with stained walls, rusted chains, and hanging cadavers. Any notion that this could have been a place of innocence and learning has long since faded.The Courtyard is the main landmark on the Midwich Elementary School Map.The Courtyard contains a Generator.The Courtyard potentially contains a Totem.The Courtyard potentially contains a Chest (one will always be inside the Secret Room).The Courtyard contains numerous Lockers.The Courtyard sits in the middle of the Map and can be accessed from numerous entrances.The Courtyard contains numerous Pallets.The Courtyard contains 2 Windows.The Courtyard contains several Breakable Walls.On the Map, there is a Secret Room located in the Clock Tower out in the courtyard of the school.In order to access the Secret Room, one must repair two specific Generators in a specific order and then trigger the Endgame Collapse."
+        },
+        {
+            "name": "\"Raccoon City Police Station\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/IconMap_Ecl_Eclipselevel01.png/revision/latest?cb=20210525214446",
+            "associated_realm": "Raccoon City",
+            "tile_area": "Unknown",
+            "map_area": "Unknown",
+            "map_layout": [
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/MidwichElementarySchoolOutline_UpperFloors.png/revision/latest?cb=20200825121017",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/RaccoonCityPoliceStationOutline_UpperFloor.png/revision/latest?cb=20220815144319"
+            ],
+            "description": "[THIS MAP HAS BEEN SPLIT INTO TWO PARTS AND THIS VERSION IS NO LONGER IN THE GAME: EAST WING AND WEST WING]\n\nThe smell of blood and festering limbs permeated the concrete walls of the Raccoon City police station. Once an art museum, the building was converted into a precinct at the heart of the city. But when evil took residence, the station showed one last terrifying exhibition: corpses crowding narrow corridors, blood smeared on shattered windows, and festering flesh dripping down the stairs.The Main Hall is the main Landmark in all iterations of the Raccoon City Police Station Map.It contains a Generator either down near the front desk or half-way up at the foot of the statue."
+        },
+        {
+            "name": "\"Raccoon City Police Station East Wing\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/IconMap_Ecl_Eclipselevel01.png/revision/latest?cb=20210525214446",
+            "associated_realm": "Raccoon City",
+            "tile_area": "Unknown",
+            "map_area": "Unknown",
+            "map_layout": [
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/RaccoonCityPoliceStationOutline_UpperFloor.png/revision/latest?cb=20220815144319",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/RaccoonCityPoliceStationEastWingOutline_UpperFloor.png/revision/latest?cb=20220811122147"
+            ],
+            "description": "The smell of blood and festering limbs permeated the concrete walls of the Raccoon City police station. Once an art museum, the building was converted into a precinct at the heart of the city. But when evil took residence, the station showed one last terrifying exhibition: corpses crowding narrow corridors, blood smeared on shattered windows, and festering flesh dripping down the stairs.The Main Hall is the main Landmark in all iterations of the Raccoon City Police Station Map.It contains a Generator either down near the front desk or half-way up at the foot of the statue.The original version of Raccoon City Police Station East Wing, that was introduced alongside CHAPTER 20: Resident Evil\u2122 in Patch 5.0.0, contained the majority of the Raccoon City Police Station Map from the Resident Evil 2 Remake and was named the same.Due to frequent complaints about the Map being too large for Dead by Daylight and thus difficult to navigate between the two wings, the Developers decided to split the Map up into multiple iterations.Please refer to the same section on Raccoon City Police Station, the original Map, for a full list of the layout changes Dead by Daylight made to the Map from Resident Evil 2 Remake."
+        },
+        {
+            "name": "\"Raccoon City Police Station West Wing\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/IconMap_Ecl_Orionlevel01.png/revision/latest?cb=20220810155724",
+            "associated_realm": "Raccoon City",
+            "tile_area": "Unknown",
+            "map_area": "Unknown",
+            "map_layout": [
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/RaccoonCityPoliceStationEastWingOutline_UpperFloor.png/revision/latest?cb=20220811122147",
+                "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/RaccoonCityPoliceStationWestWingOutline_UpperFloor.png/revision/latest?cb=20220811122217"
+            ],
+            "description": "The smell of blood and festering limbs permeated the concrete walls of the Raccoon City police station. Once an art museum, the building was converted into a precinct at the heart of the city. But when evil took residence, the station showed one last terrifying exhibition: corpses crowding narrow corridors, blood smeared on shattered windows, and festering flesh dripping down the stairs.The Main Hall is the main Landmark in all iterations of the Raccoon City Police Station Map.It contains a Generator either down near the front desk or half-way up at the foot of the statue.The original version of Raccoon City Police Station West Wing, that was introduced alongside CHAPTER 20: Resident Evil\u2122 in Patch 5.0.0, contained the majority of the Raccoon City Police Station Map from the Resident Evil 2 Remake and was named the same.Due to frequent complaints about the Map being too large for Dead by Daylight and thus difficult to navigate between the two wings, the Developers decided to split the Map up into multiple iterations.Please refer to the same section on Raccoon City Police Station, the original Map, for a full list of the layout changes Dead by Daylight made to the Map from Resident Evil 2 Remake."
         },
         {
             "name": "\"Eyrie of Crows\"",
@@ -213,8 +431,10 @@
             "associated_realm": "Forsaken Boneyard",
             "tile_area": "148",
             "map_area": "9472",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Forsaken_Boneyard.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Forsaken_Boneyard.ogg"
+            ],
+            "description": "In the dust-choked expanse of the Chilean desert lies a graveyard abandoned by the living, battered by the passage of time. Only through violence was it once more given prominence, hosting the gruesome murder of the artist Carmina Mora and her friends.Within The Entity's realm, the humble lot has been twisted into a grand celebration of the bloody events that took place. A towering crypt offers a roost for the crows to observe the trial, beady eyes gazing with fascination, never forgetting the day they fed greedily on the flesh of screaming men and women.The Eyrie\nThe Eyrie is a large, tower-like structure located in the upper half of the Map.It features several entrances and exits at the ground level, as well as some catwalks on the upper level, where the crow's nest is located.Additionally, there is an accessible balcony surrounding the outside of the Eyrie."
         },
         {
             "name": "\"Garden of Joy\"",
@@ -222,8 +442,10 @@
             "associated_realm": "Withered Isle",
             "tile_area": "164",
             "map_area": "10496",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Withered_Isle.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_Withered_Isle.ogg"
+            ],
+            "description": "On a privately-owned island in the Atlantic, the Garden was home to a bustling commune of optimists set on building a better world. Funded by a band of anonymous philanthropists and managed by a charismatic leader, they attempted to rid themselves of dark emotions, for fear of summoning the ancient God of Shadows.Dark thoughts corrupted this idyllic community. A mansion sits twisted by darkness and further perverted by The Entity's influence, contorting and reconfiguring itself in maddening, serpentine formations. At once familiar and foreign, to look upon it is to know fear.The Mansion\nThe Mansion is the primary Landmark on Garden of Joy.The Lower Floor features several entrances, vault locations and has a Pallet spawning on the porch out to the side.The Upper Floor features a Generator, several additional vault locations and provides access to the roof surrounding the porch."
         },
         {
             "name": "\"The Shattered Square\"",
@@ -231,8 +453,21 @@
             "associated_realm": "The Decimated Borgo",
             "tile_area": "168",
             "map_area": "10752",
-            "map_layout": "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_Decimated_Borgo.ogg",
-            "lore": "a"
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_Decimated_Borgo.ogg"
+            ],
+            "description": "Daro, a village that once bustled with life and industry, suddenly razed to the ground. The gorgeous, cobbled roads of this medieval Italian settlement ran red with the blood of her citizens, all due to the \"righteousness\" of the Guardia Compagnia.The Entity's Realm has preserved and distorted this ancient village, its rubble forever smouldering. A large gathering hall stands in its centre, still upright despite its scars. Several shacks litter the landscape in varying degrees of disrepair. The pain suffered here still emanates from the crackles of its embers.The Gathering Hall\nThe Gathering Hall is the main Landmark on The Shattered Square.It is a two-story building with an attached shed-like structure containing a Window in the Upper Floor, and a Pallet in the Lower Floor."
+        },
+        {
+            "name": "\"Toba Landing\"",
+            "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/IconMap_Uba_Umbralevel01.png/revision/latest?cb=20230523155439",
+            "associated_realm": "Dvarka Deepwood",
+            "tile_area": "Unknown",
+            "map_area": "Unknown",
+            "map_layout": [
+                "https://deadbydaylight.fandom.com/wiki/File:MapIntro_The_Decimated_Borgo.ogg"
+            ],
+            "description": "After years hurtling through the inky blackness of deep space, a solitary colony ship descended to the surface of Dvarka. Selected for its breathable air, its valuable minerals, and its beautiful lakes and forests, Dvarka looked to be the perfect planet for a new start for humanity. But exploration of the surface revealed a dark secret: an advanced civilization, completely wiped out by some unknown event.The ship lies surrounded by strange rock formations on the alien soil of Dvarka, the light of its sun choked out by giant, twisting trees. And in the darkness, a new threat emerges: an Earth invention, twisted by alien technology, unflagging in its mission to end human life on Dvarka and beyond.The Ship\nThe Ship is a spaceship located relatively centrally on the Toba Landing Map."
         }
     ]
 }

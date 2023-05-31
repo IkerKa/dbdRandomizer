@@ -47,7 +47,8 @@ if MAP_INFO:
             try:
 
                 page = requests.get(url)
-    
+
+                
                 # Print the urls and the name
                 if DEBUG:
                     print(url)
@@ -56,6 +57,8 @@ if MAP_INFO:
     
                 # Parse the html
                 soup = BeautifulSoup(page.content, 'html.parser')
+
+              
     
                 # -->Principal info
                 infoboxtable = soup.find('table', class_='infoboxtable')
@@ -73,29 +76,80 @@ if MAP_INFO:
                 # Image
                 image = trs[1].find('a')['href']
 
+                lore = ""
+
                 
                 # Associated realm
                 associated_realm = trs[3].find_all('td')[1].text.strip()
 
+                mapsLayout = [] #Maybe there are more than one map layout
 
-                #-->Map layout
-                tile_area = trs[4].find_all('td')[1].text.strip()
-                map_area = trs[5].find_all('td')[1].text.strip()
-                map_layout = trs[8].find('td').find('a')['href']
+                  # --> Special cases
+                if url == 'https://deadbydaylight.fandom.com/wiki/The_Game' or url== 'https://deadbydaylight.fandom.com/wiki/Midwich_Elementary_School':
+                    
+                    tile_area = trs[4].find_all('td')[1].text.strip()
+                    map_area = trs[5].find_all('td')[1].text.strip()
+
+                    mapsLayout.append(map_layout)
+
+                    # Check if there are more tr's
+                    if len(trs) > 9:
+                        # We will take the rest of the map layouts
+                        for i in range(12, len(trs)):
+                            map_layout = trs[i].find('td').find('a')['href']
+                            mapsLayout.append(map_layout)
+
+                        
+                    # print("MAP LAYOUT: ", mapsLayout)
+
+
+                elif url=='https://deadbydaylight.fandom.com/wiki/Toba_Landing' or url == 'https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station_East_Wing' or url == 'https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station_West_Wing' or url == 'https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station':
+                    
+                    if url == 'https://deadbydaylight.fandom.com/wiki/Raccoon_City_Police_Station':
+                        # Start lore with the first paragraph
+                        lore = "[THIS MAP HAS BEEN SPLIT INTO TWO PARTS AND THIS VERSION IS NO LONGER IN THE GAME: EAST WING AND WEST WING]\n\n"
+                    
+                    tile_area = "Unknown"
+                    map_area = "Unknown"
+
+                    mapsLayout.append(map_layout)
+
+                    # Check if there are more tr's
+                    if len(trs) > 9:
+                        # We will take the rest of the map layouts
+                        for i in range(9, len(trs)):
+                            map_layout = trs[i].find('td').find('a')['href']
+                            mapsLayout.append(map_layout)
+
+                        
+                    # print("MAP LAYOUT: ", mapsLayout)
+
+
+
+                else:
+
+                    #-->Map layout
+                    tile_area = trs[4].find_all('td')[1].text.strip()
+                    map_area = trs[5].find_all('td')[1].text.strip()
+                    map_layout = trs[8].find('td').find('a')['href']
+                    mapsLayout.append(map_layout)
+
+                    # print("------------------", len(trs))
+
+                    # Check if there are more tr's
+                    if len(trs) > 9:
+                        # We will take the rest of the map layouts
+                        for i in range(11, len(trs)):
+                            map_layout = trs[i].find('td').find('a')['href']
+                            mapsLayout.append(map_layout)
+
 
                 # Lore
-                h2 = soup.find('span', id='Lore').parent
 
-                # Si no tiene lore
-                if h2 == None:
-                    contenido = soup.find('div', id='mw-parser-output')
-                    # Buscar la siguiente tabla
-                    table = contenido.find('table')
-                    # Buscar el contenido
-                    desc = table.find('tbody').find_all('tr')[0].find_all('td')[1].text.strip()
-                    lore = desc
+                try:
 
-                else:   
+                    h2 = soup.find('span', id='Lore').parent
+
                     # Find the p after the h2 header
                     p = h2.find_next_sibling('p')
 
@@ -103,12 +157,26 @@ if MAP_INFO:
                     ps = p.find_next_siblings('p')
 
                     # We will take the lore
-                    lore = p.text.strip()
-
-                # We will take the rest of the lore
-                for p in ps:
                     lore += p.text.strip()
-                    
+
+                    # We will take the rest of the lore
+                    for p in ps:
+                        lore += p.text.strip()
+
+                except:
+
+
+                    contenido = soup.find('div', class_='mw-parser-output')
+                    # Buscar la siguiente tabla
+                    table = contenido.find('table', style='background:transparent')
+
+                    # Buscar el contenido
+                    desc = table.find('tbody').find_all('tr')[0].find_all('td')[1].text.strip()
+
+                    lore = desc
+
+
+                        
 
 
 
@@ -128,8 +196,8 @@ if MAP_INFO:
                     'associated_realm':  associated_realm,
                     'tile_area': tile_area,
                     'map_area': map_area,
-                    'map_layout': map_layout,
-                    'lore': "a"
+                    'map_layout': mapsLayout,
+                    'description': lore
                 })
 
 
